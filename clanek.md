@@ -70,6 +70,8 @@ This means, that if the dataset contains observations which look like anomalies 
 
 ### unwanted outlier detection
 
+### Novelty separation
+
 - [ ] TODO: Novelty detection is not an outlier detection - demonstrated by isolation forest
 
 ### Isolation Forest
@@ -139,16 +141,10 @@ Deciding which observations are anomalies, without some domain knowledge on the 
 
 Despite this, one positive thing is that Isolation Forest managed to deal with the gaps in the measurement (seen in Figures above, around X=50). 
 
-The final question is if it is somehow possible to teach Isolation Forest how regular observation look like. 
-Can we use Isolation Forest for novelty detection despite it not being primarily novelty detection algorithm? 
-
-### SOTA
-
 
 - tady experimenty, heatmapa atp.
 
-### Drawbacks, todos
- [ ] TODO: TADY POPIŠ například ŽE PRO MOC DIMENZÍ KDYŽ BY JICH BYLO HODNĚ STEJNÝCH TAK JE TO NAPRD 
+
  
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
@@ -161,5 +157,5 @@ Can we use Isolation Forest for novelty detection despite it not being primarily
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjY5OTcyOV19
+eyJoaXN0b3J5IjpbNTM5MzYyNzQ2XX0=
 -->
