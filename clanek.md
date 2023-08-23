@@ -70,11 +70,9 @@ This means, that if the dataset contains observations which look like anomalies 
 
 ### unwanted outlier detection
 
-### Novelty separation
-
 - [ ] TODO: Novelty detection is not an outlier detection - demonstrated by isolation forest
 
-### Isolation Forest
+#### Isolation Forest
 Isolation Forest ([1](https://doi.org/10.1016/j.engappai.2022.105730 "article 1"), [2](https://doi.org/10.1016/j.patcog.2023.109334 "article 2")) is an outlier detection, semi-supervised ensemble algorithm. 
 This approach is well known to successfully isolate outliers by using recursive partitioning (forming a tree-like structure) to decide whether the analyzed particle is an anomaly or not.
 The less partitions required to isolate the more probable it is for a particle to be an anomaly.
@@ -145,6 +143,12 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 - tady experimenty, heatmapa atp.
 
 
+### Novelty separation
+
+#### OneClass SVM
+
+#### Local outlier factor
+
  
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
@@ -157,5 +161,5 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5MzYyNzQ2XX0=
+eyJoaXN0b3J5IjpbLTc3MTk4NTA0OV19
 -->
