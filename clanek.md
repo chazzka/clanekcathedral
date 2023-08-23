@@ -69,11 +69,10 @@ This a crucial distinction, due to a fact that whereas the outlier detection is 
 This means, that if the dataset contains observations which look like anomalies but are still valid, the performance of unsupervised outlier detection in such case is usually unsatisfactory. 
 
 ### unwanted outlier detection
-Novelty detection is not an outlier detection - demonstrated by isolation forest
+
+- [ ] TODO: Novelty detection is not an outlier detection - demonstrated by isolation forest
 
 ### Isolation Forest
-
-
 Isolation Forest ([1](https://doi.org/10.1016/j.engappai.2022.105730 "article 1"), [2](https://doi.org/10.1016/j.patcog.2023.109334 "article 2")) is an outlier detection, semi-supervised ensemble algorithm. 
 This approach is well known to successfully isolate outliers by using recursive partitioning (forming a tree-like structure) to decide whether the analyzed particle is an anomaly or not.
 The less partitions required to isolate the more probable it is for a particle to be an anomaly.
@@ -146,19 +145,14 @@ Can we use Isolation Forest for novelty detection despite it not being primarily
 ### SOTA
 
 
-### Experiments using IF as a Novelty detection tool
-
 - tady experimenty, heatmapa atp.
 
 ### Drawbacks, todos
  [ ] TODO: TADY POPIŠ například ŽE PRO MOC DIMENZÍ KDYŽ BY JICH BYLO HODNĚ STEJNÝCH TAK JE TO NAPRD 
  
 ### Finding clusters amongst novelties ??
- [ ] TODO: Honzo je to tu potřeba taková sekce, s přihlédnutím k tomu, že nově ten článek by měl být čistě o IF? kdyžtak prosím smazat všecko
-- tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
+- tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
 - možná bychom se tu mohli taky zamyslet nad tím jak funguje ten DB Scan a zkusit trochu potunit aby to dělalo celé clustery
-
-### automl hyperparameter tuning for IF - v jinem članku
 
 
 ## Results and discussion
@@ -166,18 +160,6 @@ Can we use Isolation Forest for novelty detection despite it not being primarily
 - zde napíšeme co se povedlo, jak to neni vubec lehke najit dva či více algoritmů které spolu dobře fungují a velký problem je jejich validace a verifikace, zkus navhrnout nějaké řešení verifikace
 ## Conclusion
 
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIyMDI0NzEsLTE5Mzg1MDE4MDQsMj
-AxMTIxMTk0OCwtMTQwNzk0MDM4NiwxNzcxNDQ0MDAzLDE2NDM4
-NDYzMjIsLTIzMzQ3MTQ2NiwtMTQ3NjUzNDU2MCwtMTQ3NjUzND
-U2MCwxNDk5MzYwNzE4LDE0MDI3MDAwNzMsMTQwMzY2OTUxLC03
-NjA2OTA1MTcsODA4ODQwMjk1LDUyODAxNjg3OSwxODA0MDE5Nz
-k2LDEzNTUxMTUzOCwxMTI2MTcwODU1LC0xMjY3Njc3NTM1LC05
-NjE2MDg2NTFdfQ==
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjEyNTk2M119
+eyJoaXN0b3J5IjpbMTAxMjY5OTcyOV19
 -->
