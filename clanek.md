@@ -1,4 +1,4 @@
-# Finding Cl
+# Clusterification in time series data - work title
 
 ## Abstract
 - téma
@@ -68,9 +68,8 @@ Novelty detection is an anomaly detection mechanism, where we search for unusual
 Novelty detection is a semi-supervised anomaly-detection technique, whereas outlier detection uses unsupervised methods.
 This a crucial distinction, due to a fact that whereas the outlier detection is usually presented with data containing both anomalies and regular observation, it then uses mathematical models that try to make distinction between them, novelty detection on the other hand is usually presented data with little to zero anomalies (the proportion of anomalies in the dataset is called a contamination) and later, when conferred with an anomalous observation, it makes a decision.
 This means, that if the dataset contains observations which look like anomalies but are still valid, the performance of unsupervised outlier detection in such case is usually unsatisfactory. 
-Traditional approaches for 
 
-- [ ] TODO: TADY NAPIŠ JAKOBY ŽE ISOLATION FOREST NENI from scratch novelty a vysvětli proč se to asi obecně traduje, ale ukážeme později že může být
+
 
 ### Isolation Forest
 Isolation Forest ([1](https://doi.org/10.1016/j.engappai.2022.105730 "article 1"), [2](https://doi.org/10.1016/j.patcog.2023.109334 "article 2")) is an outlier detection, semi-supervised ensemble algorithm. 
@@ -178,5 +177,5 @@ k2LDEzNTUxMTUzOCwxMTI2MTcwODU1LC0xMjY3Njc3NTM1LC05
 NjE2MDg2NTFdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1NDA1MzE1XX0=
+eyJoaXN0b3J5IjpbMjEwMDg1NDY3MV19
 -->
