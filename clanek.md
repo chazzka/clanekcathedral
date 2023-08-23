@@ -16,7 +16,6 @@
 - **toto až nakonec až budeme vědět co vlastně fungovalo**
 - **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme cluster anomalii ne jen anomalie - asi hledame jen anomalie ale, dbscan cpat nebudeme**
  
-
 ## Methods
 
 The very first task is to thoroughly analyze the domain of the given problem.
@@ -69,9 +68,12 @@ Novelty detection is a semi-supervised anomaly-detection technique, whereas outl
 This a crucial distinction, due to a fact that whereas the outlier detection is usually presented with data containing both anomalies and regular observation, it then uses mathematical models that try to make distinction between them, novelty detection on the other hand is usually presented data with little to zero anomalies (the proportion of anomalies in the dataset is called a contamination) and later, when conferred with an anomalous observation, it makes a decision.
 This means, that if the dataset contains observations which look like anomalies but are still valid, the performance of unsupervised outlier detection in such case is usually unsatisfactory. 
 
-
+### unwanted outlier detection
+Novelty detection is not an outlier detection - demonstrated by isolation forest
 
 ### Isolation Forest
+
+
 Isolation Forest ([1](https://doi.org/10.1016/j.engappai.2022.105730 "article 1"), [2](https://doi.org/10.1016/j.patcog.2023.109334 "article 2")) is an outlier detection, semi-supervised ensemble algorithm. 
 This approach is well known to successfully isolate outliers by using recursive partitioning (forming a tree-like structure) to decide whether the analyzed particle is an anomaly or not.
 The less partitions required to isolate the more probable it is for a particle to be an anomaly.
@@ -177,5 +179,5 @@ k2LDEzNTUxMTUzOCwxMTI2MTcwODU1LC0xMjY3Njc3NTM1LC05
 NjE2MDg2NTFdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDg1NDY3MV19
+eyJoaXN0b3J5IjpbLTc3NjEyNTk2M119
 -->
