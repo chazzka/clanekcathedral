@@ -1,4 +1,4 @@
-# Using Isolation Forest as a Novelty Detection tool - work title
+# Finding Cl
 
 ## Abstract
 - téma
@@ -77,37 +77,6 @@ Isolation Forest ([1](https://doi.org/10.1016/j.engappai.2022.105730 "article 1"
 This approach is well known to successfully isolate outliers by using recursive partitioning (forming a tree-like structure) to decide whether the analyzed particle is an anomaly or not.
 The less partitions required to isolate the more probable it is for a particle to be an anomaly.
 
-- [ ] TODO: Honza tu vysvětlí jak funguje isolation forest, popíše všechny parametry a co dělají
-      
-#### Isolation Tree
-Isolation tree je kořenový binární strom sestaven na základě vybrané podmnožiny $A$ prvků (bodů) o velikosti $s=|A|$.
-
-1. pro sestavení isolation tree není potřeba mít početnou množinu dokonce to může být nežádoucí
-2. dobře zvolené malé $s$ může pomoci odstranit *masking* a *swamping*
-
-   masking 
-   : problém anomálií v clusteru (aby byli označeny jako anomálie)
-   
-   swamping
-   : problém normal bodů na okraji (normálního clusteru), které se jeví jako anomálie protože ty uvnitř clusteru mají moc velké ohodnocení 
-3. isolation tree má dva druhy uzlů
-   
-   vnitřní
-   : obsahuje podmínku (feature a mez) a dva potomky (jeden reprezentuje splněnou podmínku a druhý naopak nesplněnou) 
-   
-   vnější (list)
-   : vzniká pokud podmínky rodičů splňuje (resp. nesplňuje) jeden nebo žádný prvek ze samplu, nebo je dosažena maximální hloubka stromu $l$ zpravidla $l=\ln_2(s)$. Obsahuje ohodnocení $h(x)$ pomocí vzdálenosti od kořene, pokud je dosaženo  max. délky stromu je *vzdálenost* odhadnuta pomocí $h(x)=e+c(n)$, $e$ je vzdálenost od kořene, $n$ je počet prvků ze samplu splňující podmínky rodičů, $c(n)=2\,(H_{n-1}-\frac{n-1}{N})$ a $H_{n-1}$ je $n-1$ harmonické číslo, $N$ je počet prvků celkově. 
-   
-- [ ] TODO: ověřit $c(n)$ nějak mi to furt nesedí
-- [ ] TODO: Budeme to vysvětlovat obecně, nebo jen tak jak mi potřebujeme (2 dimenze x,y)?
-- [ ] TODO: Implementace v Pythonu
-   + [ ] jak je implementovaná funkce $c(x)$
-   + [ ] jak je to s `max-depth` je nastaven na $\ln_2(n)$
-   + [ ] jak se stanoví první interval, je $\langle 0, 1\rangle$, nebo $\langle min(data),max(data)\rangle$ nebo jinak
-   + [ ] co ovlivňuje contanimation v kódu
-- [ ] TODO: další možnost výzkumu (jinej článek) jak udělat isolation forest, 
-  když data (features) nebudou hodnoty z intervalu, ale třeba hodnoty z konečné podmnožiny 
-
 Despite its famousness, there are a few drawbacks.
 
 The Scikit-Learn platform (scikit-learn.org) offers several implemented, documented and tested machine-learning open-source algorithms.
@@ -174,55 +143,6 @@ The final question is if it is somehow possible to teach Isolation Forest how re
 Can we use Isolation Forest for novelty detection despite it not being primarily novelty detection algorithm? 
 
 ### SOTA
-Isolation forest has been widely used for outlier detection. 
-In (https://doi.org/10.1016/j.patrec.2022.09.015) Xu, Yang and Rahardja show Isolation Forest outperforming other 12 state-of-the-art outlier detectors by running the experiments on public outlier detection datasets.
-Thorough the years, many successful enhancements of the Isolation Forest have arisen. Gałka, Karczmarek, Tokovarov in (https://doi.org/10.1016/j.patrec.2022.09.015) implement Minimal Spanning Tree clustering based enhancement.
-Instead of random determination of a split point, first, two clusters are prepared and then a split point is set to the middle of prepared clusters. Another interesting enhancement comes from Chater and al. (https://doi.org/10.1016/j.procs.2022.09.147) where the team deal with the necessity of having precise and crisp data when using basic Isolation Forest approach by implementing Fuzzy adaptation for the Isolation Forest.
-However, there seems to be not much work regarding using Isolation Forest as a novelty detection tool. 
-
-### Isolation forest experiments
-- [ ] TODO: TADY SI NAPÍŠEME VLASTNÍ FOREST A BUDEME DĚLAT CHYTRÉ
-
-### Proposed novelty isolation forest enhancement
-In this section, we propose a new approach for making forest detect novel observations. 
-The proposed enhancement takes the basic idea of an ensemble of trees with depths but is taking it further to make supervised novel detection possible.
-The basic problem with isolation forest not being able to detect novel observations is caused by the fact that with every new separation, isolation forest uses the separated data to evaluate next separation.
-Figure X demonstrates this by creating a first node of a forest with dataset consisting of a sample from range (0,100), successfully creating a node and a random split point of 80. 
-Later on, when Isolation Forest is being used for evaluation of a number 5000 (which is obviously far away from the initial (0, 100) range) the previous split point is used to determine its final node.
-This results in 5000 being in the same node as numbers >80, making the novelty detection impossible.
-
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/clanek_figures/isolation_5000.svg) 
-> Figure X Isolation Forest novelty point insertion on using classic IF. 
-
-
- - [ ] TODO:  blabla tady pokračujeme že možná nějaký obrázek jak to funguje že neustále se zmenšuje ten frame, to nám vlastně zapříčiní že 100,100 je stjeně novelty jako 1000,1000.
- - [ ] TODO: tady popíšeme naši isolation servisku
- 
-In our proposed enhancement, we clearly have to deal with this issue.
-The problem is to somehow evaluate the sparseness of the data, differentiating between datapoint being >80 and somehow "far bigger than 80", making the latter novelty.
-The proposed solution is altering the concept of evaluation of a split point.
-Whereas the original Isolation Forest is evaluating the split point based on the previous data, in our proposed solution we evaluate the split point based on the whole range.
-For this to work, several alterations to the split point evaluation and form of data passed between nodes has to be done, but the overall concept of the forest stays the same. 
-This is demonstrated by simply adding a new service to our proposed algorithm.
- 3. [ ] TODO: šup sem odkaz na ruby algorithm s dokumentací
-
- We encourage you to try it and maybe create your own service based on our already implemented ones.
- This service called Novelty is making two main alteration concepts:
- 
- 1. When selecting a sample from the given data, to randomly selecting the sample of a given *batch size*, the evaluation of range for each dimension was added.
- 2. When the split point is calculated, random dimension is chosen, and the split point is taken from the evaluated range (and not the data itself).
-
-The evaluation of a range starts by simply selecting some initial (either random or user defined) range for each dimension of N-dimensional problem. 
-This range should be reasonable enough to allow all the domain space to be separated correctly.
-After that, during tree initialization, a random range out of N is chosen (if presented only one-dimensional data, we take one dimension, like in the original article) and a random value is selected out of the selected range. 
-When selecting groups for next nodes, groups are evaluated by grouping the given dataset according to given split point.
-Each group is then assigned a new ranges array where ranges are also grouped according to their split points.
-For example, if the selected split point was X, then the new range for the left node becomes (previous range starting point ... X) and for the right node it would become (X ... previous range ... ending point).
-Using this, we never loose any data like in the original article, making novelty detection possible.
-Figure X demonstrates this by adding two novel points (considering the learning sample of data beginning with 0 and ending with 100) and we can see that using our approach we successfully isolated both numbers (5000 and 2000, which are considerably far away from each other) in different nodes.
-
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/clanek_figures/clanek_5000_novelty.svg)
-> Figure X Isolation Forest novelty point insertion on using our novelty approach. 
 
 
 ### Experiments using IF as a Novelty detection tool
@@ -258,5 +178,5 @@ k2LDEzNTUxMTUzOCwxMTI2MTcwODU1LC0xMjY3Njc3NTM1LC05
 NjE2MDg2NTFdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM1MzMyMjhdfQ==
+eyJoaXN0b3J5IjpbMjc1NDA1MzE1XX0=
 -->
