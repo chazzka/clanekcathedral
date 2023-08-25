@@ -127,11 +127,12 @@ Figure x shows example dataset with two features, none of the datapoint being an
 Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination parametr, kde můžeme nastasvit když máme dataset s pár kontaminacemi, to nás bude později zajímat i u sekce novelty detection.
 
 
-First, the major challenge is setting the contamination parameter itself.
+Note, that one of the parameters of the Isolation Forest is the contamination parameter.
 The contamination parameter is to control the proportion of anomalies in the dataset. 
 Usually, this has to be known beforehand. 
 This parameter has a huge impact on the final result of the detection.
 However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies, plus, the anomalies are not present in the original dataset.
+Using this parameter we can, however, s
 
 Other notable parameters with huge impact on the result are *number of estimators*, *max samples* and *max features*.
 This kind of issue is widely known amongst AutoML community.
@@ -173,7 +174,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjA5ODYxNCwtMTE1ODE5MDU3NywtMT
+eyJoaXN0b3J5IjpbMjA1Mjc1MjA0OCwtMTE1ODE5MDU3NywtMT
 A5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3
 NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
 -->
