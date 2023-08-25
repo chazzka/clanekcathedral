@@ -123,14 +123,12 @@ However, this is a problem because the anomalies in our dataset appear randomly 
 
 TODO: CONTAMINATION PORAD EXISTUJE, BUDE NAS ZAJIMAT i u novelty, k zamyšlení
 
-
 To demonstrate the impact of contamination parameter, we prepared following experiment.
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination0.svg)
 > Figure X dataset with no anomalies
-
 
 
 Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination parametr, kde můžeme nastasvit když máme dataset s pár kontaminacemi, to nás bude později zajímat i u sekce novelty detection.
@@ -176,7 +174,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI5NTEyNDUsLTE5Njg0NCwxNzg1OT
-U5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgs
-LTc3MTk4NTA0OV19
+eyJoaXN0b3J5IjpbLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLT
+E5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYy
+NiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
 -->
