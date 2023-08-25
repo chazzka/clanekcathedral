@@ -132,11 +132,10 @@ The contamination parameter is to control the proportion of anomalies in the dat
 Usually, this has to be known beforehand. 
 This parameter has a huge impact on the final result of the detection.
 However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies, plus, the anomalies are not present in the original dataset.
-Using this parameter we can, however, s
+Using this parameter we can, however, deal with datasets already containing some portion of anomalies during learning.
+That can easily happen especially during the testing phasis of the development.
 
-Other notable parameters with huge impact on the result are *number of estimators*, *max samples* and *max features*.
-This kind of issue is widely known amongst AutoML community.
-Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
+
 
 Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje v principu, spíš obecně jak funguje ta myšenka outlier detection a že to rozhodně není co chceme
 
@@ -159,6 +158,8 @@ tady vysvětli jak funuguje
 #### Local outlier factor
 Tady vysvětli jak funguje
 
+#### setting
+
 #### Examples
  obrázky, tabulka, výhody, nevýhody
  
@@ -174,7 +175,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1Mjc1MjA0OCwtMTE1ODE5MDU3NywtMT
-A5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3
-NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbODU2NTE3ODcyLC0xMTU4MTkwNTc3LC0xMD
+kyOTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0
+LDE4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
