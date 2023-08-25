@@ -118,25 +118,15 @@ First, the major challenge is setting the contamination parameter itself.
 The contamination parameter is to control the proportion of anomalies in the dataset. 
 Usually, this has to be known beforehand.
 This parameter has a huge impact on the final result of the detection.
-However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies from 0% to 50%, sometimes even more.
+However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies from 0% to 50%, sometimes even more, plus, the anomalies are not present in the original dataset .
 To demonstrate the impact of contamination parameter, we prepared following experiment.
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
-- [ ] TODO: TADY JEN JEDEN VYSTIZNY OBRAZEK - BEZ ANOMALII!!!
-
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/contamination10.svg)
-> Figure X Isolation Forest with 10% contamination.
-
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/contamination20.svg)
-> Figure X Isolation Forest with 20% contamination.
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination0.svg)
+> Figure X dataset with no anomalies
 
 
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/contamination30.svg)
-> Figure X Isolation Forest with 30% contamination.
-
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/contamination40.svg)
-> Figure X Isolation Forest with 40% contamination.
 
 
 Other notable parameters with huge impact on the result are *number of estimators*, *max samples* and *max features*.
@@ -172,6 +162,6 @@ Deciding which observations are anomalies, without some domain knowledge on the 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODcyNTk3NCwxODg0NTI1NjI2LC01Nj
-YyNjAyOCwtNzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbMTIzMzY4MDk3NywyMDA4NzI1OTc0LDE4OD
+Q1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
