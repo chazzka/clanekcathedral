@@ -146,6 +146,9 @@ First, we use Scikit Isolation Forest *fit* method, to fit the regular data.
 With the data fit, we add a bunch of new, unseen, possibly novelty datapoints.
 Figure X shows the result of *predict* method with the new data added.
 
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001_novelty.svg)
+
+
 
 
 ### Supervised learning
@@ -186,8 +189,8 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTY3OTgxNiwtMTYyNTAxNjQwMCwtNj
-I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
-NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
-U2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mj
+c5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0
+NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNT
+Y2MjYwMjgsLTc3MTk4NTA0OV19
 -->
