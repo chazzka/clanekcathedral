@@ -121,7 +121,7 @@ This parameter has a huge impact on the final result of the detection.
 However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies from 0% to 50%, sometimes even more.
 To demonstrate the impact of contamination parameter, we prepared following experiment.
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
-Figure x shows example dataset with two features, none of th
+Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
 - [ ] TODO: TADY JEN JEDEN VYSTIZNY OBRAZEK - BEZ ANOMALII!!!
 
@@ -172,6 +172,6 @@ Deciding which observations are anomalies, without some domain knowledge on the 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTc3OTE1MiwxODg0NTI1NjI2LC01Nj
+eyJoaXN0b3J5IjpbMjAwODcyNTk3NCwxODg0NTI1NjI2LC01Nj
 YyNjAyOCwtNzcxOTg1MDQ5XX0=
 -->
