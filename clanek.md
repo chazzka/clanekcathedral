@@ -133,14 +133,17 @@ Figure x shows example dataset with two features, none of the datapoint being an
 > Figure X dataset with no anomalies
 
 
-Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination po
-
+Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination parametr, kde můžeme nastasvit když máme dataset s pár kontaminacemi, to nás bude později zajímat i u sekce novelty detection.
 Other notable parameters with huge impact on the result are *number of estimators*, *max samples* and *max features*.
-
-
-
 This kind of issue is widely known amongst AutoML community.
 Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
+
+Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje 
+
+
+
+
+
 
 The last problem is with the unsupervised separation itself.
 Consider data polluted by anomalies in close to 1:1 ratio.
@@ -168,6 +171,6 @@ Deciding which observations are anomalies, without some domain knowledge on the 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2NTU0MTk0LDIwMDg3MjU5NzQsMTg4ND
-UyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
+eyJoaXN0b3J5IjpbLTM4MDI1OTY2NCwyMDA4NzI1OTc0LDE4OD
+Q1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
