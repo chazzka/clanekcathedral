@@ -105,14 +105,12 @@ This means, that if the dataset contains observations which look like anomalies 
 
 ### Outlier detection
 
-- [ ] TODO: na isolation forestu vam ukazeme ze outlier detection uri
+- [ ] TODO: na isolation forestu vam ukazeme ze outlier detection urcite neni novelty detection
 
-#### Isolation Forest
+#### Example: Isolation Forest
 Isolation Forest ([1](https://doi.org/10.1016/j.engappai.2022.105730 "article 1"), [2](https://doi.org/10.1016/j.patcog.2023.109334 "article 2")) is an outlier detection, semi-supervised ensemble algorithm. 
 This approach is well known to successfully isolate outliers by using recursive partitioning (forming a tree-like structure) to decide whether the analyzed particle is an anomaly or not.
 The less partitions required to isolate the more probable it is for a particle to be an anomaly.
-
-Despite its famousness, there are a few drawbacks.
 
 The Scikit-Learn platform (scikit-learn.org) offers several implemented, documented and tested machine-learning open-source algorithms.
 Its implementation of Isolation Forest has, in time of writing this text, 5 hyperparameters which need to be explicitly chosen and tuned.
@@ -122,9 +120,8 @@ Usually, this has to be known beforehand.
 This parameter has a huge impact on the final result of the detection.
 However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies from 0% to 50%, sometimes even more.
 To demonstrate the impact of contamination parameter, we prepared following experiment.
-A dataset containing approx. 25% of anomalies is prepared.
-Figures below show the differences when using rising values of the contamination parameter.
-Note that dataset is generated randomly with each run.
+Consider a dataset containing approx. 25% of anomalies.
+Figure x shows 
 
 - [ ] TODO: TADY JEN JEDEN VYSTIZNY OBRAZEK - BEZ ANOMALII!!!
 
@@ -175,6 +172,6 @@ Deciding which observations are anomalies, without some domain knowledge on the 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0MDgxOTI2LDE4ODQ1MjU2MjYsLTU2Nj
+eyJoaXN0b3J5IjpbNzM4NzAxMjU4LDE4ODQ1MjU2MjYsLTU2Nj
 I2MDI4LC03NzE5ODUwNDldfQ==
 -->
