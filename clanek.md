@@ -131,10 +131,12 @@ This parameter has a huge impact on the final result of the detection.
 However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies, plus, the anomalies are not present in the original dataset.
 Using this parameter we can, however, deal with datasets already containing some portion of anomalies during learning.
 That can easily happen especially during the testing phasis of the development.
+Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies).
+
 
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001.svg)
-> Figure X dataset with no anomalies
+> Figure X dataset with contamination = 0.01
 
 
 
@@ -180,8 +182,8 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMT
-E1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3
-ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNz
-cxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbLTk2NDE4MDYyNCwtMTYyNTAxNjQwMCwtNj
+I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
+NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
+U2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
