@@ -133,6 +133,9 @@ Using this parameter we can, however, deal with datasets already containing some
 That can easily happen especially during the testing phasis of the development.
 
 
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001.svg)
+> Figure X dataset with no anomalies
+
 
 
 Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje v principu, spíš obecně jak funguje ta myšenka outlier detection a že to rozhodně není co chceme
@@ -177,7 +180,8 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzk1NzUxMCwtMTE1ODE5MDU3NywtMT
-A5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3
-NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMT
+E1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3
+ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNz
+cxOTg1MDQ5XX0=
 -->
