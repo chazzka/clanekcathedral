@@ -133,6 +133,7 @@ Figure x shows example dataset with two features, none of the datapoint being an
 > Figure X dataset with no anomalies
 
 
+
 Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination parametr, kde můžeme nastasvit když máme dataset s pár kontaminacemi, to nás bude později zajímat i u sekce novelty detection.
 
 
@@ -175,7 +176,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTQ5ODE3OCwxNzg1OTU5NzgyLDIwMD
-g3MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0
-OV19
+eyJoaXN0b3J5IjpbLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3Mj
+U5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
+
 -->
