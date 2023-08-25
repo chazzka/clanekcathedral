@@ -114,16 +114,9 @@ The less partitions required to isolate the more probable it is for a particle t
 
 The Scikit-Learn platform (scikit-learn.org) offers several implemented, documented and tested machine-learning open-source algorithms.
 Its implementation of Isolation Forest has, in time of writing this text, 5 hyperparameters which need to be explicitly chosen and tuned.
-First, the major challenge is setting the contamination parameter itself.
-The contamination parameter is to control the proportion of anomalies in the dataset. 
-Usually, this has to be known beforehand.
-This parameter has a huge impact on the final result of the detection.
-However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies, plus, the anomalies are not present in the original dataset.
-
 
 TODO: CONTAMINATION PORAD EXISTUJE, BUDE NAS ZAJIMAT i u novelty, k zamyšlení
 
-To demonstrate the impact of contamination parameter, we prepared following experiment.
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
@@ -133,6 +126,12 @@ Figure x shows example dataset with two features, none of the datapoint being an
 
 Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination parametr, kde můžeme nastasvit když máme dataset s pár kontaminacemi, to nás bude později zajímat i u sekce novelty detection.
 
+
+First, the major challenge is setting the contamination parameter itself.
+The contamination parameter is to control the proportion of anomalies in the dataset. 
+Usually, this has to be known beforehand. 
+This parameter has a huge impact on the final result of the detection.
+However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies, plus, the anomalies are not present in the original dataset.
 
 Other notable parameters with huge impact on the result are *number of estimators*, *max samples* and *max features*.
 This kind of issue is widely known amongst AutoML community.
@@ -174,7 +173,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLT
-E5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYy
-NiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
+eyJoaXN0b3J5IjpbLTY3MjA5ODYxNCwtMTE1ODE5MDU3NywtMT
+A5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3
+NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
 -->
