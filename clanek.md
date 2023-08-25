@@ -150,7 +150,7 @@ Figure X shows the result of *predict* method with the new data added.
 
 As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
 This is caused by the way the Isolation Forest splits the observation space.
- Since 
+Since the  
 
 
 
@@ -192,9 +192,9 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTYzMjg0NywtMTIyOTE2NjUxOSwtNT
-QyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNjI3OTU3
-NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4NDQsMT
-c4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLTU2NjI2
-MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMj
+I5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2
+NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyND
+UsLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUy
+NTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
 -->
