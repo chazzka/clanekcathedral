@@ -141,6 +141,8 @@ Figure X shows the example of running Isolation Forest on the same dataset as ab
 
 Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje v principu, spíš obecně jak funguje ta myšenka outlier detection a že to rozhodně není co chceme
 
+We can leverage on this knowledge and try to provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
+
 
 
 ### Supervised learning
@@ -181,7 +183,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDk5NTM3MSwtMTYyNTAxNjQwMCwtNj
+eyJoaXN0b3J5IjpbMTI4ODQxODcxNiwtMTYyNTAxNjQwMCwtNj
 I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
 NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
 U2NjI2MDI4LC03NzE5ODUwNDldfQ==
