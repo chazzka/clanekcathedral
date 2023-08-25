@@ -42,8 +42,11 @@ The successful cross-cooperation is what makes this solution feasible and intere
 
 ## Data
 ### Overview
+The analyzed data in this article are the time-series data obtained from IoT sensors. These sensors are implemented in the smart home environment and produce continuo 
+
 - [ ] Todo: tady bych chtěl obrázky a nějaký přehled těch time series dat, co jsou ještě anomalie, co je na vstupu a tak
 ### Preprocessing
+
 
 ## Methods
 
@@ -190,6 +193,6 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjg1Mzg2LC01NjYyNjAyOCwtNzcxOT
-g1MDQ5XX0=
+eyJoaXN0b3J5IjpbLTE2MjQ1NDU3NzQsLTU2NjI2MDI4LC03Nz
+E5ODUwNDldfQ==
 -->
