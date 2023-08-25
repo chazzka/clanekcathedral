@@ -134,6 +134,8 @@ Figure x shows example dataset with two features, none of the datapoint being an
 
 
 Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination parametr, kde můžeme nastasvit když máme dataset s pár kontaminacemi, to nás bude později zajímat i u sekce novelty detection.
+
+
 Other notable parameters with huge impact on the result are *number of estimators*, *max samples* and *max features*.
 This kind of issue is widely known amongst AutoML community.
 Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
@@ -173,6 +175,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4OD
-Q1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbMTM4NTQ5ODE3OCwxNzg1OTU5NzgyLDIwMD
+g3MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0
+OV19
 -->
