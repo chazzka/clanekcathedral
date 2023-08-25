@@ -16,7 +16,22 @@
 - **toto až nakonec až budeme vědět co vlastně fungovalo**
 - **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme cluster anomalii ne jen anomalie**
 
+## Theory
 
+Datapoint
+: Datapoint is an observed point with $n$ features.
+
+Regular
+: Regular is a datapoint included in the given dataset. Its features are expectable.
+
+Anomaly
+: Anomaly is a datapoint, that differs significantly from other observations.
+
+Outlier
+: Outlier is an anomaly included in the given dataset. 
+
+Novelty
+: Novelty is an anomaly that is not present in the given dataset during learning. Novelties are usually supplied later during evaluation.
 
 
 ## SOTA
@@ -175,6 +190,6 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTExNDgzMCwtNTY2MjYwMjgsLTc3MT
-k4NTA0OV19
+eyJoaXN0b3J5IjpbMTAwNjg1Mzg2LC01NjYyNjAyOCwtNzcxOT
+g1MDQ5XX0=
 -->
