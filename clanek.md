@@ -151,6 +151,8 @@ Figure X shows the result of *predict* method with the new data added.
 As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
 This is caused by the way the Isolation Forest splits the observation space.
 Isolation Forest algorithm does the recursive partitioning to orphan the data in separate nodes. 
+The less partition is needed to separate the datapoint, the more anomalous it gets.
+However, since the Isolation Forest algorithm creates a new separation space based on the previously obtained datapoints, there is no way for the new, possible
 
 
 
@@ -192,10 +194,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTEzNTMzNDgsLTI1NTQ1MzEwMCwyMD
-MxNjMyODQ3LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0
-MTg2LC0xNjI1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1Nz
-csLTEwOTI5NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3
-MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV
-19
+eyJoaXN0b3J5IjpbMTA2MjI0OTA3MywtMjU1NDUzMTAwLDIwMz
+E2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQx
+ODYsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5MDU3Ny
+wtMTA5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcy
+NTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX
+0=
 -->
