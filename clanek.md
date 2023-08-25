@@ -163,7 +163,8 @@ tady vysvětli jak funuguje
 Tady vysvětli jak funguje
 
 #### Examples
-
+ obrázky, tabulka, výhody, nevýhody
+ 
 
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
@@ -176,7 +177,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3Mj
-U5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
-
+eyJoaXN0b3J5IjpbLTkyNTI2MzE4MSwtMTk2ODQ0LDE3ODU5NT
+k3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwt
+NzcxOTg1MDQ5XX0=
 -->
