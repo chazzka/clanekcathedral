@@ -121,9 +121,8 @@ This parameter has a huge impact on the final result of the detection.
 However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies, plus, the anomalies are not present in the original dataset.
 
 
-TODO: CONTAMINATION PORAD EXISTUJE, BUDE NAS ZAJIMAT 
+TODO: CONTAMINATION PORAD EXISTUJE, BUDE NAS ZAJIMAT i u novelty, k zamyšlení
 
-TODO: 
 
 To demonstrate the impact of contamination parameter, we prepared following experiment.
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
@@ -177,7 +176,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTI2MzE4MSwtMTk2ODQ0LDE3ODU5NT
-k3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwt
-NzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbLTEwOTI5NTEyNDUsLTE5Njg0NCwxNzg1OT
+U5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgs
+LTc3MTk4NTA0OV19
 -->
