@@ -103,9 +103,9 @@ Novelty detection is a semi-supervised anomaly-detection technique, whereas outl
 This a crucial distinction, due to a fact that whereas the outlier detection is usually presented with data containing both anomalies and regular observation, it then uses mathematical models that try to make distinction between them, novelty detection on the other hand is usually presented data with little to zero anomalies (the proportion of anomalies in the dataset is called a contamination) and later, when conferred with an anomalous observation, it makes a decision.
 This means, that if the dataset contains observations which look like anomalies but are still valid, the performance of unsupervised outlier detection in such case is usually unsatisfactory. 
 
-### unwanted outlier detection
+### Outlier detection
 
-- [ ] TODO: Novelty detection is not an outlier detection - demonstrated by isolation forest
+- [ ] TODO: na isolation forestu vam ukazeme ze outlier detection uri
 
 #### Isolation Forest
 Isolation Forest ([1](https://doi.org/10.1016/j.engappai.2022.105730 "article 1"), [2](https://doi.org/10.1016/j.patcog.2023.109334 "article 2")) is an outlier detection, semi-supervised ensemble algorithm. 
@@ -143,25 +143,7 @@ Note that dataset is generated randomly with each run.
 
 
 Other notable parameters with huge impact on the result are *number of estimators*, *max samples* and *max features*.
-Using similar dataset, we designed the experiment and tested the behavior of the Isolation Forest, with contamination parameter set to 0.25 (=25% anomalies) and varying above-mentioned parameters. 
-The result of the experiment shows Figure X.
-As we can see the results are quite distinct. 
 
-
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/isolation2.svg)
-> Anomaly 2:
-n_estimators=50
-max_samples= 20
-max_features=2
-contamination = 0.25
-
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/isolation3.svg)
-
-> Anomaly 3: 
-n_estimators=10
-max_samples= 10
-max_features=2
-contamination = 0.25
 
 
 This kind of issue is widely known amongst AutoML community.
@@ -172,14 +154,10 @@ Consider data polluted by anomalies in close to 1:1 ratio.
 Even human will find it nearly impossible to differentiate between these two classes when given plotted dataset.
 Finding the line itself is obvious.
 Deciding which observations are anomalies, without some domain knowledge on the other hand is close to impossible.
-
-Despite this, one positive thing is that Isolation Forest managed to deal with the gaps in the measurement (seen in Figures above, around X=50). 
-
-
-- tady experimenty, heatmapa atp.
+ 
 
 
-### Novelty separation
+### Novelty detection
 
 #### OneClass SVM
 
@@ -197,6 +175,6 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MT
-k4NTA0OV19
+eyJoaXN0b3J5IjpbNTY0MDgxOTI2LDE4ODQ1MjU2MjYsLTU2Nj
+I2MDI4LC03NzE5ODUwNDldfQ==
 -->
