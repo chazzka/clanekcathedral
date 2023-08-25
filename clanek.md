@@ -148,20 +148,20 @@ No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algo
 Nabízí se neuronka, 
 
 #### ANN
-ann je supervised learning a zdálo by se že stačí naučit jak teda vypadají dobré data a ona nám pak řekne že toto je dobré. To není tak uplně pravda, neuronku je potřeba naučit dobré i špatné, to je ten rozdíl.. zkus to více vysvětlit proč tomu tak je.
+ann je supervised learning a zdálo by se že stačí naučit jak teda vypadají dobré data a ona nám pak řekne že toto je dobré. To není tak uplně pravda, neuronku je potřeba naučit dobré i špatné, to je ten rozdíl.. zkus to více vysvětlit proč tomu tak je ,docela mě to dokonce zajímá.
 
-
-
-
-
-
-### Novelty detection
+#### Novelty detection
+ok je teda jasné že potřebujeme nějaké semi supervised novelty detection, můžeš tu zkusit definovat pojem semi supervised
 
 #### OneClass SVM
+tady vysvětli jak funuguje 
 
 #### Local outlier factor
+Tady vysvětli jak funguje
 
- 
+#### Examples
+
+
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
 - možná bychom se tu mohli taky zamyslet nad tím jak funguje ten DB Scan a zkusit trochu potunit aby to dělalo celé clustery
@@ -173,6 +173,6 @@ ann je supervised learning a zdálo by se že stačí naučit jak teda vypadají
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjY0MjU2NywyMDA4NzI1OTc0LDE4OD
+eyJoaXN0b3J5IjpbMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4OD
 Q1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
