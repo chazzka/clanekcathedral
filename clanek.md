@@ -44,7 +44,7 @@ The successful cross-cooperation is what makes this solution feasible and intere
 ### Overview
 The analyzed data in this article is the time-series data obtained from IoT sensors. 
 These sensors are implemented in the smart home environment and produce continuous data which are reported to the server once every $x$ seconds.
-
+In normal circumstances, the data obtained follow a specific distribution with 
 
 
 - [ ] Todo: tady bych chtěl obrázky a nějaký přehled těch time series dat, co jsou ještě anomalie, co je na vstupu a tak
@@ -126,6 +126,7 @@ A dataset containing approx. 25% of anomalies is prepared.
 Figures below show the differences when using rising values of the contamination parameter.
 Note that dataset is generated randomly with each run.
 
+- [ ] TODO: TADY JEN JEDEN VYSTIZNY OBRAZEK - BEZ ANOMALII!!!
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/contamination10.svg)
 > Figure X Isolation Forest with 10% contamination.
@@ -196,6 +197,6 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc2OTIzNTQsLTU2NjI2MDI4LC03Nz
-E5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MT
+k4NTA0OV19
 -->
