@@ -154,8 +154,7 @@ Isolation Forest algorithm does the recursive partitioning to orphan the data in
 The less partition is needed to separate the datapoint, the more anomalous it gets.
 The Isolation Forest algorithm creates a new separation space based on the previously seen datapoints, hence there is not much room for the new, possibly novel datapoint, to be marked so.
 New datapoints often fall into the same separation space with the previously seen, regular-marked datapoints, marking them regular.
-
-
+Similar principles goes with other outlier detection algorithms.
 
 
 ### Supervised learning
@@ -196,10 +195,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzY3ODU0MCwtMjU1NDUzMTAwLDIwMz
-E2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQx
-ODYsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5MDU3Ny
-wtMTA5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcy
-NTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX
-0=
+eyJoaXN0b3J5IjpbNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMT
+YzMjg0NywtMTIyOTE2NjUxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4
+NiwtMTYyNTAxNjQwMCwtNjI3OTU3NTEwLC0xMTU4MTkwNTc3LC
+0xMDkyOTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1
+OTc0LDE4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ
+==
 -->
