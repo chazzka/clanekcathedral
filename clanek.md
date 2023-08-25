@@ -124,9 +124,6 @@ Figure x shows example dataset with two features, none of the datapoint being an
 > Figure X dataset with no anomalies
 
 
-Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination parametr, kde můžeme nastasvit když máme dataset s pár kontaminacemi, to nás bude později zajímat i u sekce novelty detection.
-
-
 Note, that one of the parameters of the Isolation Forest is the contamination parameter.
 The contamination parameter is to control the proportion of anomalies in the dataset. 
 Usually, this has to be known beforehand. 
@@ -134,6 +131,8 @@ This parameter has a huge impact on the final result of the detection.
 However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies, plus, the anomalies are not present in the original dataset.
 Using this parameter we can, however, deal with datasets already containing some portion of anomalies during learning.
 That can easily happen especially during the testing phasis of the development.
+
+
 
 
 Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje v principu, spíš obecně jak funguje ta myšenka outlier detection a že to rozhodně není co chceme
@@ -178,7 +177,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODgyODU0OTUsLTExNTgxOTA1NzcsLT
-EwOTI5NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5
-NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
+eyJoaXN0b3J5IjpbLTYyNzk1NzUxMCwtMTE1ODE5MDU3NywtMT
+A5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3
+NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
 -->
