@@ -15,7 +15,10 @@
 - constribution
 - **toto až nakonec až budeme vědět co vlastně fungovalo**
 - **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme cluster anomalii ne jen anomalie**
- 
+## SOTA
+
+The originality of this article can be defined as follows. 
+
 ## Methods
 
 The very first task is to thoroughly analyze the domain of the given problem.
@@ -161,5 +164,6 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbMTA4Nzk2MDk1MCwtNTY2MjYwMjgsLTc3MT
+k4NTA0OV19
 -->
