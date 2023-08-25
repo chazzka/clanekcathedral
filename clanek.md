@@ -143,7 +143,9 @@ Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacp
 
 We can leverage on this knowledge and try to provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
 First, we use Scikit Isolation Forest *fit* method, to fit the regular data.
-With the data fit
+With the data fit, we add a bunch of new, unseen, possibly novelty datapoints.
+Figure X shows the result of *predict* method when adding new data.
+
 
 
 ### Supervised learning
@@ -184,8 +186,8 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQyMjI3MDAsLTE2MjUwMTY0MDAsLT
-YyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2
-ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC
-01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbLTI4MDQ2NDYyMiwtMTYyNTAxNjQwMCwtNj
+I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
+NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
+U2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
