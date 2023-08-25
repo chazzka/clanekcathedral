@@ -131,7 +131,7 @@ This parameter has a huge impact on the final result of the detection.
 This can be a problem due to a random appearance of the anomalies in our dataset and hence the proportion value varies.
 Using this parameter we can, however, deal with datasets already containing some portion of anomalies during learning.
 That can easily happen especially during the testing phasis of the development.
-Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies).
+Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies) using the Scikit's Isolation Forest *fit_predict* method.
 
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001.svg)
@@ -142,8 +142,8 @@ Figure X shows the example of running Isolation Forest on the same dataset as ab
 Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje v principu, spíš obecně jak funguje ta myšenka outlier detection a že to rozhodně není co chceme
 
 We can leverage on this knowledge and try to provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
-First, we use Scikit Isolation Forest *fit* method, to f
-
+First, we use Scikit Isolation Forest *fit* method, to fit the regular data.
+With the data fit
 
 
 ### Supervised learning
@@ -184,8 +184,8 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDExOTk4MywtMTYyNTAxNjQwMCwtNj
-I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
-NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
-U2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbLTE5OTQyMjI3MDAsLTE2MjUwMTY0MDAsLT
+YyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2
+ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC
+01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
 -->
