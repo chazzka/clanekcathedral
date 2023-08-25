@@ -128,7 +128,7 @@ Note, that one of the parameters of the Isolation Forest is the contamination pa
 The contamination parameter is to control the proportion of anomalies in the dataset. 
 Usually, this has to be known beforehand. 
 This parameter has a huge impact on the final result of the detection.
-However, this is a problem due to a random appearance of the anomalies in our dataset and hence the proportion value varies.
+This can be a problem due to a random appearance of the anomalies in our dataset and hence the proportion value varies.
 Using this parameter we can, however, deal with datasets already containing some portion of anomalies during learning.
 That can easily happen especially during the testing phasis of the development.
 Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies).
@@ -183,8 +183,8 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODQxODcxNiwtMTYyNTAxNjQwMCwtNj
-I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
-NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
-U2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbMzAyODUyOTgxLC0xNjI1MDE2NDAwLC02Mj
+c5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0
+NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNT
+Y2MjYwMjgsLTc3MTk4NTA0OV19
 -->
