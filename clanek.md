@@ -14,7 +14,7 @@
 - general -> specific (describe problem as a whole, then why the problems occurs, then why is it a problem for us, technical details, env. variables)
 - constribution
 - **toto až nakonec až budeme vědět co vlastně fungovalo**
-- **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme cluster anomalii ne jen anomalie - asi hledame jen anomalie ale, dbscan cpat nebudeme**
+- **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme cluster anomalii ne jen anomalie**
  
 ## Methods
 
@@ -161,5 +161,5 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTk4NTA0OV19
+eyJoaXN0b3J5IjpbLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
