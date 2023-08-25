@@ -118,7 +118,12 @@ First, the major challenge is setting the contamination parameter itself.
 The contamination parameter is to control the proportion of anomalies in the dataset. 
 Usually, this has to be known beforehand.
 This parameter has a huge impact on the final result of the detection.
-However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies from 0% to 50%, sometimes even more, plus, the anomalies are not present in the original dataset .
+However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies from 0% to 50%, sometimes even more, plus, the anomalies are not present in the original dataset.
+
+TODO: CONTAMINATION PORAD EXISTUJE, BUDE NAS ZAJIMAT 
+
+TODO: 
+
 To demonstrate the impact of contamination parameter, we prepared following experiment.
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
@@ -162,6 +167,6 @@ Deciding which observations are anomalies, without some domain knowledge on the 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzY4MDk3NywyMDA4NzI1OTc0LDE4OD
+eyJoaXN0b3J5IjpbLTUwNzEzMTE4NiwyMDA4NzI1OTc0LDE4OD
 Q1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
