@@ -144,7 +144,16 @@ Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacp
 
 ### Supervised learning
 
-No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algortimy protože potřebuje
+No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algortimy protože potřebujeme nejprve naučit co je správné a pak teprve ať nám řekne co je špatné.
+Nabízí se neuronka, 
+
+#### ANN
+ann je supervised learning a zdálo by se že stačí naučit jak teda vypadají dobré data a ona nám pak řekne že toto je dobré. To není tak uplně pravda, neuronku je potřeba naučit dobré i špatné, to je ten rozdíl.. zkus to více vysvětlit proč tomu tak je.
+
+
+
+
+
 
 ### Novelty detection
 
@@ -164,6 +173,6 @@ No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algo
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Njc4Mzk4OCwyMDA4NzI1OTc0LDE4OD
+eyJoaXN0b3J5IjpbMTkzNjY0MjU2NywyMDA4NzI1OTc0LDE4OD
 Q1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
