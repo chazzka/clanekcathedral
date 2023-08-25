@@ -138,20 +138,13 @@ Other notable parameters with huge impact on the result are *number of estimator
 This kind of issue is widely known amongst AutoML community.
 Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
 
-Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje 
+Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje v principu, spíš obecně jak funguje ta myšenka outlier detection a že to rozhodně není co chceme
 
 
 
+### Supervised learning
 
-
-
-The last problem is with the unsupervised separation itself.
-Consider data polluted by anomalies in close to 1:1 ratio.
-Even human will find it nearly impossible to differentiate between these two classes when given plotted dataset.
-Finding the line itself is obvious.
-Deciding which observations are anomalies, without some domain knowledge on the other hand is close to impossible.
- 
-
+No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algortimy protože potřebuje
 
 ### Novelty detection
 
@@ -171,6 +164,6 @@ Deciding which observations are anomalies, without some domain knowledge on the 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDI1OTY2NCwyMDA4NzI1OTc0LDE4OD
+eyJoaXN0b3J5IjpbMTc3Njc4Mzk4OCwyMDA4NzI1OTc0LDE4OD
 Q1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
