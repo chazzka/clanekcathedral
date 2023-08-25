@@ -118,7 +118,8 @@ First, the major challenge is setting the contamination parameter itself.
 The contamination parameter is to control the proportion of anomalies in the dataset. 
 Usually, this has to be known beforehand.
 This parameter has a huge impact on the final result of the detection.
-However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies from 0% to 50%, sometimes even more, plus, the anomalies are not present in the original dataset.
+However, this is a problem because the anomalies in our dataset appear randomly and hence the proportion varies, plus, the anomalies are not present in the original dataset.
+
 
 TODO: CONTAMINATION PORAD EXISTUJE, BUDE NAS ZAJIMAT 
 
@@ -132,7 +133,7 @@ Figure x shows example dataset with two features, none of the datapoint being an
 > Figure X dataset with no anomalies
 
 
-
+Teď pojďme naučit forest a zkusime co dokáže. všimneme si že forest má contamination po
 
 Other notable parameters with huge impact on the result are *number of estimators*, *max samples* and *max features*.
 
@@ -167,6 +168,6 @@ Deciding which observations are anomalies, without some domain knowledge on the 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzEzMTE4NiwyMDA4NzI1OTc0LDE4OD
-Q1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbMjM2NTU0MTk0LDIwMDg3MjU5NzQsMTg4ND
+UyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
 -->
