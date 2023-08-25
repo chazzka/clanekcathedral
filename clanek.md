@@ -136,7 +136,6 @@ Using this parameter we can, however, deal with datasets already containing some
 That can easily happen especially during the testing phasis of the development.
 
 
-
 Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje v principu, spíš obecně jak funguje ta myšenka outlier detection a že to rozhodně není co chceme
 
 
@@ -158,7 +157,11 @@ tady vysvětli jak funuguje
 #### Local outlier factor
 Tady vysvětli jak funguje
 
-#### setting
+#### setting the right parameters
+Oba ty algoritmy maji furu parametrů, které musíme nastavit
+Other notable parameters with huge impact on the result are...
+This kind of issue is widely known amongst AutoML community.
+Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
 
 #### Examples
  obrázky, tabulka, výhody, nevýhody
@@ -175,7 +178,7 @@ Tady vysvětli jak funguje
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NTE3ODcyLC0xMTU4MTkwNTc3LC0xMD
-kyOTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0
-LDE4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbLTEzODgyODU0OTUsLTExNTgxOTA1NzcsLT
+EwOTI5NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5
+NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
 -->
