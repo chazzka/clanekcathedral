@@ -148,7 +148,8 @@ Figure X shows the result of *predict* method with the new data added.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001_novelty.svg)
 
-
+As Figure X shows, the newly provided data are labeled regular.
+This is caused by the way the Isolation Forest 
 
 
 ### Supervised learning
@@ -189,8 +190,8 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mj
-c5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0
-NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNT
-Y2MjYwMjgsLTc3MTk4NTA0OV19
+eyJoaXN0b3J5IjpbLTIwNDAwMTYyMzIsNDc2NDY0MTg2LC0xNj
+I1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5
+NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMT
+g4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
 -->
