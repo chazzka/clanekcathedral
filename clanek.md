@@ -15,9 +15,14 @@
 - constribution
 - **toto až nakonec až budeme vědět co vlastně fungovalo**
 - **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme cluster anomalii ne jen anomalie**
+
 ## SOTA
 
-The originality of this article can be defined as follows. There are many successful algorithms used to analyze times series data, however the selling point here is the characterization of the problem not being simple outlier detection problem, rather a cluster-novelty detection (as defined combination of 
+The originality of this article can be defined as follows. 
+There are many successful algorithms used to analyze times series data, however the selling point here is the characterization of the problem not being simple outlier detection problem, rather a cluster-novelty detection (as defined later). 
+The successful cross-cooperation is what makes this solution feasible and interesting.
+
+## 
 
 ## Methods
 
@@ -164,6 +169,6 @@ Despite this, one positive thing is that Isolation Forest managed to deal with t
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk2ODE3MzcsLTU2NjI2MDI4LC03Nz
-E5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbMTk4MTI4NjI4OSwtNTY2MjYwMjgsLTc3MT
+k4NTA0OV19
 -->
