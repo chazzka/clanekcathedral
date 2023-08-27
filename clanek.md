@@ -84,6 +84,7 @@ Obviously, if the dataset contained no anomalies at all, the result would become
 > Figure X - Mean of the given dataset with little to zero anomalies.
 
 
+- [ ] - TODO TOTO ASI NE, PRESUNOUT MOZNA PAK AZ DO CLUSTERINGU NIZE
 
 One could easily argue that there is an option of using pure clustering algorithms (e.g. ([DBScan](doi/10.5555/3001460.3001507)).
 This, however, leads to unpleasant outcome.
@@ -103,7 +104,7 @@ Novelty detection is a semi-supervised anomaly-detection technique, whereas outl
 This a crucial distinction, due to a fact that whereas the outlier detection is usually presented with data containing both anomalies and regular observation, it then uses mathematical models that try to make distinction between them, novelty detection on the other hand is usually presented data with little to zero anomalies (the proportion of anomalies in the dataset is called a contamination) and later, when conferred with an anomalous observation, it makes a decision.
 This means, that if the dataset contains observations which look like anomalies but are still valid, the performance of unsupervised outlier detection in such case is usually unsatisfactory. 
 
-### Outlier detection
+### Unsupervised methodsOutlier detection
 
 - [ ] TODO: na isolation forestu vam ukazeme ze outlier detection urcite neni novelty detection
 
@@ -195,10 +196,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1ND
-UzMTAwLDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUw
-Myw0NzY0NjQxODYsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMT
-E1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3
-ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNz
-cxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbNTIwNjk2ODMzLDM1NDI3NzQ1OSw3NjIwMj
+kzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5
+LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mj
+c5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0
+NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNT
+Y2MjYwMjgsLTc3MTk4NTA0OV19
 -->
