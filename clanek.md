@@ -209,8 +209,8 @@ outlier_prediction = print(clf.predict_proba(outlierX[:1]))
 ```
 
 The results are shown in Table X. For the *regular_prediction *, containing the prediction of the testing set with data labeled **REGULAR** are expected, the probability of 0.96727484 for the class labeled **REGULAR** and the probability of 0.03272516 for the class labeled **OUTLIER**.
-However, for the *outlier_prediction *, the results are very unsatisfactory,
-the probability of 0.97993453 for the class labeled **one** and the probability of 0.02006547 for the class labeled **zero**.
+However, for the *outlier_prediction *, predicting the value given the outlying, never seen before value, the results are very unsatisfactory,
+the probability of 0.97993453 for the class labeled **REGULAR** and the probability of 0.02006547 for the class labeled **OUTLIER**.
 
 |probability of class: |  1 | 0 |  
 |----------------------|--------|-
@@ -260,11 +260,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ1NjkxNzgsMjA4NjkyMDcyNiwtMT
-U4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkz
-NTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC
-01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mjc5
-NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0NC
-wxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2
-MjYwMjhdfQ==
+eyJoaXN0b3J5IjpbLTgzNTc4NzI2NywyMDg2OTIwNzI2LC0xNT
+gwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1
+NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLT
+U0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUwMTY0MDAsLTYyNzk1
+NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0LD
+E3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC01NjYy
+NjAyOF19
 -->
