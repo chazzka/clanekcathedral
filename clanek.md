@@ -232,14 +232,15 @@ As of P. Oliveri in (https://doi.org/10.1016/j.aca.2017.05.013), such problems c
 One-class problems are focused on a single class of interest (the target class), which can be properly defined and sampled, while non-target samples do not constitute a meaningful class and cannot be sampled in a thorough and comprehensive way.
 
 
-Scikit's platform offer us two algorithms for novelty detection.
-The OneClass SVM algorithm and the Local Outlier Factor algorithm.
+Scikit's platform offers us two algorithms for novelty detection.
+The One-class SVM algorithm and the Local Outlier Factor algorithm.
 Let us describe them and put them to the test.
 
 #### One-class SVM
 One-class SVM was first introduced by Schölkopf, Bernhard, et al. in (1).
 One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
-According to REF, the One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
+According to (https://www.google.cz/books/edition/Proceedings_of_the_6th_International_Con/2F6LEAAAQBAJ?hl=en&gbpv=0, page 108), the One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
+
 
 #### Local outlier factor
 Tady vysvětli jak funguje
@@ -265,7 +266,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzYzODA0MywtMTU1Nzk1MTA0NywtMj
+eyJoaXN0b3J5IjpbLTUxMDc1ODM2NiwtMTU1Nzk1MTA0NywtMj
 AwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4Njky
 MDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OS
 w3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5
