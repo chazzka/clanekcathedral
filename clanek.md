@@ -220,7 +220,12 @@ Let us define the semi-supervised learning as follows.
 The semi-supervised learning in this context is a type of learning where we only have a part of the data labeled, and are interested in detecting, whether the data observed later fits in our label or not.
 
 #### Novelty detection
-Novelty detection is a semi-supervised learning paradigm, where training data is not polluted by outliers and we are interested in detecting whether a new observation is an outlier. In this context an outlier is also called a novelty.
+Novelty detection is a semi-supervised learning paradigm, where training data is not polluted by outliers and we are interested in detecting whether a new observation is an outlier. 
+In this context an outlier is also called a novelty.
+
+Scikit's platform offer us two algorithms for novelty detection.
+The OneClass SVM algorithm and the Local Outlier Factor algorithm.
+Let us 
 
 #### OneClass SVM
 tady vysvětli jak funuguje 
@@ -249,11 +254,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzg4MTc0NywtMTU4MDE1MjQ3MywxMT
-E5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEw
-MCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsND
-c2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgx
-OTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLD
-IwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4
-NTA0OV19
+eyJoaXN0b3J5IjpbNDEwMTI2NDA2LC0xNTgwMTUyNDczLDExMT
+kzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAw
+LDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0Nz
+Y0NjQxODYsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5
+MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMj
+AwODcyNTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1
+MDQ5XX0=
 -->
