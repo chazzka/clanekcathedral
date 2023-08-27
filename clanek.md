@@ -239,7 +239,9 @@ Let us describe them and put them to the test.
 #### One-class SVM
 One-class SVM was first introduced by Schölkopf, Bernhard, et al. in (1).
 One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
-According to (https://www.google.cz/books/edition/Proceedings_of_the_6th_International_Con/2F6LEAAAQBAJ?hl=en&gbpv=0, page 108), the One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
+- ú)
+According to the One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
+
 
 
 #### Local outlier factor
@@ -266,11 +268,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDc1ODM2NiwtMTU1Nzk1MTA0NywtMj
-AwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4Njky
-MDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OS
-w3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5
-MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2ND
-AwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUs
-LTE5Njg0NF19
+eyJoaXN0b3J5IjpbODIxODkzNzc2LC0xNTU3OTUxMDQ3LC0yMD
+A5ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUwMDQxMiwyMDg2OTIw
+NzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3NDU5LD
+c2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEyMjkx
+NjY1MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUwMTY0MD
+AsLTYyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwt
+MTk2ODQ0XX0=
 -->
