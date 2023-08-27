@@ -223,6 +223,7 @@ This means that, for the reasons defined above, the ANN algorithm was not able t
 These findings lead us to the area of datamining, that is in the middle of supervised and unsupervised learning, the semi-supervised learning.
 Let us define the semi-supervised learning as follows.
 The semi-supervised learning in this context is a type of learning where we only have a part of the data labeled, and are interested in detecting, whether the data observed later fits in our label or not.
+The semi-supervised learning is al
 
 #### Novelty detection
 Novelty detection is a semi-supervised learning paradigm, where training data is not polluted by outliers and we are interested in detecting whether a new observation is an outlier. 
@@ -261,11 +262,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwOD
-Y5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0
-NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMT
-IyOTE2NjUxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAx
-NjQwMCwtNjI3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMj
-Q1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1
-MjU2MjZdfQ==
+eyJoaXN0b3J5IjpbLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMD
+c2NTAwNDEyLDIwODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1
+OTEzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMj
+AzMTYzMjg0NywtMTIyOTE2NjUxOSwtNTQyNTI4NTAzLDQ3NjQ2
+NDE4NiwtMTYyNTAxNjQwMCwtNjI3OTU3NTEwLC0xMTU4MTkwNT
+c3LC0xMDkyOTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4
+NzI1OTc0XX0=
 -->
