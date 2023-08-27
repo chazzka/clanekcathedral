@@ -236,6 +236,7 @@ Let us describe them and put them to the test.
 OneClass SVM was first introduced by Schölkopf, Bernhard, et al. in (1).
 
 
+
 #### Local outlier factor
 Tady vysvětli jak funguje
 
@@ -260,11 +261,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc2OTgwNywtMTA3NjUwMDQxMiwyMD
-g2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3
-NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLT
-EyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUw
-MTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MT
-I0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0
-NTI1NjI2XX0=
+eyJoaXN0b3J5IjpbNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwOD
+Y5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0
+NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMT
+IyOTE2NjUxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAx
+NjQwMCwtNjI3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMj
+Q1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1
+MjU2MjZdfQ==
 -->
