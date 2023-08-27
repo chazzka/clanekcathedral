@@ -248,7 +248,9 @@ That is, SVM is an supervised learning algorithm.
 One-class SVM described in this article is as of Tax and Duin in (https://link.springer.com/content/pdf/10.1023/B:MACH.0000008084.60811.49.pdf).
 One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
 The above-mentioned One-class SVM definition obtains a spherically shaped boundary around the complete target set.
-
+The sphere is characterized by center a and radius R > 0.
+In SVM, the volume of the sphere is min by minimizing $R^2$, and demand that the sphere
+contains all training objects xi .
 
 
 - [ ] TODO: TOTO POCHOP A POPIS VLASTNIMI SLOVY
@@ -282,11 +284,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcwOD
-k2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUx
-MDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUwMDQxMi
-wyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0
-Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4ND
-csLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2
-MjUwMTY0MDBdfQ==
+eyJoaXN0b3J5IjpbOTc4ODgwODcsMTI3NjYyNTUyMSw0NjA4MT
+M5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5
+LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMT
+A3NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkz
+NTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLD
+IwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0
+NjQxODZdfQ==
 -->
