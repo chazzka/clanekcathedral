@@ -205,7 +205,7 @@ X_train, X_test, y_train, y_test = train_test_split(regularX, regularY, stratify
 clf = MLPClassifier().fit(X_train, y_train)
 
 regular_prediction = clf.predict_proba(X_test[:1]))
-outlier_prediction = print(clf.predict_proba(outlierX[:1]))
+outlier_prediction = clf.predict_proba(outlierX[:1])
 ```
 
 The results are shown in Table X. Note, that each prediction was run 30 times and the average value was taken. For the *regular_prediction *, containing the prediction of the testing set with data labeled **REGULAR** are expected, the average probability of 0.96727484 for the class labeled **REGULAR** and the average probability of 0.03272516 for the class labeled **OUTLIER**.
@@ -260,11 +260,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NDY1ODgsMjA4NjkyMDcyNiwtMTU4MD
-E1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcs
-LTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC01ND
-I1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mjc5NTc1
-MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0NCwxNz
-g1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYw
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTEwNzY1MDA0MTIsMjA4NjkyMDcyNiwtMT
+U4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkz
+NTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC
+01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mjc5
+NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0NC
+wxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2
+MjYwMjhdfQ==
 -->
