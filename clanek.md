@@ -238,8 +238,7 @@ Let us describe them and put them to the test.
 
 #### OneClass SVM
 OneClass SVM was first introduced by Schölkopf, Bernhard, et al. in (1).
-
-
+One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
 
 #### Local outlier factor
 Tady vysvětli jak funguje
@@ -265,7 +264,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU5MDE3NjQsLTIwMDk4Mzk2NTIsNj
+eyJoaXN0b3J5IjpbLTE1NTc5NTEwNDcsLTIwMDk4Mzk2NTIsNj
 M4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3MjYsLTE1ODAx
 NTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC
 0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUxOSwtNTQy
