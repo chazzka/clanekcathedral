@@ -194,9 +194,9 @@ class Label(Enum):
     OUTLIER = 1
 
 
-regularX = [tup[0] for tup in zip(X,y) if tup[1] == Label.REGULAR.value]
+regularX = X[y==Label.REGULAR.value]
 
-outlierX = [tup[0] for tup in zip(X,y) if tup[1] == Label.OUTLIER.value]
+outlierX = X[y==Label.OUTLIER.value]
 
 regularY = np.zeros(len(regularX))
 
@@ -272,11 +272,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjczNzk1MSwtODU5MjE5NzU5LC0xNT
-U3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUw
-MDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMz
-QsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2
-MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQxOD
-YsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5MDU3Nywt
-MTA5Mjk1MTI0NV19
+eyJoaXN0b3J5IjpbLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMT
+U1Nzk1MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1
+MDA0MTIsMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MT
+M0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMx
+NjMyODQ3LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MT
+g2LC0xNjI1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1Nzcs
+LTEwOTI5NTEyNDVdfQ==
 -->
