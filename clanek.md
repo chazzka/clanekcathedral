@@ -220,7 +220,7 @@ Let us define the semi-supervised learning as follows.
 The semi-supervised learning in this context is a type of learning where we only have a part of the data labeled, and are interested in detecting, whether the data observed later fits in our label or not.
 
 #### Novelty detection
-ok je teda jasné že potřebujeme nějaké semi supervised novelty detection, můžeš tu zkusit definovat pojem semi supervised
+Novelty detection is a semi-supervised learning paradigm, designed to be fitted the data with one label and 
 
 #### OneClass SVM
 tady vysvětli jak funuguje 
@@ -249,7 +249,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTgxMTYzLC0xNTgwMTUyNDczLDExMT
+eyJoaXN0b3J5IjpbNDI1NTI0NjI1LC0xNTgwMTUyNDczLDExMT
 kzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAw
 LDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0Nz
 Y0NjQxODYsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5
