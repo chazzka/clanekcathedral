@@ -208,7 +208,9 @@ labelZeroPrediction  = clf.predict_proba(onlyZeroLabelX[:1])
 
 The results for the *labelOnePrediction*, containing the prediction of the testing set with data labeled **one** are expected, the probability of 0.96727484 for the class labeled **one** and the probability of 0.03272516 for the class labeled **zero**.
 However, for the *labelZeroPrediction*, the results are very unsatisfactory,
-the probabilty of 0.97993453 0.02006547]]
+the probability of 0.97993453 for the class labeled **one** and the probability of 0.02006547 for the class labeled **zero**.
+
+
 
 
 
@@ -244,10 +246,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5NTcyMDc5LDExMTkzNTkxMzQsMzU0Mj
-c3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcs
-LTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2Mj
-UwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1
-MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxOD
-g0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbLTEwNTI2Njc5MTYsMTExOTM1OTEzNCwzNT
+QyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0
+NywtMTIyOTE2NjUxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMT
+YyNTAxNjQwMCwtNjI3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDky
+OTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LD
+E4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
