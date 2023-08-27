@@ -251,13 +251,8 @@ The above-mentioned One-class SVM definition obtains a spherically shaped bounda
 The sphere is characterized by center a and radius R > 0.
 In SVM, by minimizing $R^2$, the volume of the sphere is minimized.
 The demand here is that the sphere contains all training objects.
-
-
-
-- [ ] TODO: TOTO POCHOP A POPIS VLASTNIMI SLOVY
-
 The One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
-By adding a *frontier* variable 
+This way, the One-class classification is po
 
 
 
@@ -285,11 +280,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0Nj
-A4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5
-NzU5LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MS
-wtMTA3NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDEx
-MTkzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMT
-AwLDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0
-NzY0NjQxODZdfQ==
+eyJoaXN0b3J5IjpbNTczNDI0NTYyLC0xODc5MjM0OTU2LDEyNz
+Y2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMwMzEsLTE2MzcwODEy
+NjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Mi
+w2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4
+MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNT
+csLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC01
+NDI1Mjg1MDNdfQ==
 -->
