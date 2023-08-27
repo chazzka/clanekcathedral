@@ -194,13 +194,13 @@ class Label(Enum):
     OUTLIER = 1
 
 
-regularX = list(filter(lambda x: len(x) != 0, map(lambda X,y: X if y == Label.REGULAR.value else [], X,y)))
-outlierX = list(filter(lambda x: len(x) != 0, map(lambda X,y: X if y == Label.OUTLIER.value else [], X,y)))
+regularX = [tup[0] for tup in zip(X,y) if tup[1] == Label.REGULAR.value]
+
+outlierX = [tup[0] for tup in zip(X,y) if tup[1] == Label.OUTLIER.value]
 
 regularY = np.zeros(len(regularX))
 
-
-X_train, X_test, y_train, y_test = train_test_split(regularX, regularY, stratify=regularY)
+X_train, X_test, y_train, y_test = train_test_split(regularX, regularY)
 
 clf = MLPClassifier().fit(X_train, y_train)
 
@@ -220,7 +220,7 @@ the average probability of 0.97993453 for the class labeled **REGULAR** and the 
 This means that, for the reasons defined above, the ANN algorithm was not able to detect the class it has not seen before.
 
 ### Semi-supervised learning
-These finding lead us to the area of datamining, that is in the middle of supervised and unsupervised learning, the semi-supervised learning.
+These findings lead us to the area of datamining, that is in the middle of supervised and unsupervised learning, the semi-supervised learning.
 Let us define the semi-supervised learning as follows.
 The semi-supervised learning in this context is a type of learning where we only have a part of the data labeled, and are interested in detecting, whether the data observed later fits in our label or not.
 
@@ -260,11 +260,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY1MDA0MTIsMjA4NjkyMDcyNiwtMT
-U4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkz
-NTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC
-01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mjc5
-NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0NC
-wxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2
-MjYwMjhdfQ==
+eyJoaXN0b3J5IjpbLTE3ODc2OTgwNywtMTA3NjUwMDQxMiwyMD
+g2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3
+NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLT
+EyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUw
+MTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MT
+I0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0
+NTI1NjI2XX0=
 -->
