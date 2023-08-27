@@ -178,7 +178,9 @@ Since we can only provide one of the labels (the regular data), the ANN will fai
 For the following example, we use the Scikit's ANN implementation.
 
 ##### Example ANN:
-
+In this example, we first get some random, classified arrays of data with respective labels (zero and one).
+Then, we filter the data so that we only have one specific label.
+Instead of feeding the neural network with two l
 
 ```python
 from sklearn.neural_network import MLPClassifier
@@ -237,10 +239,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1ODY4MjAyLDExMTkzNTkxMzQsMzU0Mj
-c3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcs
-LTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2Mj
-UwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1
-MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxOD
-g0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbMTk1NDE1NTEyOSwxMTE5MzU5MTM0LDM1ND
+I3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3
+LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNj
+I1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5
+NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMT
+g4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
 -->
