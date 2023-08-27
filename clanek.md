@@ -250,6 +250,7 @@ That is, SVM is an supervised learning algorithm.
 
 
 The One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
+By adding a *frontier* variable 
 
 
 
@@ -277,11 +278,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzkzMDAzMCwtNzA4OTYzMDMxLC0xNj
-M3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4
-Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3Mj
-YsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYy
-MDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2Nj
-UxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwt
-NjI3OTU3NTEwXX0=
+eyJoaXN0b3J5IjpbNDYwODEzOTA4LC03MDg5NjMwMzEsLTE2Mz
+cwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0NywtMjAwOTgz
+OTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4NjkyMDcyNi
+wtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIw
+MjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NT
+E5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02
+Mjc5NTc1MTBdfQ==
 -->
