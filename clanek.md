@@ -219,7 +219,6 @@ These finding lead us to the area of datamining, that is in the middle of superv
 Let us define the semi-supervised learning as follows.
 The semi-supervised learning in this context is a type of learning where we only have a part of the data labeled, and are interested in detecting, whether the data observed later fits in our label or not.
 
-
 #### Novelty detection
 ok je teda jasné že potřebujeme nějaké semi supervised novelty detection, můžeš tu zkusit definovat pojem semi supervised
 
@@ -250,10 +249,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNT
-QyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0
-NywtMTIyOTE2NjUxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMT
-YyNTAxNjQwMCwtNjI3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDky
-OTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LD
-E4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbLTIxNTgxMTYzLC0xNTgwMTUyNDczLDExMT
+kzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAw
+LDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0Nz
+Y0NjQxODYsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5
+MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMj
+AwODcyNTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1
+MDQ5XX0=
 -->
