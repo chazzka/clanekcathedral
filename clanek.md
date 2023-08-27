@@ -250,11 +250,9 @@ One-class SVM is an unsupervised algorithm that learns a decision function for n
 The above-mentioned One-class SVM definition obtains a spherically shaped boundary around the complete target set.
 The sphere is characterized by center a and radius R > 0.
 In SVM, by minimizing $R^2$, the volume of the sphere is minimized.
-The demand here is that the sphere contains all training objects.
+The demand here is that the sphere contains all training objects - in our case regular labeled.
 The One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
-This way, the One-class classification is po
-
-
+This way, the One-class classification is possible.
 
 #### Local outlier factor
 Tady vysvětli jak funguje
@@ -265,7 +263,7 @@ Other notable parameters with huge impact on the result are...
 This kind of issue is widely known amongst AutoML community.
 Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
 
-#### Examples
+#### Experiments
  obrázky, tabulka, výhody, nevýhody
  
 
@@ -280,11 +278,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNDI0NTYyLC0xODc5MjM0OTU2LDEyNz
-Y2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMwMzEsLTE2MzcwODEy
-NjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Mi
-w2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4
-MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNT
-csLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC01
-NDI1Mjg1MDNdfQ==
+eyJoaXN0b3J5IjpbLTU5MzAxMDc0MiwtMTg3OTIzNDk1NiwxMj
+c2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNjM3MDgx
+MjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4Mzk2NT
+IsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3MjYsLTE1
+ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYyMDI5Mz
+U3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUxOSwt
+NTQyNTI4NTAzXX0=
 -->
