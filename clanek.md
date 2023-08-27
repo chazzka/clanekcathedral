@@ -175,7 +175,34 @@ This may seem like a perfect method for our problem.
 However in our scenario, we have the regular data labeled and ready to provide for the learning but that is not the case for the anomalous data.
 This is a huge problem for the ANN algorithm, because it needs to alter its weights based on the previously seen labeled data.
 Since we can only provide one of the labels (the regular data), the ANN will fail to find the other label.
-Consider followeing example 
+For the following example, we use the Scikit's ANN implementation.
+
+##### Example ANN:
+
+
+```python
+from sklearn.neural_network import MLPClassifier
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+import numpy as np
+X, y = make_classification(n_samples=100, random_state=1)
+
+
+onlyOneLabelX = list(filter(lambda x: len(x) != 0, map(lambda X,y: X if y == 1 else [], X,y)))
+onlyZeroLabelX = list(filter(lambda x: len(x) != 0, map(lambda X,y: X if y == 0 else [], X,y)))
+
+onlyOneLabely = np.ones(len(onlyOneLabelX))
+onlyZeroLabely = np.zeros(len(onlyZeroLabelX))
+
+
+X_train, X_test, y_train, y_test = train_test_split(onlyOneLabelX, onlyOneLabely, stratify=onlyOneLabely, random_state=1)
+
+clf = MLPClassifier(random_state=1, max_iter=300).fit(X_train, y_train)
+
+print(clf.predict_proba(X_test[:1]))
+print(clf.predict_proba(onlyZeroLabelX[:1]))
+```
+
 
 
 ann je supervised learning a zdálo by se že stačí naučit jak teda vypadají dobré data a ona nám pak řekne že toto je dobré. To není tak uplně pravda, neuronku je potřeba naučit dobré i špatné, to je ten rozdíl.. zkus to více vysvětlit proč tomu tak je ,docela mě to dokonce zajímá.
@@ -210,7 +237,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MTE0NDg2LDExMTkzNTkxMzQsMzU0Mj
+eyJoaXN0b3J5IjpbODc1ODY4MjAyLDExMTkzNTkxMzQsMzU0Mj
 c3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcs
 LTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2Mj
 UwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1
