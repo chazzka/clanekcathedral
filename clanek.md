@@ -161,10 +161,11 @@ The less partition is needed to separate the datapoint, the more anomalous it ge
 The Isolation Forest algorithm creates a new separation space based on the previously seen datapoints, hence there is not much room for the new, possibly novel datapoint, to be marked so.
 New datapoints often fall into the same separation space with the previously seen, regular-marked datapoints, marking them regular.
 Similar principles goes with other outlier detection algorithms. 
-The example shows, that we need some kind of supervised 
+The example shows, that we need some kind of supervised method to make the algorithm learn on the regular data.
+This leads us to supervised learning.
 
 ### Supervised learning
-
+As shown in the above sections, the supervised learning 
 No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algortimy protože potřebujeme nejprve naučit co je správné a pak teprve ať nám řekne co je špatné.
 Nabízí se neuronka, 
 
@@ -201,10 +202,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMzIxMTMsMzU0Mjc3NDU5LDc2MjAyOT
-M1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEyMjkxNjY1MTks
-LTU0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUwMTY0MDAsLTYyNz
-k1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0
-LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC01Nj
-YyNjAyOCwtNzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbLTE2NzI5MTM2MzAsMzU0Mjc3NDU5LDc2Mj
+AyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEyMjkxNjY1
+MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUwMTY0MDAsLT
+YyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2
+ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC
+01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
 -->
