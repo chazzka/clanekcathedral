@@ -180,7 +180,8 @@ For the following example, we use the Scikit's ANN implementation.
 ##### Example ANN:
 In this example, we first get some random, classified arrays of data with respective labels (zero and one).
 Then, we filter the data so that we only have one specific label.
-Instead of feeding the neural network with two l
+Instead of feeding the neural network training set containing both labels, we only feed it with data labeled with **ones**.
+
 
 ```python
 from sklearn.neural_network import MLPClassifier
@@ -239,7 +240,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDE1NTEyOSwxMTE5MzU5MTM0LDM1ND
+eyJoaXN0b3J5IjpbMTQwOTIzMDM2MiwxMTE5MzU5MTM0LDM1ND
 I3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3
 LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNj
 I1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5
