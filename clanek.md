@@ -225,10 +225,10 @@ In this context an outlier is also called a novelty.
 
 Scikit's platform offer us two algorithms for novelty detection.
 The OneClass SVM algorithm and the Local Outlier Factor algorithm.
-Let us 
+Let us describe them and put them to the test.
 
 #### OneClass SVM
-tady vysvětli jak funuguje 
+
 
 #### Local outlier factor
 Tady vysvětli jak funguje
@@ -254,11 +254,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwMTI2NDA2LC0xNTgwMTUyNDczLDExMT
-kzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAw
-LDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0Nz
-Y0NjQxODYsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwtMTE1ODE5
-MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0LDE3ODU5NTk3ODIsMj
-AwODcyNTk3NCwxODg0NTI1NjI2LC01NjYyNjAyOCwtNzcxOTg1
-MDQ5XX0=
+eyJoaXN0b3J5IjpbLTEyOTczMDQ0NDQsLTE1ODAxNTI0NzMsMT
+ExOTM1OTEzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMx
+MDAsMjAzMTYzMjg0NywtMTIyOTE2NjUxOSwtNTQyNTI4NTAzLD
+Q3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNjI3OTU3NTEwLC0xMTU4
+MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4Mi
+wyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5
+ODUwNDldfQ==
 -->
