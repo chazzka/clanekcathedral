@@ -106,8 +106,11 @@ This means, that if the dataset contains observations which look like anomalies 
 
 ### Unsupervised methods
 The above leads us to consider an anomaly detection algorithms. Outlier detection methods are famous unsupervised methods. 
-Unsupervised in this context means, that w
+Unsupervised in this context means, that we do not need any kind of pre-labeled data.
+The data are passed to the algorithm as they are.
+Note that some preprocessing may be needed, depending on the specific algorithm.
 
+### Outlier detection
 - [ ] TODO: na isolation forestu vam ukazeme ze outlier detection urcite neni novelty detection
 
 #### Example: Isolation Forest
@@ -198,10 +201,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODk0NzA2NCwzNTQyNzc0NTksNzYyMD
-I5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUx
-OSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNj
-I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
-NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
-U2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbNjQ5OTY2Njc0LDM1NDI3NzQ1OSw3NjIwMj
+kzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5
+LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mj
+c5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0
+NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNT
+Y2MjYwMjgsLTc3MTk4NTA0OV19
 -->
