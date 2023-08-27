@@ -228,7 +228,7 @@ The semi-supervised learning is al
 #### Novelty detection
 Novelty detection is a semi-supervised learning paradigm, where training data is not polluted by outliers and we are interested in detecting whether a new observation is an outlier. 
 In this context an outlier is also called a novelty.
-As of P. Oliveri in(In this context an outlier is also called a novelty., such problems can also be called One-class problems.
+As of P. Oliveri in (https://doi.org/10.1016/j.aca.2017.05.013), such problems can also be called One-class problems.
 One-class problems are focused on a single class of interest (the target class), which can be properly defined and sampled, while non-target samples do not constitute a meaningful class and cannot be sampled in a thorough and comprehensive way.
 
 
@@ -265,11 +265,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzI3NzQwNCwtMjAwOTgzOTY1Miw2Mz
-g4MzcxNTEsLTEwNzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4MDE1
-MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLT
-I1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC01NDI1
-Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mjc5NTc1MT
-AsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0NCwxNzg1
-OTU5NzgyXX0=
+eyJoaXN0b3J5IjpbLTEyMzU5MDE3NjQsLTIwMDk4Mzk2NTIsNj
+M4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3MjYsLTE1ODAx
+NTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC
+0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUxOSwtNTQy
+NTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNjI3OTU3NT
+EwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4NDQsMTc4
+NTk1OTc4Ml19
 -->
