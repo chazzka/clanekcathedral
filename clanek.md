@@ -242,7 +242,7 @@ One-class SVM is an unsupervised algorithm that learns a decision function for n
 
 - [ ] TODO: TOTO POCHOP A POPIS VLASTNIMI SLOVY
 
-The 
+The SVM algorithm
 
 The One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
 
@@ -272,7 +272,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzMyMjcxOCwtODU5MjE5NzU5LC0xNT
+eyJoaXN0b3J5IjpbMjA4MjczNzk1MSwtODU5MjE5NzU5LC0xNT
 U3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUw
 MDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMz
 QsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2
