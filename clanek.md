@@ -121,8 +121,6 @@ The less partitions required to isolate the more probable it is for a particle t
 The Scikit-Learn platform (scikit-learn.org) offers several implemented, documented and tested machine-learning open-source algorithms.
 Its implementation of Isolation Forest has, in time of writing this text, 5 hyperparameters which need to be explicitly chosen and tuned.
 
-TODO: CONTAMINATION PORAD EXISTUJE, BUDE NAS ZAJIMAT i u novelty, k zamyšlení
-
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
@@ -143,9 +141,6 @@ Figure X shows the example of running Isolation Forest on the same dataset as ab
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001.svg)
 > Figure X dataset with contamination = 0.01
 
-
-
-Ukážeme si experiment, co dělá isolation forest kde se pokusime forestu nacpat nové data a budeme čekat že je označí dobře ale blbost, neoznačí. Vysvěltíme v pár větách jak isolation forest funguje v principu, spíš obecně jak funguje ta myšenka outlier detection a že to rozhodně není co chceme
 
 We can leverage on this knowledge and try to provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
 First, we use Scikit Isolation Forest *fit* method, to fit the regular data.
@@ -210,8 +205,8 @@ The results are shown in Table X. For the *labelOnePrediction*, containing the p
 However, for the *labelZeroPrediction*, the results are very unsatisfactory,
 the probability of 0.97993453 for the class labeled **one** and the probability of 0.02006547 for the class labeled **zero**.
 
-|probabilty of class: |  1 | 0 |  
-|----------------------|--------|--
+|probability of class: |  1 | 0 |  
+|----------------------|--------|-
 | test data labeled 1 |  0.96727484 | 0.03272516 | 
 | test data labeled 0     |0.97993453 | 0.02006547|   
 
@@ -250,7 +245,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjg5MDE1OCwxMTE5MzU5MTM0LDM1ND
+eyJoaXN0b3J5IjpbLTkwNDI3NzQ2OSwxMTE5MzU5MTM0LDM1ND
 I3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3
 LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNj
 I1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5
