@@ -202,8 +202,8 @@ X_train, X_test, y_train, y_test = train_test_split(onlyOneLabelX, onlyOneLabely
 
 clf = MLPClassifier(random_state=1, max_iter=300).fit(X_train, y_train)
 
-print(clf.predict_proba(X_test[:1]))
-print(clf.predict_proba(onlyZeroLabelX[:1]))
+labelOnePrediction = clf.predict_proba(X_test[:1])
+labelZeroPrediction  = clf.predict_proba(onlyZeroLabelX[:1])
 ```
 
 
@@ -240,7 +240,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTIzMDM2MiwxMTE5MzU5MTM0LDM1ND
+eyJoaXN0b3J5IjpbLTQ4Nzk5NjU5NiwxMTE5MzU5MTM0LDM1ND
 I3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3
 LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNj
 I1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5
