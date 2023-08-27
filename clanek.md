@@ -166,7 +166,7 @@ This leads us to supervised learning.
 
 ### Supervised learning
 As shown in the above sections, the unsupervised learning led to undesired outcomes.
-If we consider pure supervised learning algorithm on the other hand, we quickly run into the opposite problem.
+If we consider pure supervised learning algorithms on the other hand, we quickly run into the opposite problem.
 Let us consider the alpha omega of supervised learning algorithms, the Artifical Neural Network.
 
 #### ANN
@@ -203,10 +203,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjY3MTg0LDM1NDI3NzQ1OSw3NjIwMj
-kzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5
-LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mj
-c5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0
-NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNT
-Y2MjYwMjgsLTc3MTk4NTA0OV19
+eyJoaXN0b3J5IjpbMTg3MjIxMTQwOSwzNTQyNzc0NTksNzYyMD
+I5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUx
+OSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNj
+I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
+NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
+U2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
