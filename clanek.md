@@ -167,12 +167,10 @@ This leads us to supervised learning.
 ### Supervised learning
 As shown in the above sections, the unsupervised learning led to undesired outcomes.
 If we consider pure supervised learning algorithm on the other hand, we quickly run into the opposite problem.
-Let us consider the alfa omega of supervised learning algorithms
-
-No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algortimy protože potřebujeme nejprve naučit co je správné a pak teprve ať nám řekne co je špatné.
-Nabízí se neuronka, 
+Let us consider the alpha omega of supervised learning algorithms, the Artifical Neural Network.
 
 #### ANN
+Artifical Neural Network is the supervised learning algorithm, where we construct a n-layer network of neurons and by backpropagating we alter the weigths 
 ann je supervised learning a zdálo by se že stačí naučit jak teda vypadají dobré data a ona nám pak řekne že toto je dobré. To není tak uplně pravda, neuronku je potřeba naučit dobré i špatné, to je ten rozdíl.. zkus to více vysvětlit proč tomu tak je ,docela mě to dokonce zajímá.
 
 #### Novelty detection
@@ -205,7 +203,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzMzNTg5NiwzNTQyNzc0NTksNzYyMD
+eyJoaXN0b3J5IjpbMTUwMzUyODYzNywzNTQyNzc0NTksNzYyMD
 I5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUx
 OSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNj
 I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
