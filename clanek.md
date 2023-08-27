@@ -249,8 +249,9 @@ One-class SVM described in this article is as of Tax and Duin in (https://link.s
 One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
 The above-mentioned One-class SVM definition obtains a spherically shaped boundary around the complete target set.
 The sphere is characterized by center a and radius R > 0.
-In SVM, the volume of the sphere is min by minimizing $R^2$, and demand that the sphere
-contains all training objects xi .
+In SVM, by minimizing $R^2$, the volume of the sphere is minimized.
+The demand here is that the sphere contains all training objects.
+
 
 
 - [ ] TODO: TOTO POCHOP A POPIS VLASTNIMI SLOVY
@@ -284,11 +285,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4ODgwODcsMTI3NjYyNTUyMSw0NjA4MT
-M5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5
-LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMT
-A3NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkz
-NTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLD
-IwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0
-NjQxODZdfQ==
+eyJoaXN0b3J5IjpbLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0Nj
+A4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5
+NzU5LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MS
+wtMTA3NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDEx
+MTkzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMT
+AwLDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0
+NzY0NjQxODZdfQ==
 -->
