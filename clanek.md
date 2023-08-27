@@ -236,17 +236,19 @@ Scikit's platform offers us two algorithms for novelty detection.
 The One-class SVM algorithm and the Local Outlier Factor algorithm.
 Let us describe them and put them to the test.
 
-#### One-class SVM
-One-class SVM was first introduced by Schölkopf, Bernhard, et al. in (1).
-One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
 
-- [ ] TODO: TOTO POCHOP A POPIS VLASTNIMI SLOVY
-
+#### SVM
 The SVM algorithm classifies the points by drawing a hyperplane in the observed space.
 The desired outcome here is to position this hyperplane such that the points of one class are on the one side and the second class on the other. 
 The best possible hyperplane position is obtained through optimizing the distances between points and the hyperplane (also called a margin).
 By providing labeled points, SVM is able to solve this optimization problem.
 That is, SVM is an supervised learning algorithm.
+
+#### One-class SVM
+One-class SVM described in this article is as of , Tax and Duin in (https://link.springer.com/content/pdf/10.1023/B:MACH.0000008084.60811.49.pdf).
+One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
+
+- [ ] TODO: TOTO POCHOP A POPIS VLASTNIMI SLOVY
 
 
 The One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
@@ -278,11 +280,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwODEzOTA4LC03MDg5NjMwMzEsLTE2Mz
-cwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0NywtMjAwOTgz
-OTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4NjkyMDcyNi
-wtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3NzQ1OSw3NjIw
-MjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0xMjI5MTY2NT
-E5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNjI1MDE2NDAwLC02
-Mjc5NTc1MTBdfQ==
+eyJoaXN0b3J5IjpbLTQ1NzE0ODE5OSw0NjA4MTM5MDgsLTcwOD
+k2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUx
+MDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUwMDQxMi
+wyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0
+Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4ND
+csLTEyMjkxNjY1MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2
+MjUwMTY0MDBdfQ==
 -->
