@@ -166,7 +166,8 @@ This leads us to supervised learning.
 
 ### Supervised learning
 As shown in the above sections, the unsupervised learning led to undesired outcomes.
-If we consider pure supervised learning algorithm on the other hand, we quickly come to a contrasting problem.
+If we consider pure supervised learning algorithm on the other hand, we quickly run into the opposite problem.
+Let us consider the alfa omega of supervised learning algorithms
 
 No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algortimy protože potřebujeme nejprve naučit co je správné a pak teprve ať nám řekne co je špatné.
 Nabízí se neuronka, 
@@ -204,10 +205,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQxMTMxNjQsMzU0Mjc3NDU5LDc2Mj
-AyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEyMjkxNjY1
-MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUwMTY0MDAsLT
-YyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2
-ODQ0LDE3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC
-01NjYyNjAyOCwtNzcxOTg1MDQ5XX0=
+eyJoaXN0b3J5IjpbMTM2MzMzNTg5NiwzNTQyNzc0NTksNzYyMD
+I5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUx
+OSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNj
+I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
+NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLT
+U2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
