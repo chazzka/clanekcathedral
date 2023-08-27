@@ -228,6 +228,7 @@ The OneClass SVM algorithm and the Local Outlier Factor algorithm.
 Let us describe them and put them to the test.
 
 #### OneClass SVM
+OneClass SVM was first introduced by Schölkopf, Bernhard, et al. in (1).
 
 
 #### Local outlier factor
@@ -254,11 +255,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTczMDQ0NDQsLTE1ODAxNTI0NzMsMT
-ExOTM1OTEzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMx
-MDAsMjAzMTYzMjg0NywtMTIyOTE2NjUxOSwtNTQyNTI4NTAzLD
-Q3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNjI3OTU3NTEwLC0xMTU4
-MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4Mi
-wyMDA4NzI1OTc0LDE4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5
-ODUwNDldfQ==
+eyJoaXN0b3J5IjpbMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMT
+E5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEw
+MCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsND
+c2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgx
+OTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLD
+IwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4
+NTA0OV19
 -->
