@@ -172,7 +172,10 @@ Let us consider the alpha omega of supervised learning algorithms, the Artificia
 #### ANN
 Artificial Neural Network is the supervised learning algorithm, where we construct a n-layer network of neurons and by backpropagating we alter their weights so that the inputs lead to the desired outputs, predicting the labels.
 This may seem like a perfect method for our problem.
-However in our scenario, we 
+However in our scenario, we have the regular data labeled and ready to provide for the learning but that is not the case for the anomalous data.
+
+
+
 ann je supervised learning a zdálo by se že stačí naučit jak teda vypadají dobré data a ona nám pak řekne že toto je dobré. To není tak uplně pravda, neuronku je potřeba naučit dobré i špatné, to je ten rozdíl.. zkus to více vysvětlit proč tomu tak je ,docela mě to dokonce zajímá.
 
 #### Novelty detection
@@ -205,7 +208,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjIwMDA3MSwzNTQyNzc0NTksNzYyMD
+eyJoaXN0b3J5IjpbMTExOTM1OTEzNCwzNTQyNzc0NTksNzYyMD
 I5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUx
 OSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwtNj
 I3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDkyOTUxMjQ1LC0xOTY4
