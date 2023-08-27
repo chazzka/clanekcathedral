@@ -38,7 +38,8 @@ Novelty
 
 The originality of this article can be defined as follows. 
 There are many successful algorithms used to analyze times series data, however the selling point here is the characterization of the problem not being simple outlier detection problem, rather a cluster-novelty detection (as defined later). 
-The successful cross-cooperation is what makes this solution feasible and interesting.
+The successful cross-cooperation is what makes this solution feasible and interesting. 
+This article is also an overview of the methods commonly used, and their drawbacks.
 
 ## Data
 ### Overview
@@ -49,6 +50,7 @@ In normal circumstances, the data obtained follow a specific distribution with
 
 - [ ] Todo: tady bych chtěl obrázky a nějaký přehled těch time series dat, co jsou ještě anomalie, co je na vstupu a tak
 ### Preprocessing
+- [ ] TODO: TO
 
 
 ## Methods
@@ -245,7 +247,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDI3NzQ2OSwxMTE5MzU5MTM0LDM1ND
+eyJoaXN0b3J5IjpbLTcxNjAxMzQxOCwxMTE5MzU5MTM0LDM1ND
 I3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3
 LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNj
 I1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5
