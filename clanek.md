@@ -165,7 +165,9 @@ The example shows, that we need some kind of supervised method to make the algor
 This leads us to supervised learning.
 
 ### Supervised learning
-As shown in the above sections, the supervised learning 
+As shown in the above sections, the unsupervised learning led to undesired outcomes.
+If we consider pure supervised learning algorithm on the other hand, we quickly come to a contrasting problem.
+
 No tak teď jsme si uvěodmili že teda není cesta používat unsupervised algortimy protože potřebujeme nejprve naučit co je správné a pak teprve ať nám řekne co je špatné.
 Nabízí se neuronka, 
 
@@ -202,7 +204,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI5MTM2MzAsMzU0Mjc3NDU5LDc2Mj
+eyJoaXN0b3J5IjpbLTE0NjQxMTMxNjQsMzU0Mjc3NDU5LDc2Mj
 AyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEyMjkxNjY1
 MTksLTU0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUwMTY0MDAsLT
 YyNzk1NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2
