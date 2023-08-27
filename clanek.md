@@ -206,6 +206,9 @@ labelOnePrediction = clf.predict_proba(X_test[:1])
 labelZeroPrediction  = clf.predict_proba(onlyZeroLabelX[:1])
 ```
 
+The results for the *labelOnePrediction*, containing the prediction of the testing set with data labeled **one** are expected, 0.96727484 0.03272516
+
+ and *labelOnePrediction*
 
 
 ann je supervised learning a zdálo by se že stačí naučit jak teda vypadají dobré data a ona nám pak řekne že toto je dobré. To není tak uplně pravda, neuronku je potřeba naučit dobré i špatné, to je ten rozdíl.. zkus to více vysvětlit proč tomu tak je ,docela mě to dokonce zajímá.
@@ -240,10 +243,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Nzk5NjU5NiwxMTE5MzU5MTM0LDM1ND
-I3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3
-LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNj
-I1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5
-NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMT
-g4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
+eyJoaXN0b3J5IjpbLTE2NjkxMTg4ODgsMTExOTM1OTEzNCwzNT
+QyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0
+NywtMTIyOTE2NjUxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMT
+YyNTAxNjQwMCwtNjI3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDky
+OTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LD
+E4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
 -->
