@@ -185,22 +185,27 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.datasets import make_classification
 from sklearn.model_selection import train_test_split
 import numpy as np
-X, y = make_classification(n_samples=100, random_state=1)
+from enum import Enum
+
+X, y = make_classification(n_samples=100)
+
+class Label(Enum):
+    REGULAR = 0
+    OUTLIER = 1
 
 
-onlyOneLabelX = list(filter(lambda x: len(x) != 0, map(lambda X,y: X if y == 1 else [], X,y)))
-onlyZeroLabelX = list(filter(lambda x: len(x) != 0, map(lambda X,y: X if y == 0 else [], X,y)))
+regularX = list(filter(lambda x: len(x) != 0, map(lambda X,y: X if y == Label.REGULAR.value else [], X,y)))
+outlierX = list(filter(lambda x: len(x) != 0, map(lambda X,y: X if y == Label.OUTLIER.value else [], X,y)))
 
-onlyOneLabely = np.ones(len(onlyOneLabelX))
-onlyZeroLabely = np.zeros(len(onlyZeroLabelX))
+regularY = np.zeros(len(regularX))
 
 
-X_train, X_test, y_train, y_test = train_test_split(onlyOneLabelX, onlyOneLabely, stratify=onlyOneLabely, random_state=1)
+X_train, X_test, y_train, y_test = train_test_split(regularX, regularY, stratify=regularY)
 
-clf = MLPClassifier(random_state=1, max_iter=300).fit(X_train, y_train)
+clf = MLPClassifier().fit(X_train, y_train)
 
-labelOnePrediction = clf.predict_proba(X_test[:1])
-labelZeroPrediction  = clf.predict_proba(onlyZeroLabelX[:1])
+regularPrediction = clf.predict_proba(X_test[:1]))
+outlierPrediction = print(clf.predict_proba(outlierX[:1]))
 ```
 
 The results are shown in Table X. For the *labelOnePrediction*, containing the prediction of the testing set with data labeled **one** are expected, the probability of 0.96727484 for the class labeled **one** and the probability of 0.03272516 for the class labeled **zero**.
@@ -255,11 +260,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMT
-E5MzU5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEw
-MCwyMDMxNjMyODQ3LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsND
-c2NDY0MTg2LC0xNjI1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgx
-OTA1NzcsLTEwOTI5NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLD
-IwMDg3MjU5NzQsMTg4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4
-NTA0OV19
+eyJoaXN0b3J5IjpbLTI5ODk1NTg2NiwyMDg2OTIwNzI2LC0xNT
+gwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1
+NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLT
+U0MjUyODUwMyw0NzY0NjQxODYsLTE2MjUwMTY0MDAsLTYyNzk1
+NzUxMCwtMTE1ODE5MDU3NywtMTA5Mjk1MTI0NSwtMTk2ODQ0LD
+E3ODU5NTk3ODIsMjAwODcyNTk3NCwxODg0NTI1NjI2LC01NjYy
+NjAyOF19
 -->
