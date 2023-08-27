@@ -242,7 +242,8 @@ One-class SVM is an unsupervised algorithm that learns a decision function for n
 
 - [ ] TODO: TOTO POCHOP A POPIS VLASTNIMI SLOVY
 
-The SVM algorithm 
+The SVM algorithm classifies the points by drawing a hyperplane in the observed space.
+The desired outcome here is to have this 
 
 The One-class SVM learns a decision function so that the input unlabelled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
 
@@ -272,11 +273,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtOD
-U5MjE5NzU5LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgz
-NzE1MSwtMTA3NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyND
-czLDExMTkzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1
-NDUzMTAwLDIwMzE2MzI4NDcsLTEyMjkxNjY1MTksLTU0MjUyOD
-UwMyw0NzY0NjQxODYsLTE2MjUwMTY0MDAsLTYyNzk1NzUxMCwt
-MTE1ODE5MDU3N119
+eyJoaXN0b3J5IjpbLTYxMjQwMTAxOSwtNzA4OTYzMDMxLC0xNj
+M3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4
+Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3Mj
+YsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYy
+MDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2Nj
+UxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMTYyNTAxNjQwMCwt
+NjI3OTU3NTEwXX0=
 -->
