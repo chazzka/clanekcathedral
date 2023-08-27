@@ -210,11 +210,10 @@ The results are shown in Table X. For the *labelOnePrediction*, containing the p
 However, for the *labelZeroPrediction*, the results are very unsatisfactory,
 the probability of 0.97993453 for the class labeled **one** and the probability of 0.02006547 for the class labeled **zero**.
 
-|probabilty of class     |  1 | shuttle.csv |   |   |
-|----------------------|--------|-------|---|---|
-| % anomalies/ % found |        |       |   |   |
-| % false positive     |        |       |   |   |
-|                      |        |       |   |   |
+|probabilty of class: |  1 | 0 |  
+|----------------------|--------|--
+| test data labeled 1 |  0.96727484 | 0.03272516 | 
+| test data labeled 0     |0.97993453 | 0.02006547|   
 
 This means that, for the reasons defined above, the ANN algorithm was not able to detect the class it has not seen before.
 
@@ -251,10 +250,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU3NTc1MDYsMTExOTM1OTEzNCwzNT
-QyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0
-NywtMTIyOTE2NjUxOSwtNTQyNTI4NTAzLDQ3NjQ2NDE4NiwtMT
-YyNTAxNjQwMCwtNjI3OTU3NTEwLC0xMTU4MTkwNTc3LC0xMDky
-OTUxMjQ1LC0xOTY4NDQsMTc4NTk1OTc4MiwyMDA4NzI1OTc0LD
-E4ODQ1MjU2MjYsLTU2NjI2MDI4LC03NzE5ODUwNDldfQ==
+eyJoaXN0b3J5IjpbMTMzMjg5MDE1OCwxMTE5MzU5MTM0LDM1ND
+I3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3
+LC0xMjI5MTY2NTE5LC01NDI1Mjg1MDMsNDc2NDY0MTg2LC0xNj
+I1MDE2NDAwLC02Mjc5NTc1MTAsLTExNTgxOTA1NzcsLTEwOTI5
+NTEyNDUsLTE5Njg0NCwxNzg1OTU5NzgyLDIwMDg3MjU5NzQsMT
+g4NDUyNTYyNiwtNTY2MjYwMjgsLTc3MTk4NTA0OV19
 -->
