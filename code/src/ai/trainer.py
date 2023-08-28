@@ -1,5 +1,10 @@
 import pickle
 import logging
+from sklearn.svm import OneClassSVM
+from sklearn.neighbors import LocalOutlierFactor
+from sklearn import linear_model 
+
+
 
 
 
@@ -32,6 +37,14 @@ def fitPredict(df, model):
 def getClusterLabels(xyValues, predicted, clusterArgs, model):
     anomalies = map(lambda x: -x, predicted)
     return model(**clusterArgs).fit_predict(list(xyValues), sample_weight=list(anomalies))
+
+
+def localOutlierTrain(X_train):
+    return LocalOutlierFactor(novelty=True).fit(X_train)
+
+
+def sdgSvmTrain(X_train):
+    return linear_model.SGDOneClassSVM().fit(X_train)
 
 
 def doTrain(X_train, trainingArgs, model):
