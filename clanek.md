@@ -253,7 +253,8 @@ The One-class SVM learns a decision function so that the input unlabeled data ca
 This way, the One-class classification is possible, and this method is semi-supervised.
 
 #### Local outlier factor
-Local Outlier Factor is 
+Local Outlier Factor is a neighborhood -based algorithm.
+It first calculates the reachability matrix 
 
 #### setting the right parameters
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
@@ -276,7 +277,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjIxMTU2MiwtNTkzMDEwNzQyLC0xOD
+eyJoaXN0b3J5IjpbLTk5NDk4ODc3OSwtNTkzMDEwNzQyLC0xOD
 c5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMw
 MzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0Ny
 wtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4
