@@ -51,7 +51,7 @@ In normal circumstances, the data obtained follow a specific distribution with
 - [ ] Todo: tady bych chtěl obrázky a nějaký přehled těch time series dat, co jsou ještě anomalie, co je na vstupu a tak
 ### Preprocessing
 - [ ] TODO: TOTO ASI NE, MOZNA JEN JEDNA VETA
-
+- [ ] novelty se těžko normalizuje protože nevíš kde jsou novelty body, ještě je nemáš
 
 ## Methods
 
@@ -297,11 +297,11 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MD
-QxOTExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUy
-MSw0NjA4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtOD
-U5MjE5NzU5LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgz
-NzE1MSwtMTA3NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyND
-czLDExMTkzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1
-NDUzMTAwXX0=
+eyJoaXN0b3J5IjpbMTc3MDczOTM2MSw5NTY4MDYzNDYsNTcxMz
+k0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1
+NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNj
+M3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4
+Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3Mj
+YsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYy
+MDI5MzU3XX0=
 -->
