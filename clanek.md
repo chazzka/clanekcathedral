@@ -254,7 +254,7 @@ This way, the One-class classification is possible, and this method is semi-supe
 
 #### Local outlier factor
 Local Outlier Factor is a neighborhood -based algorithm.
-It first calculates the reachability matrix 
+It first calculates the reachability matrix by 
 
 #### setting the right parameters
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
@@ -277,11 +277,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDk4ODc3OSwtNTkzMDEwNzQyLC0xOD
-c5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMw
-MzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0Ny
-wtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4
-NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3Nz
-Q1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0x
-MjI5MTY2NTE5XX0=
+eyJoaXN0b3J5IjpbLTE5MTI4Mzg0ODgsLTU5MzAxMDc0MiwtMT
+g3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYz
+MDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwND
+csLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIw
+ODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNz
+c0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0Nywt
+MTIyOTE2NjUxOV19
 -->
