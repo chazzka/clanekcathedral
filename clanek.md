@@ -111,7 +111,8 @@ This a crucial distinction, due to a fact that whereas the outlier detection is 
 This means, that if the dataset contains observations which look like anomalies but are still valid, the performance of unsupervised outlier detection in such case is usually unsatisfactory. 
 
 ### Unsupervised methods
-The above leads us to consider an anomaly detection algorithms. Outlier detection methods are famous unsupervised methods. 
+The above leads us to consider anomaly detection algorithms.
+Outlier detection methods are famous unsupervised methods. 
 Unsupervised in this context means, that we do not need any kind of pre-labeled data.
 The data are passed to the algorithm as they are.
 Note that some preprocessing may be needed, depending on the specific algorithm.
@@ -301,11 +302,11 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU0Nzk4NDUsOTU2ODA2MzQ2LDU3MT
-M5NDkzNiwtOTM1MDQxOTExLC01OTMwMTA3NDIsLTE4NzkyMzQ5
-NTYsMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcwODk2MzAzMSwtMT
-YzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC0yMDA5
-ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUwMDQxMiwyMDg2OTIwNz
-I2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3NDU5LDc2
-MjAyOTM1N119
+eyJoaXN0b3J5IjpbLTQ1OTIwOTU0NCw5NTY4MDYzNDYsNTcxMz
+k0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1
+NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNj
+M3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4
+Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3Mj
+YsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYy
+MDI5MzU3XX0=
 -->
