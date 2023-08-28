@@ -268,7 +268,8 @@ Some tools have already been implemented that try to deal with the issue of auto
 
 #### Experiments
 For the following experiments, the data described in the introductory section were used.
-
+In the experiment, we observe following properties:
+1. The average 
 
  obrázky, tabulka, výhody, nevýhody
  
@@ -284,11 +285,11 @@ For the following experiments, the data described in the introductory section we
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTU2Mzg2MiwtOTM1MDQxOTExLC01OT
-MwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5
-MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC
-0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3
-NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNT
-kxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIw
-MzE2MzI4NDddfQ==
+eyJoaXN0b3J5IjpbODY4MjI4ODM2LC05MzUwNDE5MTEsLTU5Mz
+AxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkw
+OCwtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLT
+E1NTc5NTEwNDcsLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2
+NTAwNDEyLDIwODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OT
+EzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAz
+MTYzMjg0N119
 -->
