@@ -255,6 +255,7 @@ One-class SVM is an unsupervised algorithm that learns a decision function for n
 The above-mentioned One-class SVM definition obtains a spherically shaped boundary around the complete target set.
 The sphere is characterized by center a and radius R > 0.
 In SVM, by minimizing $R^2$, the volume of the sphere is minimized.
+##### Novelty One-class SVM
 The demand here is that the sphere contains all training objects - in our case regular labeled.
 The One-class SVM learns a decision function so that the input unlabeled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
 This way, the One-class classification is possible, and this method is semi-supervised.
@@ -304,11 +305,11 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1Nj
-gwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNzQy
-LC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MD
-g5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1
-MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MT
-IsMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1
-NDI3NzQ1OV19
+eyJoaXN0b3J5IjpbLTEzMDY1MDAxOTYsLTkxNzU4NDM0NywtND
+U5MjA5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkx
+MSwtNTkzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsND
+YwODEzOTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIx
+OTc1OSwtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNT
+EsLTEwNzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4MDE1MjQ3Mywx
+MTE5MzU5MTM0XX0=
 -->
