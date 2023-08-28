@@ -279,9 +279,7 @@ The proportion of detected regulars
 The proportion of false positive novelties
 : This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
  
-Note that the dataset is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on, although this is not a problem for 
-Note that for each of the datasets, we take a sample of 10% to make the analysis.
-
+Note that the dataset is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
 
 
  obrázky, tabulka, výhody, nevýhody
@@ -298,11 +296,11 @@ Note that for each of the datasets, we take a sample of 10% to make the analysis
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA5NTkwOTgsLTkzNTA0MTkxMSwtNT
-kzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEz
-OTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OS
-wtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEw
-NzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5Mz
-U5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwy
-MDMxNjMyODQ3XX0=
+eyJoaXN0b3J5IjpbMjEyOTAyODM0MywtOTM1MDQxOTExLC01OT
+MwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5
+MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC
+0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3
+NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNT
+kxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIw
+MzE2MzI4NDddfQ==
 -->
