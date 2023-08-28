@@ -276,8 +276,8 @@ The proportion of detected novelties
 The proportion of detected regulars
 : This is the proportion of the data labeled "regular" compared to the actual regular filtered dataset.
 
-The proportion of false positive novelty dataset
-: This is the proportion of the data labeled "regular" compared to the actual regular filtered dataset.
+The proportion of false positive novelties
+: This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
 
  
 
@@ -297,11 +297,11 @@ The proportion of false positive novelty dataset
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk0MzY3MDIsLTkzNTA0MTkxMSwtNT
-kzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEz
-OTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OS
-wtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEw
-NzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5Mz
-U5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwy
-MDMxNjMyODQ3XX0=
+eyJoaXN0b3J5IjpbLTcyNzQ2MTU0NSwtOTM1MDQxOTExLC01OT
+MwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5
+MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC
+0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3
+NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNT
+kxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIw
+MzE2MzI4NDddfQ==
 -->
