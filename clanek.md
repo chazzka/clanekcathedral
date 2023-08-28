@@ -287,20 +287,20 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
-- možná bychom se tu mohli taky zamyslet nad tím jak funguje ten DB Scan a zkusit trochu potunit aby to dělalo celé clustery
 
 
 ## Results and discussion
+- tady už bude celková tabulka a obrázky i s DB scanem
 - tady můžeme zkusit tabulku kde budeme ukazovat kolik procent novelty to našlo apt možná porovnání s nějakým buď expertem nebo nějakými referenčními olabelovanými daty
 - zde napíšeme co se povedlo, jak to neni vubec lehke najit dva či více algoritmů které spolu dobře fungují a velký problem je jejich validace a verifikace, zkus navhrnout nějaké řešení verifikace
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTAyODM0MywtOTM1MDQxOTExLC01OT
-MwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5
-MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC
-0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3
-NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNT
-kxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIw
-MzE2MzI4NDddfQ==
+eyJoaXN0b3J5IjpbNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5Mz
+AxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkw
+OCwtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLT
+E1NTc5NTEwNDcsLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2
+NTAwNDEyLDIwODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OT
+EzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAz
+MTYzMjg0N119
 -->
