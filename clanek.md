@@ -241,13 +241,15 @@ Let us describe them and put them to the test.
 
 
 #### SVM
+
+##### Standard supervised SVM
 The SVM algorithm classifies the points by drawing a hyperplane in the observed space.
 The desired outcome here is to position this hyperplane such that the points of one class are on the one side and the second class on the other. 
 The best possible hyperplane position is obtained through optimizing the distances between points and the hyperplane (also called a margin).
 By providing labeled points, SVM is able to solve this optimization problem.
 That is, SVM is a supervised learning algorithm.
 
-#### One-class SVM
+##### One-class SVM
 One-class SVM described in this article is as of Tax and Duin in (https://link.springer.com/content/pdf/10.1023/B:MACH.0000008084.60811.49.pdf).
 One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
 The above-mentioned One-class SVM definition obtains a spherically shaped boundary around the complete target set.
@@ -302,11 +304,11 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTIwOTU0NCw5NTY4MDYzNDYsNTcxMz
-k0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1
-NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNj
-M3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4
-Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3Mj
-YsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYy
-MDI5MzU3XX0=
+eyJoaXN0b3J5IjpbLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1Nj
+gwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNzQy
+LC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MD
+g5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1
+MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MT
+IsMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1
+NDI3NzQ1OV19
 -->
