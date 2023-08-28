@@ -269,7 +269,12 @@ Some tools have already been implemented that try to deal with the issue of auto
 #### Experiments
 For the following experiments, the data described in the introductory section were used.
 In the experiment, we observe following properties:
-1. The average 
+
+The proportion of detected novelties
+: This is the proportion of the data labeled "novelty" out of the 
+ 
+
+
 
  obrázky, tabulka, výhody, nevýhody
  
@@ -285,7 +290,7 @@ In the experiment, we observe following properties:
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4MjI4ODM2LC05MzUwNDE5MTEsLTU5Mz
+eyJoaXN0b3J5IjpbMjM4Mjk1NTQ5LC05MzUwNDE5MTEsLTU5Mz
 AxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkw
 OCwtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLT
 E1NTc5NTEwNDcsLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2
