@@ -146,7 +146,7 @@ Figure X shows the example of running Isolation Forest on the same dataset as ab
 
 We can leverage on this knowledge and try to provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
 First, we use Scikit Isolation Forest *fit* method, to fit the regular data.
-With the data fit, we add a bunch of new, unseen, possibly novelty datapoints.
+With the data fit, we add a bunch of new, unseen, novelty datapoints.
 Figure X shows the result of *predict* method with the new data added.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001_novelty.svg)
@@ -278,11 +278,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzAxMDc0MiwtMTg3OTIzNDk1NiwxMj
-c2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNjM3MDgx
-MjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4Mzk2NT
-IsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3MjYsLTE1
-ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYyMDI5Mz
-U3LC0yNTU0NTMxMDAsMjAzMTYzMjg0NywtMTIyOTE2NjUxOSwt
-NTQyNTI4NTAzXX0=
+eyJoaXN0b3J5IjpbLTE0OTM0NTYzMzMsLTU5MzAxMDc0MiwtMT
+g3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYz
+MDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwND
+csLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIw
+ODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNz
+c0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0Nywt
+MTIyOTE2NjUxOV19
 -->
