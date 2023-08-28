@@ -223,14 +223,12 @@ This means that, for the reasons defined above, the ANN algorithm was not able t
 These findings lead us to the area of datamining, that is in the middle of supervised and unsupervised learning, the semi-supervised learning.
 Let us define the semi-supervised learning as follows.
 The semi-supervised learning in this context is a type of learning where we only have a part of the data labeled, and are interested in detecting, whether the data observed later fits in our label or not.
-The semi-supervised learning is al
 
 #### Novelty detection
-Novelty detection is a semi-supervised learning paradigm, where training data is not polluted by outliers and we are interested in detecting whether a new observation is an outlier. 
+Novelty detection is a semi-supervised learning paradigm, where training data is not polluted by outliers, and we are interested in detecting whether a new observation is an outlier. 
 In this context an outlier is also called a novelty.
 As of P. Oliveri in (https://doi.org/10.1016/j.aca.2017.05.013), such problems can also be called One-class problems.
 One-class problems are focused on a single class of interest (the target class), which can be properly defined and sampled, while non-target samples do not constitute a meaningful class and cannot be sampled in a thorough and comprehensive way.
-
 
 Scikit's platform offers us two algorithms for novelty detection.
 The One-class SVM algorithm and the Local Outlier Factor algorithm.
@@ -278,11 +276,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzEzMDkzNCwtNTkzMDEwNzQyLC0xOD
-c5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMw
-MzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0Ny
-wtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4
-NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3Nz
-Q1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0x
-MjI5MTY2NTE5XX0=
+eyJoaXN0b3J5IjpbNjE0NzkwOTU5LC01OTMwMTA3NDIsLTE4Nz
+kyMzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcwODk2MzAz
+MSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC
+0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUwMDQxMiwyMDg2
+OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3ND
+U5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEy
+MjkxNjY1MTldfQ==
 -->
