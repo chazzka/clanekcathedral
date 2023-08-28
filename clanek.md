@@ -72,6 +72,8 @@ Doing so, the data that is left are anomalies-only where the task of finding ano
 The most straightforward solution when trying to find anomalies in above-shown data would be to use some kind of statistical method that would split the data in a certain ratio.
 Figure X shows the mean (straight line) of the given data. 
 
+ - [ ] - TODO: PŘEGENERAOVAT DO B/W
+
 ![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/mean_great_colored.svg) 
 > Figure X - Mean of the given dataset with anomalies.
 
@@ -81,6 +83,8 @@ When the dataset is polluted with anomalies in close to 1:1 ratio, even for huma
 The second problem brings up when anomalies are not present at all, making mean method unusable.
 Figure X shows the mean method when used on the dataset polluted by very little anomalies.
 Obviously, if the dataset contained no anomalies at all, the result would become even more deficient.
+
+ - [ ] - TODO: PŘEGENERAOVAT DO B/W
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/mean_wrong_colored.svg) 
 > Figure X - Mean of the given dataset with little to zero anomalies.
@@ -297,11 +301,11 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDczOTM2MSw5NTY4MDYzNDYsNTcxMz
-k0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1
-NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNj
-M3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4
-Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3Mj
-YsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNzc0NTksNzYy
-MDI5MzU3XX0=
+eyJoaXN0b3J5IjpbLTE2MDU0Nzk4NDUsOTU2ODA2MzQ2LDU3MT
+M5NDkzNiwtOTM1MDQxOTExLC01OTMwMTA3NDIsLTE4NzkyMzQ5
+NTYsMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcwODk2MzAzMSwtMT
+YzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC0yMDA5
+ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUwMDQxMiwyMDg2OTIwNz
+I2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3NDU5LDc2
+MjAyOTM1N119
 -->
