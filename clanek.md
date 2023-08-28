@@ -254,7 +254,11 @@ This way, the One-class classification is possible, and this method is semi-supe
 
 #### Local outlier factor
 Local Outlier Factor is a neighborhood-based algorithm.
-It first calculates the reachability matrix by calculating the reachability distances as in the k-nearest neighborhood. For each new datapoint a new reachability distance is calculated. If the distance is higher than some threshold, the datapoint is an outlier.
+It first calculates the reachability matrix by calculating the reachability distances as in the k-nearest neighborhood. 
+For each new datapoint a new reachability distance is calculated. 
+If the distance is higher than some threshold, the datapoint is an outlier.
+This is perfect for novelty detection, since we can calculate the average distance on the regular datapoints and observe its value on the later provided datapoints.
+
 
 #### setting the right parameters
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
@@ -277,11 +281,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTMxMjI2LC05MzUwNDE5MTEsLTU5Mz
-AxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkw
-OCwtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLT
-E1NTc5NTEwNDcsLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2
-NTAwNDEyLDIwODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OT
-EzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAz
-MTYzMjg0N119
+eyJoaXN0b3J5IjpbLTEwNjEzMjg1MjgsLTkzNTA0MTkxMSwtNT
+kzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEz
+OTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OS
+wtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEw
+NzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5Mz
+U5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwy
+MDMxNjMyODQ3XX0=
 -->
