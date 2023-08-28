@@ -250,10 +250,10 @@ The sphere is characterized by center a and radius R > 0.
 In SVM, by minimizing $R^2$, the volume of the sphere is minimized.
 The demand here is that the sphere contains all training objects - in our case regular labeled.
 The One-class SVM learns a decision function so that the input unlabeled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
-This way, the One-class classification is possible.
+This way, the One-class classification is possible, and this method is semi-supervised.
 
 #### Local outlier factor
-Tady vysvětli jak funguje
+Local Outlier Factor is 
 
 #### setting the right parameters
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
@@ -276,11 +276,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MjUyNjQ5LC01OTMwMTA3NDIsLTE4Nz
-kyMzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcwODk2MzAz
-MSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC
-0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3NjUwMDQxMiwyMDg2
-OTIwNzI2LC0xNTgwMTUyNDczLDExMTkzNTkxMzQsMzU0Mjc3ND
-U5LDc2MjAyOTM1NywtMjU1NDUzMTAwLDIwMzE2MzI4NDcsLTEy
-MjkxNjY1MTldfQ==
+eyJoaXN0b3J5IjpbMjAyMjIxMTU2MiwtNTkzMDEwNzQyLC0xOD
+c5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMw
+MzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0Ny
+wtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4
+NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3Nz
+Q1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0x
+MjI5MTY2NTE5XX0=
 -->
