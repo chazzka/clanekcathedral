@@ -283,6 +283,7 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 
 
  obrázky, tabulka, výhody, nevýhody
+
  
 
 ### Finding clusters amongst novelties ??
@@ -296,11 +297,11 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5Mz
-AxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkw
-OCwtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLT
-E1NTc5NTEwNDcsLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2
-NTAwNDEyLDIwODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OT
-EzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAz
-MTYzMjg0N119
+eyJoaXN0b3J5IjpbOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MD
+QxOTExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUy
+MSw0NjA4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtOD
+U5MjE5NzU5LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgz
+NzE1MSwtMTA3NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyND
+czLDExMTkzNTkxMzQsMzU0Mjc3NDU5LDc2MjAyOTM1NywtMjU1
+NDUzMTAwXX0=
 -->
