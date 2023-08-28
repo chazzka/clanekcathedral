@@ -271,7 +271,14 @@ For the following experiments, the data described in the introductory section we
 In the experiment, we observe following properties:
 
 The proportion of detected novelties
-: This is the proportion of the data labeled "novelty" out of the 
+: This is the proportion of the data labeled "novelty" compared to the actual novelty filtered dataset.
+
+The proportion of detected regulars
+: This is the proportion of the data labeled "regular" compared to the actual regular filtered dataset.
+
+The proportion of false positive novelty dataset
+: This is the proportion of the data labeled "regular" compared to the actual regular filtered dataset.
+
  
 
 
@@ -290,11 +297,11 @@ The proportion of detected novelties
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4Mjk1NTQ5LC05MzUwNDE5MTEsLTU5Mz
-AxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkw
-OCwtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLT
-E1NTc5NTEwNDcsLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2
-NTAwNDEyLDIwODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OT
-EzNCwzNTQyNzc0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAz
-MTYzMjg0N119
+eyJoaXN0b3J5IjpbLTE3MDk0MzY3MDIsLTkzNTA0MTkxMSwtNT
+kzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEz
+OTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OS
+wtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEw
+NzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5Mz
+U5MTM0LDM1NDI3NzQ1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwy
+MDMxNjMyODQ3XX0=
 -->
