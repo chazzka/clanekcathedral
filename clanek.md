@@ -292,10 +292,10 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 
 https://www.researchgate.net/figure/Contingency-table-True-Positive-False-Positive-False-Negative-and-True-Negatives-are_fig5_280535795
 
+tabulka pro kazdy algoritmus zvlast
 
 obrázky, tabulka, výhody, nevýhody
 
- 
 
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
@@ -308,11 +308,11 @@ obrázky, tabulka, výhody, nevýhody
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyODI0MDc1LDEyMjI2MzIwNzAsLTkxNz
-U4NDM0NywtNDU5MjA5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYs
-LTkzNTA0MTkxMSwtNTkzMDEwNzQyLC0xODc5MjM0OTU2LDEyNz
-Y2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMwMzEsLTE2MzcwODEy
-NjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Mi
-w2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4NjkyMDcyNiwtMTU4
-MDE1MjQ3M119
+eyJoaXN0b3J5IjpbLTkxMjQ2ODU2NCwxMjIyNjMyMDcwLC05MT
+c1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4MDYzNDYsNTcxMzk0OTM2
+LC05MzUwNDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1NiwxMj
+c2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNjM3MDgx
+MjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4Mzk2NT
+IsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3MjYsLTE1
+ODAxNTI0NzNdfQ==
 -->
