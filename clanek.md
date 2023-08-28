@@ -279,7 +279,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 For the following experiments, the data described in the introductory section were used.
 In the experiment, we observe following properties:
 
-The proportion of detected novelties
+The proportion of true positive novelties
 : This is the proportion of the data labeled "novelty" compared to the actual novelty filtered dataset.
 
 The proportion of detected regulars
@@ -290,6 +290,9 @@ The proportion of false positive novelties
  
 Note that the dataset is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
 
+|  |  |
+|--|--|
+|  |  |
 
  obrázky, tabulka, výhody, nevýhody
 
@@ -306,11 +309,11 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00NT
-kyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MDQxOTEx
-LC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0Nj
-A4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5
-NzU5LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MS
-wtMTA3NjUwMDQxMiwyMDg2OTIwNzI2LC0xNTgwMTUyNDczLDEx
-MTkzNTkxMzRdfQ==
+eyJoaXN0b3J5IjpbLTY5NDYwMzA1NSwxMjIyNjMyMDcwLC05MT
+c1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4MDYzNDYsNTcxMzk0OTM2
+LC05MzUwNDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1NiwxMj
+c2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNjM3MDgx
+MjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4Mzk2NT
+IsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3MjYsLTE1
+ODAxNTI0NzNdfQ==
 -->
