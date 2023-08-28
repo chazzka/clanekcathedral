@@ -278,8 +278,9 @@ The proportion of detected regulars
 
 The proportion of false positive novelties
 : This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
-
  
+
+Note that for each of the datasets, we take a sample of 10% to make the analysis
 
 
 
@@ -297,7 +298,7 @@ The proportion of false positive novelties
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzQ2MTU0NSwtOTM1MDQxOTExLC01OT
+eyJoaXN0b3J5IjpbLTYyMzM2NjQ1MiwtOTM1MDQxOTExLC01OT
 MwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5
 MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5MjE5NzU5LC
 0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYzODgzNzE1MSwtMTA3
