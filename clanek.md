@@ -175,9 +175,9 @@ Since we can only provide one of the labels (the regular data), the ANN will fai
 For the following example, we use the Scikit's ANN implementation.
 
 ##### Example ANN:
-In this example, we first get some random, classified arrays of data with respective labels (zero and one).
+In this example, we first get some random, classified arrays of data with respective labels (REGULAR and OUTLIER).
 Then, we filter the data so that we only have one specific label.
-Instead of feeding the neural network training set containing both labels, we only feed it with data labeled with **ones**.
+Instead of feeding the neural network training set containing both labels, we only feed it with data labeled with **regular**.
 
 
 ```python
@@ -208,7 +208,7 @@ regular_prediction = clf.predict_proba(X_test[:1]))
 outlier_prediction = clf.predict_proba(outlierX[:1])
 ```
 
-The results are shown in Table X. Note, that each prediction was run 30 times and the average value was taken. For the *regular_prediction *, containing the prediction of the testing set with data labeled **REGULAR** are expected, the average probability of 0.96727484 for the class labeled **REGULAR** and the average probability of 0.03272516 for the class labeled **OUTLIER**.
+The results are shown in Table X. Note, that each prediction was run 30 times, and the average value was taken. For the *regular_prediction *, containing the prediction of the testing set with data labeled **REGULAR** are expected, the average probability of 0.96727484 for the class labeled **REGULAR** and the average probability of 0.03272516 for the class labeled **OUTLIER**.
 However, for the *outlier_prediction *, predicting the value given the outlying, never seen before value, the results are very unsatisfactory,
 the average probability of 0.97993453 for the class labeled **REGULAR** and the average probability of 0.02006547 for the class labeled **OUTLIER**.
 
@@ -278,7 +278,7 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg1MjkwNywtNTkzMDEwNzQyLC0xOD
+eyJoaXN0b3J5IjpbMTY0MzEzMDkzNCwtNTkzMDEwNzQyLC0xOD
 c5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMw
 MzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0Ny
 wtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4
