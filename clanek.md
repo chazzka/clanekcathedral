@@ -157,8 +157,8 @@ Isolation Forest algorithm does the recursive partitioning to orphan the data in
 The less partition is needed to separate the datapoint, the more anomalous it gets.
 The Isolation Forest algorithm creates a new separation space based on the previously seen datapoints, hence there is not much room for the new, possibly novel datapoint, to be marked so.
 New datapoints often fall into the same separation space with the previously seen, regular-marked datapoints, marking them regular.
-Similar principles goes with other outlier detection algorithms. 
-The example shows, that we need some kind of supervised method to make the algorithm learn on the regular data.
+Similar principles go with other outlier detection algorithms. 
+The example shows that we need some kind of supervised method to make the algorithm learn on the regular data.
 This leads us to supervised learning.
 
 ### Supervised learning
@@ -169,7 +169,7 @@ Let us consider the alpha omega of supervised learning algorithms, the Artificia
 #### ANN
 Artificial Neural Network is the supervised learning algorithm, where we construct a n-layer network of neurons and by backpropagating we alter their weights so that the inputs lead to the desired outputs, predicting the labels.
 This may seem like a perfect method for our problem.
-However in our scenario, we have the regular data labeled and ready to provide for the learning but that is not the case for the anomalous data.
+However, in our scenario, we have the regular data labeled and ready to provide for the learning but that is not the case for the anomalous data.
 This is a huge problem for the ANN algorithm, because it needs to alter its weights based on the previously seen labeled data.
 Since we can only provide one of the labels (the regular data), the ANN will fail to find the other label.
 For the following example, we use the Scikit's ANN implementation.
@@ -278,11 +278,11 @@ Some tools have already been implemented that try to deal with the issue of auto
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM0NTYzMzMsLTU5MzAxMDc0MiwtMT
-g3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYz
-MDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLTE1NTc5NTEwND
-csLTIwMDk4Mzk2NTIsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIw
-ODY5MjA3MjYsLTE1ODAxNTI0NzMsMTExOTM1OTEzNCwzNTQyNz
-c0NTksNzYyMDI5MzU3LC0yNTU0NTMxMDAsMjAzMTYzMjg0Nywt
-MTIyOTE2NjUxOV19
+eyJoaXN0b3J5IjpbLTIwODg1MjkwNywtNTkzMDEwNzQyLC0xOD
+c5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMw
+MzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0Ny
+wtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4
+NjkyMDcyNiwtMTU4MDE1MjQ3MywxMTE5MzU5MTM0LDM1NDI3Nz
+Q1OSw3NjIwMjkzNTcsLTI1NTQ1MzEwMCwyMDMxNjMyODQ3LC0x
+MjI5MTY2NTE5XX0=
 -->
