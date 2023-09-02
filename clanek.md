@@ -309,12 +309,15 @@ obrázky, tabulka, výhody, nevýhody
 - zde napíšeme co se povedlo, jak to neni vubec lehke najit dva či více algoritmů které spolu dobře fungují a velký problem je jejich validace a verifikace, zkus navhrnout nějaké řešení verifikace
 ## Conclusion
 
+
+## References
+https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI4MzUzMDEsMTk0NTU4MDM5NywtMT
-g2MTIzMzk3OSwxNzcxNjE2NTc0LC05MTI0Njg1NjQsMTIyMjYz
-MjA3MCwtOTE3NTg0MzQ3LC00NTkyMDk1NDQsOTU2ODA2MzQ2LD
-U3MTM5NDkzNiwtOTM1MDQxOTExLC01OTMwMTA3NDIsLTE4Nzky
-MzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcwODk2MzAzMS
-wtMTYzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC0y
-MDA5ODM5NjUyXX0=
+eyJoaXN0b3J5IjpbMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOT
+Q1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2
+ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NC
+w5NTY4MDYzNDYsNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5MzAx
+MDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOC
+wtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLTE1
+NTc5NTEwNDddfQ==
 -->
