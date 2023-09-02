@@ -270,9 +270,9 @@ For this, we use Scikit's StandardScaler which can perform data-relative scaling
 However useful this feature is, it also has its downsides.
 - [ ] TODO: downsides of scaling
 
-
-
 TODO: - STEJNY EXAMPLE JAKO U ISOLATION FORESTU ALE S TIMTO
+
+
 
 #### Local outlier factor
 Local Outlier Factor is a neighborhood-based algorithm.
@@ -324,11 +324,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4NTc2MjcyLC01MTY2MTQ4MTMsLTEzNz
-MyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgw
-Mzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NC
-wxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4
-MDYzNDYsNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0Mi
-wtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4
-OTYzMDMxXX0=
+eyJoaXN0b3J5IjpbLTE1NDg5NjA4MjQsLTUxNjYxNDgxMywtMT
+M3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1
+ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyNDY4NT
+Y0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1
+NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNz
+QyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03
+MDg5NjMwMzFdfQ==
 -->
