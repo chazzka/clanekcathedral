@@ -128,12 +128,11 @@ The less partitions required to isolate the more probable it is for a particle t
 The Scikit-Learn platform (scikit-learn.org) offers several implemented, documented and tested machine-learning open-source algorithms.
 Its implementation of Isolation Forest has, in time of writing this text, 5 hyperparameters which need to be explicitly chosen and tuned.
 
- example 1
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination0.svg)
-> Figure X dataset with no anomalies
+> Figure X dataset with no anomalies (example 1)
 
 
 Note, that one of the parameters of the Isolation Forest is the contamination parameter.
@@ -147,7 +146,7 @@ Figure X shows the example of running Isolation Forest on the same dataset as ab
 
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination001.svg)
-> Figure X dataset with contamination = 0.01
+> Figure X dataset with contamination = 0.01 (example 2)
 
 
 We can leverage on this knowledge and try to provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
@@ -314,11 +313,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NjQxNDI3NiwyMDgwNjY2MTM1LC0xNT
-cyODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYx
-NjU3NCwtOTEyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0Ny
-wtNDU5MjA5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0
-MTkxMSwtNTkzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1Mj
-EsNDYwODEzOTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1
-OTIxOTc1OV19
+eyJoaXN0b3J5IjpbNjQzNTAxOTk2LDIwODA2NjYxMzUsLTE1Nz
+I4MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2
+NTc0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC
+00NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MDQx
+OTExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMS
+w0NjA4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5
+MjE5NzU5XX0=
 -->
