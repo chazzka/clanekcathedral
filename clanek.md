@@ -273,7 +273,11 @@ However useful this feature is, it also has its downsides.
 Figure X shows the result of an experiment with the following settings:
 - nu = 0.02
 - kernel = rbf
-- 
+
+
+
+
+- [ ] TODO: s linearnim to vubec nefungovalo, mozona obrazek a rict proc?
 
 
 
@@ -327,11 +331,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE0NDM5MjMsLTE1NDg5NjA4MjQsLT
-UxNjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcy
-ODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNj
-U3NCwtOTEyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0Nywt
-NDU5MjA5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MT
-kxMSwtNTkzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEs
-NDYwODEzOTA4XX0=
+eyJoaXN0b3J5IjpbMTA3NzYzMDE4MSwtMTU0ODk2MDgyNCwtNT
+E2NjE0ODEzLC0xMzczMjcyMDQ3LDIwODA2NjYxMzUsLTE1NzI4
+MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2NT
+c0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00
+NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MDQxOT
+ExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0
+NjA4MTM5MDhdfQ==
 -->
