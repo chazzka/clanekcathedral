@@ -270,10 +270,10 @@ For this, we use Scikit's StandardScaler which can perform data-relative scaling
 However useful this feature is, it also has its downsides.
 - [ ] TODO: downsides of scaling
 
-Figure X shows the result of an experiment with the following settings:
+Figure X shows the result of an above-defined experiment with the following settings:
 - nu = 0.02
 - kernel = rbf
-
+The figure shows that the algorithm successfully marked the novelty data.
 
 
 
@@ -331,11 +331,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzYzMDE4MSwtMTU0ODk2MDgyNCwtNT
-E2NjE0ODEzLC0xMzczMjcyMDQ3LDIwODA2NjYxMzUsLTE1NzI4
-MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2NT
-c0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00
-NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MDQxOT
-ExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0
-NjA4MTM5MDhdfQ==
+eyJoaXN0b3J5IjpbMjY3OTc5MjcxLC0xNTQ4OTYwODI0LC01MT
+Y2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3Mjgz
+NTMwMSwxOTQ1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1Nz
+QsLTkxMjQ2ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1
+OTIwOTU0NCw5NTY4MDYzNDYsNTcxMzk0OTM2LC05MzUwNDE5MT
+EsLTU5MzAxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2
+MDgxMzkwOF19
 -->
