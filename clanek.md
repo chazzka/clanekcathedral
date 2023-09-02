@@ -264,7 +264,9 @@ This way, the One-class classification is possible, and this method is semi-supe
 
 Let us return to the previous experiment with new, novel, previously unseen datapoints.
 Again, we first perform the fitting operation on the regular datapoints.
-Then we get different, similar dataset co
+Then we get different, similar dataset composed of regular datapoints and novelty datapoints.
+Note that Scikit's OneClass SVM implementation - as opposed to Isolation Forest - requires data to be normalized between 0 and 1.
+For this, we use S
 
 TODO: - STEJNY EXAMPLE JAKO U ISOLATION FORESTU ALE S TIMTO
 
@@ -318,11 +320,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2MzQwMjQ1LC01MTY2MTQ4MTMsLTEzNz
-MyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgw
-Mzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NC
-wxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4
-MDYzNDYsNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0Mi
-wtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4
-OTYzMDMxXX0=
+eyJoaXN0b3J5IjpbMTM2NTUwOTIsLTUxNjYxNDgxMywtMTM3Mz
+I3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAz
+OTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyNDY4NTY0LD
+EyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1Njgw
+NjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNzQyLC
+0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5
+NjMwMzFdfQ==
 -->
