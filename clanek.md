@@ -159,7 +159,7 @@ Figure X shows the result of *predict* method with the new data added.
 As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
 This is caused by the way the Isolation Forest splits the observation space.
 Isolation Forest algorithm does the recursive partitioning to orphan the data in separate nodes. 
-The less partition is needed to separate the datapoint, the more anomalous it gets.
+The less partitions is needed to separate the datapoint, the more anomalous it gets.
 The Isolation Forest algorithm creates a new separation space based on the previously seen datapoints, hence there is not much room for the new, possibly novel datapoint, to be marked so.
 New datapoints often fall into the same separation space with the previously seen, regular-marked datapoints, marking them regular.
 Similar principles go with other outlier detection algorithms. 
@@ -308,7 +308,7 @@ obrázky, tabulka, výhody, nevýhody
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk4MDExNTQsMTc3MTYxNjU3NCwtOT
+eyJoaXN0b3J5IjpbLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOT
 EyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5
 NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNT
 kzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEz
