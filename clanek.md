@@ -261,6 +261,8 @@ The demand here is that the sphere contains all training objects - in our case r
 The One-class SVM learns a decision function so that the input unlabeled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
 This way, the One-class classification is possible, and this method is semi-supervised.
 
+
+
 #### Local outlier factor
 Local Outlier Factor is a neighborhood-based algorithm.
 It first calculates the reachability matrix by calculating the reachability distances as in the k-nearest neighborhood. 
@@ -308,11 +310,11 @@ obrázky, tabulka, výhody, nevýhody
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwxNz
-cxNjE2NTc0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NTg0
-MzQ3LC00NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOT
-M1MDQxOTExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYy
-NTUyMSw0NjA4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2Ny
-wtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYz
-ODgzNzE1MV19
+eyJoaXN0b3J5IjpbLTEwMzYzNTM1OTEsMTk0NTU4MDM5NywtMT
+g2MTIzMzk3OSwxNzcxNjE2NTc0LC05MTI0Njg1NjQsMTIyMjYz
+MjA3MCwtOTE3NTg0MzQ3LC00NTkyMDk1NDQsOTU2ODA2MzQ2LD
+U3MTM5NDkzNiwtOTM1MDQxOTExLC01OTMwMTA3NDIsLTE4Nzky
+MzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcwODk2MzAzMS
+wtMTYzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC0y
+MDA5ODM5NjUyXX0=
 -->
