@@ -270,7 +270,10 @@ For this, we use Scikit's StandardScaler which can perform data-relative scaling
 However useful this feature is, it also has its downsides.
 - [ ] TODO: downsides of scaling
 
-TODO: - STEJNY EXAMPLE JAKO U ISOLATION FORESTU ALE S TIMTO
+Figure X shows the result of an experiment with the following settings:
+- nu = 0.02
+- kernel = rbf
+- 
 
 
 
@@ -324,11 +327,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDg5NjA4MjQsLTUxNjYxNDgxMywtMT
-M3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1
-ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyNDY4NT
-Y0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1
-NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNz
-QyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03
-MDg5NjMwMzFdfQ==
+eyJoaXN0b3J5IjpbLTIwNTE0NDM5MjMsLTE1NDg5NjA4MjQsLT
+UxNjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcy
+ODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNj
+U3NCwtOTEyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0Nywt
+NDU5MjA5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MT
+kxMSwtNTkzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEs
+NDYwODEzOTA4XX0=
 -->
