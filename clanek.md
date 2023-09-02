@@ -155,6 +155,7 @@ With the data fit, we add a bunch of new, unseen, novelty datapoints.
 Figure X shows the result of *predict* method with the new data added.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination001_novelty.svg)
+> Figure X. example 3
 
 As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
 This is caused by the way the Isolation Forest splits the observation space.
@@ -313,11 +314,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNTAxOTk2LDIwODA2NjYxMzUsLTE1Nz
-I4MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2
-NTc0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC
-00NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MDQx
-OTExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMS
-w0NjA4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2NywtODU5
-MjE5NzU5XX0=
+eyJoaXN0b3J5IjpbLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMT
+U3MjgzNTMwMSwxOTQ1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2
+MTY1NzQsLTkxMjQ2ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzND
+csLTQ1OTIwOTU0NCw5NTY4MDYzNDYsNTcxMzk0OTM2LC05MzUw
+NDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NT
+IxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04
+NTkyMTk3NTldfQ==
 -->
