@@ -274,14 +274,13 @@ Figure X shows the result of an above-defined experiment with the following sett
 - nu = 0.02
 - kernel = rbf
 The figure shows that the algorithm successfully marked the novelty data.
-However, it also shows that some of the regular data were marked novelty (note, that the testing dataset provided for evaluation phase is different than the training one). 
-This phenomenon 
+Notice that it also shows some of the regular data marked as novelty (note, that the testing dataset provided for evaluation phase is different than the training one). 
+This phenomenon will be called the false positive findings and will be examined later during evaluation of experiments.
 
 > Figure x (Example 4)
 
 
 - [ ] TODO: s linearnim to vubec nefungovalo, mozona obrazek a rict proc?
-
 
 
 #### Local outlier factor
@@ -334,11 +333,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQxNTk4ODEsLTE1NDg5NjA4MjQsLT
-UxNjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcy
-ODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNj
-U3NCwtOTEyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0Nywt
-NDU5MjA5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MT
-kxMSwtNTkzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEs
-NDYwODEzOTA4XX0=
+eyJoaXN0b3J5IjpbLTM4NTQ2MDUxNiwtMTU0ODk2MDgyNCwtNT
+E2NjE0ODEzLC0xMzczMjcyMDQ3LDIwODA2NjYxMzUsLTE1NzI4
+MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2NT
+c0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00
+NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MDQxOT
+ExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0
+NjA4MTM5MDhdfQ==
 -->
