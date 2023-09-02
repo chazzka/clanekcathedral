@@ -241,8 +241,8 @@ Let us describe them and put them to the test.
 
 
 #### Support Vector Machines
-SVM is a family of algorithm where in general a position of an n-dimensional shape is optimized.
-This position is optimized by its nearest points - the support vectors.
+SVM is a family of algorithms where in general a position of an n-dimensional shape is optimized.
+It is usually optimized by its nearest points - the support vectors.
 ##### Standard supervised SVM
 The SVM algorithm classifies the points by drawing a hyperplane in the observed space.
 The desired outcome here is to position this hyperplane such that the points of one class are on the one side and the second class on the other. 
@@ -308,11 +308,11 @@ obrázky, tabulka, výhody, nevýhody
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOT
-EyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5
-NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNT
-kzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEz
-OTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OS
-wtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEw
-NzY1MDA0MTJdfQ==
+eyJoaXN0b3J5IjpbMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwxNz
+cxNjE2NTc0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NTg0
+MzQ3LC00NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOT
+M1MDQxOTExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYy
+NTUyMSw0NjA4MTM5MDgsLTcwODk2MzAzMSwtMTYzNzA4MTI2Ny
+wtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC0yMDA5ODM5NjUyLDYz
+ODgzNzE1MV19
 -->
