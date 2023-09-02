@@ -262,6 +262,9 @@ The demand here is that the sphere contains all training objects - in our case r
 The One-class SVM learns a decision function so that the input unlabeled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
 This way, the One-class classification is possible, and this method is semi-supervised.
 
+Let us return to the previous experiment with new, novel, previously unseen datapoints.
+Again, we first perform the fitting operation on the regular datapoints.
+Then we get different, similar dataset co
 
 TODO: - STEJNY EXAMPLE JAKO U ISOLATION FORESTU ALE S TIMTO
 
@@ -315,11 +318,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjYxNDgxMywtMTM3MzI3MjA0NywyMD
-gwNjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEy
-MzM5NzksMTc3MTYxNjU3NCwtOTEyNDY4NTY0LDEyMjI2MzIwNz
-AsLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1NjgwNjM0Niw1NzEz
-OTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNzQyLC0xODc5MjM0OT
-U2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMwMzEsLTE2
-MzcwODEyNjddfQ==
+eyJoaXN0b3J5IjpbMzQ2MzQwMjQ1LC01MTY2MTQ4MTMsLTEzNz
+MyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgw
+Mzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NC
+wxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4
+MDYzNDYsNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0Mi
+wtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4
+OTYzMDMxXX0=
 -->
