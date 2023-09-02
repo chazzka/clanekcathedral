@@ -274,7 +274,10 @@ Figure X shows the result of an above-defined experiment with the following sett
 - nu = 0.02
 - kernel = rbf
 The figure shows that the algorithm successfully marked the novelty data.
+However, it also shows that some of the regular data were marked novelty (note, that the testing dataset provided for evaluation phase is different than the training one). 
+This phenomenon 
 
+> Figure x (Example 4)
 
 
 - [ ] TODO: s linearnim to vubec nefungovalo, mozona obrazek a rict proc?
@@ -331,11 +334,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3OTc5MjcxLC0xNTQ4OTYwODI0LC01MT
-Y2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3Mjgz
-NTMwMSwxOTQ1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1Nz
-QsLTkxMjQ2ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1
-OTIwOTU0NCw5NTY4MDYzNDYsNTcxMzk0OTM2LC05MzUwNDE5MT
-EsLTU5MzAxMDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2
-MDgxMzkwOF19
+eyJoaXN0b3J5IjpbLTIwNDQxNTk4ODEsLTE1NDg5NjA4MjQsLT
+UxNjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcy
+ODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNj
+U3NCwtOTEyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0Nywt
+NDU5MjA5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MT
+kxMSwtNTkzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEs
+NDYwODEzOTA4XX0=
 -->
