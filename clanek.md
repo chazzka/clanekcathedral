@@ -266,7 +266,8 @@ Let us return to the previous experiment with new, novel, previously unseen data
 Again, we first perform the fitting operation on the regular datapoints.
 Then we get different, similar dataset composed of regular datapoints and novelty datapoints.
 Note that Scikit's OneClass SVM implementation - as opposed to Isolation Forest - requires data to be normalized between 0 and 1.
-For this, we use S
+For this, we use Scikit's StandardScaler which can perform data-relative scaling.
+
 
 TODO: - STEJNY EXAMPLE JAKO U ISOLATION FORESTU ALE S TIMTO
 
@@ -320,11 +321,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTUwOTIsLTUxNjYxNDgxMywtMTM3Mz
-I3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAz
-OTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyNDY4NTY0LD
-EyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1Njgw
-NjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNzQyLC
-0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5
-NjMwMzFdfQ==
+eyJoaXN0b3J5IjpbMTk1NzM3NDU2NywtNTE2NjE0ODEzLC0xMz
+czMjcyMDQ3LDIwODA2NjYxMzUsLTE1NzI4MzUzMDEsMTk0NTU4
+MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2NTc0LC05MTI0Njg1Nj
+QsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00NTkyMDk1NDQsOTU2
+ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MDQxOTExLC01OTMwMTA3ND
+IsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcw
+ODk2MzAzMV19
 -->
