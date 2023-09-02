@@ -74,7 +74,7 @@ Figure X shows the mean (straight line) of the given data.
 
  - [ ] - TODO: PŘEGENERAOVAT DO B/W
 
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/mean_great_colored.svg) 
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean_great_colored.svg) 
 > Figure X - Mean of the given dataset with anomalies.
 
 Although this may look positive on the first glance, several problems arise.
@@ -86,7 +86,7 @@ Obviously, if the dataset contained no anomalies at all, the result would become
 
  - [ ] - TODO: PŘEGENERAOVAT DO B/W
 
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/mean_wrong_colored.svg) 
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean_wrong_colored.svg) 
 > Figure X - Mean of the given dataset with little to zero anomalies.
 
 
@@ -101,7 +101,7 @@ Moreover, due to the gap in the measurement, the DBScan incorrectly split the re
 This brings up the idea of algorithm cross-cooperation.
 Therefore, our proposed solution separates the anomalies first and then tries to find a cluster amongst them.
 
-![](https://raw.githubusercontent.com/chazzka/clanekcluster/master/code/figures/DBScanGap.svg) 
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/DBScanGap.svg) 
 > Figure X - DBScan performance
 
 Traditional approaches for anomaly separation consist of either novelty detection or outlier detection.
@@ -308,11 +308,11 @@ obrázky, tabulka, výhody, nevýhody
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjQ2ODU2NCwxMjIyNjMyMDcwLC05MT
-c1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4MDYzNDYsNTcxMzk0OTM2
-LC05MzUwNDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1NiwxMj
-c2NjI1NTIxLDQ2MDgxMzkwOCwtNzA4OTYzMDMxLC0xNjM3MDgx
-MjY3LC04NTkyMTk3NTksLTE1NTc5NTEwNDcsLTIwMDk4Mzk2NT
-IsNjM4ODM3MTUxLC0xMDc2NTAwNDEyLDIwODY5MjA3MjYsLTE1
-ODAxNTI0NzNdfQ==
+eyJoaXN0b3J5IjpbMTc3MTYxNjU3NCwtOTEyNDY4NTY0LDEyMj
+I2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1NjgwNjM0
+Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNzQyLC0xOD
+c5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMw
+MzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0Ny
+wtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4
+NjkyMDcyNl19
 -->
