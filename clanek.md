@@ -131,7 +131,7 @@ Its implementation of Isolation Forest has, in time of writing this text, 5 hype
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination0.svg)
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination0.svg)
 > Figure X dataset with no anomalies
 
 
@@ -145,7 +145,7 @@ That can easily happen especially during the testing phasis of the development.
 Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies) using the Scikit's Isolation Forest *fit_predict* method.
 
 
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001.svg)
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination001.svg)
 > Figure X dataset with contamination = 0.01
 
 
@@ -154,7 +154,7 @@ First, we use Scikit Isolation Forest *fit* method, to fit the regular data.
 With the data fit, we add a bunch of new, unseen, novelty datapoints.
 Figure X shows the result of *predict* method with the new data added.
 
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/contamination001_novelty.svg)
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination001_novelty.svg)
 
 As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
 This is caused by the way the Isolation Forest splits the observation space.
@@ -308,11 +308,11 @@ obrázky, tabulka, výhody, nevýhody
 ## Conclusion
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTYxNjU3NCwtOTEyNDY4NTY0LDEyMj
-I2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1NjgwNjM0
-Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNzQyLC0xOD
-c5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEzOTA4LC03MDg5NjMw
-MzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OSwtMTU1Nzk1MTA0Ny
-wtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEwNzY1MDA0MTIsMjA4
-NjkyMDcyNl19
+eyJoaXN0b3J5IjpbLTEwNDk4MDExNTQsMTc3MTYxNjU3NCwtOT
+EyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5
+NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNT
+kzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1MjEsNDYwODEz
+OTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1OTIxOTc1OS
+wtMTU1Nzk1MTA0NywtMjAwOTgzOTY1Miw2Mzg4MzcxNTEsLTEw
+NzY1MDA0MTJdfQ==
 -->
