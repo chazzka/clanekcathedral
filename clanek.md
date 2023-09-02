@@ -128,6 +128,7 @@ The less partitions required to isolate the more probable it is for a particle t
 The Scikit-Learn platform (scikit-learn.org) offers several implemented, documented and tested machine-learning open-source algorithms.
 Its implementation of Isolation Forest has, in time of writing this text, 5 hyperparameters which need to be explicitly chosen and tuned.
 
+ example 1
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
@@ -313,11 +314,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOT
-Q1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2
-ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NC
-w5NTY4MDYzNDYsNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5MzAx
-MDc0MiwtMTg3OTIzNDk1NiwxMjc2NjI1NTIxLDQ2MDgxMzkwOC
-wtNzA4OTYzMDMxLC0xNjM3MDgxMjY3LC04NTkyMTk3NTksLTE1
-NTc5NTEwNDddfQ==
+eyJoaXN0b3J5IjpbMTQ0NjQxNDI3NiwyMDgwNjY2MTM1LC0xNT
+cyODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYx
+NjU3NCwtOTEyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0Ny
+wtNDU5MjA5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0
+MTkxMSwtNTkzMDEwNzQyLC0xODc5MjM0OTU2LDEyNzY2MjU1Mj
+EsNDYwODEzOTA4LC03MDg5NjMwMzEsLTE2MzcwODEyNjcsLTg1
+OTIxOTc1OV19
 -->
