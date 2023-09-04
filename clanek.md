@@ -140,7 +140,7 @@ The contamination parameter is to control the proportion of anomalies in the dat
 Usually, this has to be known beforehand. 
 This parameter has a huge impact on the final result of the detection.
 This can be a problem due to a random appearance of the anomalies in our dataset and hence the proportion value varies.
-Using this parameter we can, however, deal with datasets already containing some portion of anomalies during learning.
+Using this parameter, we can, however, deal with datasets already containing some portion of anomalies during learning.
 That can easily happen especially during the testing phasis of the development.
 Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies) using the Scikit's Isolation Forest *fit_predict* method.
 
@@ -160,7 +160,7 @@ Figure X shows the result of *predict* method with the new data added.
 As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
 This is caused by the way the Isolation Forest splits the observation space.
 Isolation Forest algorithm does the recursive partitioning to orphan the data in separate nodes. 
-The less partitions is needed to separate the datapoint, the more anomalous it gets.
+The less partitions are needed to separate the datapoint, the more anomalous it gets.
 The Isolation Forest algorithm creates a new separation space based on the previously seen datapoints, hence there is not much room for the new, possibly novel datapoint, to be marked so.
 New datapoints often fall into the same separation space with the previously seen, regular-marked datapoints, marking them regular.
 Similar principles go with other outlier detection algorithms. 
@@ -333,11 +333,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTQ2MDUxNiwtMTU0ODk2MDgyNCwtNT
-E2NjE0ODEzLC0xMzczMjcyMDQ3LDIwODA2NjYxMzUsLTE1NzI4
-MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2NT
-c0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00
-NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwtOTM1MDQxOT
-ExLC01OTMwMTA3NDIsLTE4NzkyMzQ5NTYsMTI3NjYyNTUyMSw0
-NjA4MTM5MDhdfQ==
+eyJoaXN0b3J5IjpbMjA3NjYwNTczMiwtMzg1NDYwNTE2LC0xNT
+Q4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4MDY2
+NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgwMzk3LC0xODYxMjMzOT
+c5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NCwxMjIyNjMyMDcwLC05
+MTc1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4MDYzNDYsNTcxMzk0OT
+M2LC05MzUwNDE5MTEsLTU5MzAxMDc0MiwtMTg3OTIzNDk1Niwx
+Mjc2NjI1NTIxXX0=
 -->
