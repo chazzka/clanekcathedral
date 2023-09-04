@@ -314,7 +314,11 @@ The last example of above section shows the Local Outlier Factor algorithm to be
 The *n_neighbors* parameter of the Local Outlier Factor algorithm is useful to control the number of neighbors to be taken in the query.
 Considering our example, the algorithm clearly lacks sufficient number of neighbors, since it marked the whole neighborhood as a novelty area.
 
-When experimentally optimizing the number of neighbors, we 
+When experimentally optimizing the number of neighbors, the false positive marked novelty area can be fixed completely.
+
+Figure X shows the result of the experiment when setting the number of neighbors to be taken to 50.
+
+> Figure example 
 
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
 Other notable parameters with huge impact on the result are...
@@ -357,11 +361,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODA2NjI0MSwtNDgzNzY2NDYyLDE4Mz
-MyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NCwxMjY4MjIw
-MDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgxMy
-wtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5
-NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyND
-Y4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0
-LDk1NjgwNjM0Nl19
+eyJoaXN0b3J5IjpbLTE4OTUxMDYzNzEsLTQ4Mzc2NjQ2MiwxOD
+MzMjI5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIy
+MDA1OSwtMzg1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MT
+MsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwx
+OTQ1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMj
+Q2ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0
+NCw5NTY4MDYzNDZdfQ==
 -->
