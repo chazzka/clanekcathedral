@@ -299,6 +299,8 @@ Figure x shows the results of the above defined dataset with novelty data added.
 For this, we use the Local Outlier Factor with the following settings:
 - novelty: True
 
+> Figure example 5
+
 Note, that if the novelty parameter is set to True, we cannot use the *fit_predict* method, which is of online outlier detection, anymore.
 Instead, we have to first use the *fit* method to fit the matrix on the regular dataset and the use the *predict* to evaluate new datapoints.
 
@@ -352,11 +354,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODEwMzIzOTQsMTI2ODIyMDA1OSwtMz
-g1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMy
-NzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgwMz
-k3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NCwx
-MjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4MD
-YzNDYsNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0Miwt
-MTg3OTIzNDk1Nl19
+eyJoaXN0b3J5IjpbLTQwODIzMzYxOSwtMTc4MTAzMjM5NCwxMj
+Y4MjIwMDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYx
+NDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1Mz
+AxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwt
+OTEyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5Mj
+A5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwt
+NTkzMDEwNzQyXX0=
 -->
