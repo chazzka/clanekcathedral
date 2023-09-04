@@ -343,7 +343,7 @@ Note that the dataset is split in 70:30 ratio for training and testing dataset, 
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
 Each of the values in the table is an average of 50 runs to obtain statistically significant results.
 
-### Experiment 1: 
+### Experiment 1: One-class SVM 
 
 
 
@@ -373,11 +373,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDIxNTg4MzYsMTcxMDk0ODM5Myw2Nz
-IwMDE2NzEsLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04ODM0NDYw
-ODYsLTE3ODEwMzIzOTQsMTI2ODIyMDA1OSwtMzg1NDYwNTE2LC
-0xNTQ4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4
-MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgwMzk3LC0xODYxMj
-MzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NCwxMjIyNjMyMDcw
-LC05MTc1ODQzNDddfQ==
+eyJoaXN0b3J5IjpbMjA0MzkxOTU1OSwxNzEwOTQ4MzkzLDY3Mj
+AwMTY3MSwtNDgzNzY2NDYyLDE4MzMyMjk2OTQsLTg4MzQ0NjA4
+NiwtMTc4MTAzMjM5NCwxMjY4MjIwMDU5LC0zODU0NjA1MTYsLT
+E1NDg5NjA4MjQsLTUxNjYxNDgxMywtMTM3MzI3MjA0NywyMDgw
+NjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMz
+M5NzksMTc3MTYxNjU3NCwtOTEyNDY4NTY0LDEyMjI2MzIwNzAs
+LTkxNzU4NDM0N119
 -->
