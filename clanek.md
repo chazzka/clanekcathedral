@@ -307,7 +307,7 @@ As we can see, the algorithm was successful in isolating all of the novelty data
 
 Because the Local Outlier Factor algorithm calculates the distance metric, with our model trained, we can elaborate on that and provide more novel datapoints to observe the distances calculated.
 
-> Figure example 7
+> Figure example 6
 
 #### Setting the right parameters
 The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
@@ -318,9 +318,10 @@ When experimentally optimizing the number of neighbors, the false positive marke
 
 Figure X shows the result of the experiment when setting the number of neighbors to be taken to 50.
 
-> Figure example 
+> Figure example 7
 
-This shows the importance of the proper para
+This shows the importance of the proper hyperparameter settings.
+All of the algorithms introduced in this article 
 
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
 Other notable parameters with huge impact on the result are...
@@ -363,11 +364,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc0NTI0OTYsLTQ4Mzc2NjQ2MiwxOD
-MzMjI5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIy
-MDA1OSwtMzg1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MT
-MsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwx
-OTQ1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMj
-Q2ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0
-NCw5NTY4MDYzNDZdfQ==
+eyJoaXN0b3J5IjpbMTgxMTg3Nzg3NSwtNDgzNzY2NDYyLDE4Mz
+MyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NCwxMjY4MjIw
+MDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgxMy
+wtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5
+NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyND
+Y4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0
+LDk1NjgwNjM0Nl19
 -->
