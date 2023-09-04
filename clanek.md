@@ -340,6 +340,7 @@ The proportion of false positive novelties
 : This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
  
 Note that the dataset is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
+The hyperparameters for each algorithms were 
 
 https://www.researchgate.net/figure/Contingency-table-True-Positive-False-Positive-False-Negative-and-True-Negatives-are_fig5_280535795
 
@@ -362,11 +363,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2NzMzMjI1LC00ODM3NjY0NjIsMTgzMz
-IyOTY5NCwtODgzNDQ2MDg2LC0xNzgxMDMyMzk0LDEyNjgyMjAw
-NTksLTM4NTQ2MDUxNiwtMTU0ODk2MDgyNCwtNTE2NjE0ODEzLC
-0xMzczMjcyMDQ3LDIwODA2NjYxMzUsLTE1NzI4MzUzMDEsMTk0
-NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2NTc0LC05MTI0Nj
-g1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00NTkyMDk1NDQs
-OTU2ODA2MzQ2XX0=
+eyJoaXN0b3J5IjpbLTEyMDAyMTk1NDMsLTQ4Mzc2NjQ2MiwxOD
+MzMjI5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIy
+MDA1OSwtMzg1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MT
+MsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwx
+OTQ1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMj
+Q2ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0
+NCw5NTY4MDYzNDZdfQ==
 -->
