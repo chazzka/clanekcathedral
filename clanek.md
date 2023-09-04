@@ -322,7 +322,7 @@ Figure X shows the result of the experiment when setting the number of neighbors
 
 This shows the importance of the proper hyperparameter settings.
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
-This optimization can be a hard process, due to not only the number of hyperparameters, but also their interconnectivity.
+This optimization can be a tedious process, due to not only the number of hyperparameters, but also their interconnectivity.
 This kind of issue is widely known amongst AutoML community.
 Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
 
@@ -363,11 +363,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDAyMTk1NDMsLTQ4Mzc2NjQ2MiwxOD
-MzMjI5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIy
-MDA1OSwtMzg1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MT
-MsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwx
-OTQ1NTgwMzk3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMj
-Q2ODU2NCwxMjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0
-NCw5NTY4MDYzNDZdfQ==
+eyJoaXN0b3J5IjpbNjcyMDAxNjcxLC00ODM3NjY0NjIsMTgzMz
+IyOTY5NCwtODgzNDQ2MDg2LC0xNzgxMDMyMzk0LDEyNjgyMjAw
+NTksLTM4NTQ2MDUxNiwtMTU0ODk2MDgyNCwtNTE2NjE0ODEzLC
+0xMzczMjcyMDQ3LDIwODA2NjYxMzUsLTE1NzI4MzUzMDEsMTk0
+NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2NTc0LC05MTI0Nj
+g1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00NTkyMDk1NDQs
+OTU2ODA2MzQ2XX0=
 -->
