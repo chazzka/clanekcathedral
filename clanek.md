@@ -311,7 +311,8 @@ Because the Local Outlier Factor algorithm calculates the distance metric, with 
 
 #### Setting the right parameters
 The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
-The *n_neighbors* parameter of the Local Outlier Factor algis usefeful
+The *n_neighbors* parameter of the Local Outlier Factor algorithm is useful to control the number of neighbors to be taken in the query.
+Considering our example, the algorithm clearly lacks sufficient amount of neighbours, 
 
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
 Other notable parameters with huge impact on the result are...
@@ -354,7 +355,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTMyNTYwOSwtNDgzNzY2NDYyLDE4Mz
+eyJoaXN0b3J5IjpbMjA3MDE4MDkzMCwtNDgzNzY2NDYyLDE4Mz
 MyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NCwxMjY4MjIw
 MDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgxMy
 wtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5
