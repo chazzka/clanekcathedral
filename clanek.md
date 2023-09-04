@@ -345,11 +345,12 @@ Each of the values in the table is an average of 50 runs to obtain statistically
 
 ### Experiment 1: 
 
-|| fdsfds | |
+
+
 ||  Positive | Negative |  
-|----------------------|--------|-
+|-|-|-
 | Positive |  0.96727484 | 0.03272516 | 
-| Negative     |0.97993453 | 0.02006547| 
+| Negative |0.97993453 | 0.02006547| 
 
 https://www.researchgate.net/figure/Contingency-table-True-Positive-False-Positive-False-Negative-and-True-Negatives-are_fig5_280535795
 
@@ -372,11 +373,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2ODcwODgwLDE3MTA5NDgzOTMsNjcyMD
-AxNjcxLC00ODM3NjY0NjIsMTgzMzIyOTY5NCwtODgzNDQ2MDg2
-LC0xNzgxMDMyMzk0LDEyNjgyMjAwNTksLTM4NTQ2MDUxNiwtMT
-U0ODk2MDgyNCwtNTE2NjE0ODEzLC0xMzczMjcyMDQ3LDIwODA2
-NjYxMzUsLTE1NzI4MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMz
-k3OSwxNzcxNjE2NTc0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwt
-OTE3NTg0MzQ3XX0=
+eyJoaXN0b3J5IjpbLTEwMDIxNTg4MzYsMTcxMDk0ODM5Myw2Nz
+IwMDE2NzEsLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04ODM0NDYw
+ODYsLTE3ODEwMzIzOTQsMTI2ODIyMDA1OSwtMzg1NDYwNTE2LC
+0xNTQ4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4
+MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgwMzk3LC0xODYxMj
+MzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NCwxMjIyNjMyMDcw
+LC05MTc1ODQzNDddfQ==
 -->
