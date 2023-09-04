@@ -296,7 +296,11 @@ Again, let us put the Local Outlier Factor to the test.
 Note, that this algorithm does not need the input to be scaled in any form. 
 Due to the distances' calculation, it is even undesirable.
 Figure x shows the results of the above defined dataset with novelty data added.
-For this, we use the Local Outlier Factor with the followin
+For this, we use the Local Outlier Factor with the following settings:
+novelty: True
+
+Note, that if the novelty parameter is set to True, we cannot use the *fit_predict* method, which is of online outlier detection, anymore.
+Instead, we have to first use the fit method to fit the matrix on the regular dataset 
 
 
 
@@ -342,7 +346,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTg3MTIyMywxMjY4MjIwMDU5LC0zOD
+eyJoaXN0b3J5IjpbLTc1MTU0ODM5OSwxMjY4MjIwMDU5LC0zOD
 U0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgxMywtMTM3MzI3
 MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAzOT
 csLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyNDY4NTY0LDEy
