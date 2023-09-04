@@ -292,7 +292,8 @@ For each new datapoint a new reachability distance is calculated.
 If the distance is higher than some threshold, the datapoint is an outlier.
 This is perfect for novelty detection, since we can calculate the average distance on the regular datapoints and observe its value on the later provided datapoints.
 
-Again, let us put the Local Outlier Factor to the test. Note, that this algorithm does not need the input to be scaled in any form. Due to the distances' calculation, it is even udesirable.
+Again, let us put the Local Outlier Factor to the test. 
+Note, that this algorithm does not need the input to be scaled in any form. Due to the distances' calculation, it is even undesirable.
 Figure 
 
 #### setting the right parameters
@@ -337,11 +338,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg4OTI2MDcsMTI2ODIyMDA1OSwtMz
-g1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMy
-NzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgwMz
-k3LC0xODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NCwx
-MjIyNjMyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4MD
-YzNDYsNTcxMzk0OTM2LC05MzUwNDE5MTEsLTU5MzAxMDc0Miwt
-MTg3OTIzNDk1Nl19
+eyJoaXN0b3J5IjpbMTM1MjAyMzkyNSwxMjY4MjIwMDU5LC0zOD
+U0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgxMywtMTM3MzI3
+MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAzOT
+csLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyNDY4NTY0LDEy
+MjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5MjA5NTQ0LDk1NjgwNj
+M0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwtNTkzMDEwNzQyLC0x
+ODc5MjM0OTU2XX0=
 -->
