@@ -297,18 +297,13 @@ Note, that this algorithm does not need the input to be scaled in any form.
 Due to the distances' calculation, it is even undesirable.
 For the following experiment, we use the Local Outlier Factor with the following settings:
 - novelty: True
+Note, that if the novelty parameter is set to True, we cannot use the *fit_predict* method, which is of online outlier detection, anymore.
+Instead, we have to first use the *fit* method to fit the matrix on the regular dataset and the use the *predict* to evaluate new datapoints.
 Figure x shows the results of the above defined dataset with novelty data added.
 
 > Figure example 5
 
-
-Note, that if the novelty parameter is set to True, we cannot use the *fit_predict* method, which is of online outlier detection, anymore.
-Instead, we have to first use the *fit* method to fit the matrix on the regular dataset and the use the *predict* to evaluate new datapoints.
-
-
-As we can see, the algorithm was successful in isolation all of the novelty datapoints.
-
-
+As we can see, the algorithm was successful in isolating all of the novelty datapoints.
 
 
 
@@ -356,7 +351,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTY3MTM5NiwtMTc4MTAzMjM5NCwxMj
+eyJoaXN0b3J5IjpbLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NCwxMj
 Y4MjIwMDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYx
 NDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1Mz
 AxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwt
