@@ -307,10 +307,11 @@ As we can see, the algorithm was successful in isolating all of the novelty data
 
 Because the Local Outlier Factor algorithm calculates the distance metric, with our model trained, we can elaborate on that and provide more novel datapoints to observe the distances calculated.
 
+> Figure example 7
 
+#### Setting the right parameters
+The last example of above se
 
-
-#### setting the right parameters
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
 Other notable parameters with huge impact on the result are...
 This kind of issue is widely known amongst AutoML community.
@@ -352,11 +353,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04OD
-M0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIyMDA1OSwtMzg1NDYw
-NTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwND
-csMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgwMzk3LC0x
-ODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NCwxMjIyNj
-MyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4MDYzNDYs
-NTcxMzk0OTM2XX0=
+eyJoaXN0b3J5IjpbNDIwNDMxNDk0LC00ODM3NjY0NjIsMTgzMz
+IyOTY5NCwtODgzNDQ2MDg2LC0xNzgxMDMyMzk0LDEyNjgyMjAw
+NTksLTM4NTQ2MDUxNiwtMTU0ODk2MDgyNCwtNTE2NjE0ODEzLC
+0xMzczMjcyMDQ3LDIwODA2NjYxMzUsLTE1NzI4MzUzMDEsMTk0
+NTU4MDM5NywtMTg2MTIzMzk3OSwxNzcxNjE2NTc0LC05MTI0Nj
+g1NjQsMTIyMjYzMjA3MCwtOTE3NTg0MzQ3LC00NTkyMDk1NDQs
+OTU2ODA2MzQ2XX0=
 -->
