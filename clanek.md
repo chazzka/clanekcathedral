@@ -305,7 +305,7 @@ Figure x shows the results of the above defined dataset with novelty data added.
 
 As we can see, the algorithm was successful in isolating all of the novelty datapoints.
 
-Because the Local Outlier Factor algorithm 
+Because the Local Outlier Factor algorithm calculates the distance metric, with our model trained, we can leve
 
 
 
@@ -351,11 +351,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzIyOTY5NCwtODgzNDQ2MDg2LC0xNz
-gxMDMyMzk0LDEyNjgyMjAwNTksLTM4NTQ2MDUxNiwtMTU0ODk2
-MDgyNCwtNTE2NjE0ODEzLC0xMzczMjcyMDQ3LDIwODA2NjYxMz
-UsLTE1NzI4MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwx
-NzcxNjE2NTc0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NT
-g0MzQ3LC00NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwt
-OTM1MDQxOTExXX0=
+eyJoaXN0b3J5IjpbMTk1MDQ2NzQyOSwxODMzMjI5Njk0LC04OD
+M0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIyMDA1OSwtMzg1NDYw
+NTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwND
+csMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgwMzk3LC0x
+ODYxMjMzOTc5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NCwxMjIyNj
+MyMDcwLC05MTc1ODQzNDcsLTQ1OTIwOTU0NCw5NTY4MDYzNDYs
+NTcxMzk0OTM2XX0=
 -->
