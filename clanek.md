@@ -341,6 +341,7 @@ The proportion of false positive novelties
  
 Note that the dataset is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
 The hyperparameters for each algorithm were experimentally set using autoconfiguration mechanisms.
+Each of the values in the table is an e
 
 ### Experiment 1: 
 
@@ -365,7 +366,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM3ODU5MzcsNjcyMDAxNjcxLC00OD
+eyJoaXN0b3J5IjpbLTEwOTk0NDQ5MzQsNjcyMDAxNjcxLC00OD
 M3NjY0NjIsMTgzMzIyOTY5NCwtODgzNDQ2MDg2LC0xNzgxMDMy
 Mzk0LDEyNjgyMjAwNTksLTM4NTQ2MDUxNiwtMTU0ODk2MDgyNC
 wtNTE2NjE0ODEzLC0xMzczMjcyMDQ3LDIwODA2NjYxMzUsLTE1
