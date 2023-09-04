@@ -320,6 +320,8 @@ Figure X shows the result of the experiment when setting the number of neighbors
 
 > Figure example 
 
+This shows the importance of the proper para
+
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
 Other notable parameters with huge impact on the result are...
 This kind of issue is widely known amongst AutoML community.
@@ -361,7 +363,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUxMDYzNzEsLTQ4Mzc2NjQ2MiwxOD
+eyJoaXN0b3J5IjpbLTE3Mjc0NTI0OTYsLTQ4Mzc2NjQ2MiwxOD
 MzMjI5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIy
 MDA1OSwtMzg1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MT
 MsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMwMSwx
