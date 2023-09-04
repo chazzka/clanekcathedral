@@ -273,9 +273,10 @@ However useful this feature is, it also has its downsides.
 Figure X shows the result of an above-defined experiment with the following settings:
 - nu = 0.02
 - kernel = rbf
+
 The figure shows that the algorithm successfully marked the novelty data.
-Notice that it also shows some of the regular data marked as novelty (note, that the testing dataset provided for evaluation phase is different than the training one). 
-This phenomenon will be called the false positive findings and will be examined later during evaluation of experiments.
+Notice that it also shows some of the *regular* data marked as novelty (note, that the testing dataset provided for evaluation phase is different than the training one). 
+This phenomenon is called the false positive findings and will be examined later during evaluation of experiments.
 
 > Figure x (Example 4)
 
@@ -290,6 +291,7 @@ For each new datapoint a new reachability distance is calculated.
 If the distance is higher than some threshold, the datapoint is an outlier.
 This is perfect for novelty detection, since we can calculate the average distance on the regular datapoints and observe its value on the later provided datapoints.
 
+Again,
 
 #### setting the right parameters
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
@@ -333,7 +335,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjYwNTczMiwtMzg1NDYwNTE2LC0xNT
+eyJoaXN0b3J5IjpbLTI4MTg2NTkwNywtMzg1NDYwNTE2LC0xNT
 Q4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4MDY2
 NjEzNSwtMTU3MjgzNTMwMSwxOTQ1NTgwMzk3LC0xODYxMjMzOT
 c5LDE3NzE2MTY1NzQsLTkxMjQ2ODU2NCwxMjIyNjMyMDcwLC05
