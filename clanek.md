@@ -293,8 +293,12 @@ If the distance is higher than some threshold, the datapoint is an outlier.
 This is perfect for novelty detection, since we can calculate the average distance on the regular datapoints and observe its value on the later provided datapoints.
 
 Again, let us put the Local Outlier Factor to the test. 
-Note, that this algorithm does not need the input to be scaled in any form. Due to the distances' calculation, it is even undesirable.
-Figure 
+Note, that this algorithm does not need the input to be scaled in any form. 
+Due to the distances' calculation, it is even undesirable.
+Figure x shows the results of the above defined dataset with novelty data aded.
+
+
+
 
 #### setting the right parameters
 Oba ty algoritmy maji furu parametrů, které musíme nastavit
@@ -338,7 +342,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjAyMzkyNSwxMjY4MjIwMDU5LC0zOD
+eyJoaXN0b3J5IjpbMTU5MDA1Mjk1MywxMjY4MjIwMDU5LC0zOD
 U0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgxMywtMTM3MzI3
 MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAzOT
 csLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwtOTEyNDY4NTY0LDEy
