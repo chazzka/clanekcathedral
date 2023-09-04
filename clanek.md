@@ -305,7 +305,7 @@ Figure x shows the results of the above defined dataset with novelty data added.
 
 As we can see, the algorithm was successful in isolating all of the novelty datapoints.
 
-
+Because the Local Outlier Factor algorithm 
 
 
 
@@ -351,11 +351,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NCwxMj
-Y4MjIwMDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYx
-NDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyODM1Mz
-AxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3NCwt
-OTEyNDY4NTY0LDEyMjI2MzIwNzAsLTkxNzU4NDM0NywtNDU5Mj
-A5NTQ0LDk1NjgwNjM0Niw1NzEzOTQ5MzYsLTkzNTA0MTkxMSwt
-NTkzMDEwNzQyXX0=
+eyJoaXN0b3J5IjpbMTgzMzIyOTY5NCwtODgzNDQ2MDg2LC0xNz
+gxMDMyMzk0LDEyNjgyMjAwNTksLTM4NTQ2MDUxNiwtMTU0ODk2
+MDgyNCwtNTE2NjE0ODEzLC0xMzczMjcyMDQ3LDIwODA2NjYxMz
+UsLTE1NzI4MzUzMDEsMTk0NTU4MDM5NywtMTg2MTIzMzk3OSwx
+NzcxNjE2NTc0LC05MTI0Njg1NjQsMTIyMjYzMjA3MCwtOTE3NT
+g0MzQ3LC00NTkyMDk1NDQsOTU2ODA2MzQ2LDU3MTM5NDkzNiwt
+OTM1MDQxOTExXX0=
 -->
