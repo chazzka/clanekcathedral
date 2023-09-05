@@ -278,7 +278,7 @@ Figure X shows the result of an above-defined experiment with the following sett
 The figure shows that the algorithm successfully marked the novelty data.
 Notice that it also shows some of the *regular* data marked as novelty (note, that the testing dataset provided for evaluation phase is different than the training one). 
 This phenomenon is called the false positive findings and will be examined later during evaluation of experiments.
-
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example4.svg)
 > Figure x (Example 4)
 
 
@@ -373,11 +373,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI0NTE4NzQsLTEzODE4NjIwNjIsMj
-A0MzkxOTU1OSwxNzEwOTQ4MzkzLDY3MjAwMTY3MSwtNDgzNzY2
-NDYyLDE4MzMyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NC
-wxMjY4MjIwMDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUx
-NjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyOD
-M1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3
-NCwtOTEyNDY4NTY0XX0=
+eyJoaXN0b3J5IjpbLTIwODQ3MTIwNzksLTEzNTI0NTE4NzQsLT
+EzODE4NjIwNjIsMjA0MzkxOTU1OSwxNzEwOTQ4MzkzLDY3MjAw
+MTY3MSwtNDgzNzY2NDYyLDE4MzMyMjk2OTQsLTg4MzQ0NjA4Ni
+wtMTc4MTAzMjM5NCwxMjY4MjIwMDU5LC0zODU0NjA1MTYsLTE1
+NDg5NjA4MjQsLTUxNjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNj
+Y2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5
+NzksMTc3MTYxNjU3NF19
 -->
