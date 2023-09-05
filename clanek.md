@@ -346,7 +346,8 @@ Each of the values in the table is an average of 50 runs to obtain statistically
 
 ### Experiment 1: One-class SVM 
 
-- [ ] TODO: Experimenty pouze ran
+- [ ] TODO: Experimenty pouze random aspon 6 různych random instancí
+
 
 ||  Positive | Negative |  
 |-|-|-
@@ -374,7 +375,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTg4NjI4MywtMjA4NDcxMjA3OSwtMT
+eyJoaXN0b3J5IjpbMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OSwtMT
 M1MjQ1MTg3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3MTA5
 NDgzOTMsNjcyMDAxNjcxLC00ODM3NjY0NjIsMTgzMzIyOTY5NC
 wtODgzNDQ2MDg2LC0xNzgxMDMyMzk0LDEyNjgyMjAwNTksLTM4
