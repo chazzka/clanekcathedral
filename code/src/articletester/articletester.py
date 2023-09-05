@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.colors
 from itertools import *
 from toolz import groupby, unique
 
@@ -25,15 +26,38 @@ def plotDataWithMean(xyData):
     plt.show()
 
 
-def plotXYData(xdata, ydata, fig_ax_tuple, savepath = 0, c='red'):
+def plotXYData(regular, fig_ax_tuple, savepath = 0, c='red', labels=["Regular"]):
     print(fig_ax_tuple)
     fig = fig_ax_tuple[0]
     ax = fig_ax_tuple[1]
-    ax.scatter(xdata, ydata, c=c, facecolors='w', edgecolors='black')
+
+    scatter1 = ax.scatter(*zip(*regular), c=c[0],  facecolors='w', edgecolors='black', label=labels[0])
+    ax.legend()
+    
     plt.xlabel("Time", loc='right')
     plt.ylabel("Observed value", loc='top')
     
+    if savepath:
+        plt.savefig(savepath, format="svg")
 
+    return fig, ax
+
+
+def plotXYDataTwoClasses(regular, outlier, fig_ax_tuple, savepath = 0, c='red', labels=["Regular", "Outlier"]):
+    print(fig_ax_tuple)
+    fig = fig_ax_tuple[0]
+    ax = fig_ax_tuple[1]
+
+    if len(regular):
+        scatter1 = ax.scatter(*zip(*regular), c=c[0],  facecolors='w', edgecolors='black', label=labels[0])
+
+    if len(outlier):    
+        scatter2 = ax.scatter(*zip(*outlier), c=c[1],  facecolors='w', edgecolors='black', label=labels[1])
+    ax.legend()
+    
+    plt.xlabel("Time", loc='right')
+    plt.ylabel("Observed value", loc='top')
+    
     if savepath:
         plt.savefig(savepath, format="svg")
 

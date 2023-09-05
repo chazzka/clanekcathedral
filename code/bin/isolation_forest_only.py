@@ -32,9 +32,10 @@ if __name__ == "__main__":
     #trainXyValues = list(product(range(100), range(250)))
         
     res = trainAndPredict(trainXyValues, forest, args=config["anomaly"])
+    print(list(config["anomaly"]))
 
 
-    fi, ax = plotXYData(*zip(*trainXyValues), plt.subplots(), c=list(map(lambda x: 'white' if x == -1 else 'black',res)), savepath="figures/delete.svg")
+    fi, ax = plotXYData(*zip(*trainXyValues), plt.subplots(), c=list(map(lambda x: '0' if x == -1 else 'black',res)), savepath="figures/delete.svg")
     
     plt.show()
 
