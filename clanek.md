@@ -132,7 +132,7 @@ Consider a dataset containing no anomalies at all, which we want to use to for t
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination0.svg)
-> Figure X dataset with no anomalies
+> Figure X dataset with no anomalies (example 1)
 
 
 Note, that one of the parameters of the Isolation Forest is the contamination parameter.
@@ -140,13 +140,13 @@ The contamination parameter is to control the proportion of anomalies in the dat
 Usually, this has to be known beforehand. 
 This parameter has a huge impact on the final result of the detection.
 This can be a problem due to a random appearance of the anomalies in our dataset and hence the proportion value varies.
-Using this parameter we can, however, deal with datasets already containing some portion of anomalies during learning.
+Using this parameter, we can, however, deal with datasets already containing some portion of anomalies during learning.
 That can easily happen especially during the testing phasis of the development.
 Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies) using the Scikit's Isolation Forest *fit_predict* method.
 
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination001.svg)
-> Figure X dataset with contamination = 0.01
+> Figure X dataset with contamination = 0.01 (example 2)
 
 
 We can leverage on this knowledge and try to provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
@@ -155,11 +155,12 @@ With the data fit, we add a bunch of new, unseen, novelty datapoints.
 Figure X shows the result of *predict* method with the new data added.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination001_novelty.svg)
+> Figure X. example 3
 
 As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
 This is caused by the way the Isolation Forest splits the observation space.
 Isolation Forest algorithm does the recursive partitioning to orphan the data in separate nodes. 
-The less partitions is needed to separate the datapoint, the more anomalous it gets.
+The less partitions are needed to separate the datapoint, the more anomalous it gets.
 The Isolation Forest algorithm creates a new separation space based on the previously seen datapoints, hence there is not much room for the new, possibly novel datapoint, to be marked so.
 New datapoints often fall into the same separation space with the previously seen, regular-marked datapoints, marking them regular.
 Similar principles go with other outlier detection algorithms. 
@@ -261,7 +262,28 @@ The demand here is that the sphere contains all training objects - in our case r
 The One-class SVM learns a decision function so that the input unlabeled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
 This way, the One-class classification is possible, and this method is semi-supervised.
 
-TODO: - STEJNY EXAMPLE JAKO U ISOLATION FORESTU ALE S TIMTO
+Let us return to the previous experiment with new, novel, previously unseen datapoints.
+Again, we first perform the fitting operation on the regular datapoints.
+Then we get different, similar dataset composed of regular datapoints and novelty datapoints.
+Note that Scikit's OneClass SVM implementation - as opposed to Isolation Forest - requires data to be normalized between 0 and 1.
+For this, we use Scikit's StandardScaler which can perform data-relative scaling.
+However useful this feature is, it also has its downsides.
+- [ ] TODO: downsides of scaling
+
+
+Figure X shows the result of an above-defined experiment with the following settings:
+- nu = 0.02
+- kernel = rbf
+
+The figure shows that the algorithm successfully marked the novelty data.
+Notice that it also shows some of the *regular* data marked as novelty (note, that the testing dataset provided for evaluation phase is different than the training one). 
+This phenomenon is called the false positive findings and will be examined later during evaluation of experiments.
+
+> Figure x (Example 4)
+
+
+- [ ] TODO: s linearnim to vubec nefungovalo, mozona obrazek a rict proc?
+
 
 #### Local outlier factor
 Local Outlier Factor is a neighborhood-based algorithm.
@@ -270,10 +292,37 @@ For each new datapoint a new reachability distance is calculated.
 If the distance is higher than some threshold, the datapoint is an outlier.
 This is perfect for novelty detection, since we can calculate the average distance on the regular datapoints and observe its value on the later provided datapoints.
 
+Again, let us put the Local Outlier Factor to the test. 
+Note, that this algorithm does not need the input to be scaled in any form. 
+Due to the distances' calculation, it is even undesirable.
+For the following experiment, we use the Local Outlier Factor with the following settings:
+- novelty: True
+Note, that if the novelty parameter is set to True, we cannot use the *fit_predict* method, which is of online outlier detection, anymore.
+Instead, we have to first use the *fit* method to fit the matrix on the regular dataset and the use the *predict* to evaluate new datapoints.
+Figure x shows the results of the above defined dataset with novelty data added.
 
-#### setting the right parameters
-Oba ty algoritmy maji furu parametrů, které musíme nastavit
-Other notable parameters with huge impact on the result are...
+> Figure example 5
+
+As we can see, the algorithm was successful in isolating all of the novelty datapoints.
+
+Because the Local Outlier Factor algorithm calculates the distance metric, with our model trained, we can elaborate on that and provide more novel datapoints to observe the distances calculated.
+
+> Figure example 6
+
+#### Setting the right parameters
+The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
+The *n_neighbors* parameter of the Local Outlier Factor algorithm is useful to control the number of neighbors to be taken in the query.
+Considering our example 5, the algorithm clearly lacks sufficient number of neighbors, since it marked the whole neighborhood as a novelty area.
+
+When experimentally optimizing the number of neighbors, the false positive marked novelty area can be fixed completely.
+
+Figure X shows the result of the experiment when setting the number of neighbors to be taken to 50.
+
+> Figure example 7
+
+This shows the importance of the proper hyperparameter settings.
+All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
+This optimization can be a tedious process, due to not only the number of hyperparameters, but also their interconnectivity.
 This kind of issue is widely known amongst AutoML community.
 Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
 
@@ -291,6 +340,17 @@ The proportion of false positive novelties
 : This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
  
 Note that the dataset is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
+The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
+Each of the values in the table is an average of 50 runs to obtain statistically significant results.
+
+### Experiment 1: One-class SVM 
+
+
+
+||  Positive | Negative |  
+|-|-|-
+| Positive |  0.96727484 | 0.03272516 | 
+| Negative |0.02006547| 0.97993453 | 
 
 https://www.researchgate.net/figure/Contingency-table-True-Positive-False-Positive-False-Negative-and-True-Negatives-are_fig5_280535795
 
@@ -309,12 +369,15 @@ obrázky, tabulka, výhody, nevýhody
 - zde napíšeme co se povedlo, jak to neni vubec lehke najit dva či více algoritmů které spolu dobře fungují a velký problem je jejich validace a verifikace, zkus navhrnout nějaké řešení verifikace
 ## Conclusion
 
+
+## References
+https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI4MzUzMDEsMTk0NTU4MDM5NywtMT
-g2MTIzMzk3OSwxNzcxNjE2NTc0LC05MTI0Njg1NjQsMTIyMjYz
-MjA3MCwtOTE3NTg0MzQ3LC00NTkyMDk1NDQsOTU2ODA2MzQ2LD
-U3MTM5NDkzNiwtOTM1MDQxOTExLC01OTMwMTA3NDIsLTE4Nzky
-MzQ5NTYsMTI3NjYyNTUyMSw0NjA4MTM5MDgsLTcwODk2MzAzMS
-wtMTYzNzA4MTI2NywtODU5MjE5NzU5LC0xNTU3OTUxMDQ3LC0y
-MDA5ODM5NjUyXX0=
+eyJoaXN0b3J5IjpbLTEzNTI0NTE4NzQsLTEzODE4NjIwNjIsMj
+A0MzkxOTU1OSwxNzEwOTQ4MzkzLDY3MjAwMTY3MSwtNDgzNzY2
+NDYyLDE4MzMyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NC
+wxMjY4MjIwMDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUx
+NjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1LC0xNTcyOD
+M1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5NzksMTc3MTYxNjU3
+NCwtOTEyNDY4NTY0XX0=
 -->
