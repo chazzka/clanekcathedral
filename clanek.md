@@ -300,13 +300,13 @@ For the following experiment, we use the Local Outlier Factor with the following
 Note, that if the novelty parameter is set to True, we cannot use the *fit_predict* method, which is of online outlier detection, anymore.
 Instead, we have to first use the *fit* method to fit the matrix on the regular dataset and the use the *predict* to evaluate new datapoints.
 Figure x shows the results of the above defined dataset with novelty data added.
-
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example5.svg)
 > Figure example 5
 
 As we can see, the algorithm was successful in isolating all of the novelty datapoints.
 
 Because the Local Outlier Factor algorithm calculates the distance metric, with our model trained, we can elaborate on that and provide more novel datapoints to observe the distances calculated.
-
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example6.svg)
 > Figure example 6
 
 #### Setting the right parameters
@@ -318,6 +318,7 @@ When experimentally optimizing the number of neighbors, the false positive marke
 
 Figure X shows the result of the experiment when setting the number of neighbors to be taken to 50.
 
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example7.svg)
 > Figure example 7
 
 This shows the importance of the proper hyperparameter settings.
@@ -345,7 +346,7 @@ Each of the values in the table is an average of 50 runs to obtain statistically
 
 ### Experiment 1: One-class SVM 
 
-
+- [ ] TODO: Experimenty pouze ran
 
 ||  Positive | Negative |  
 |-|-|-
@@ -373,11 +374,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ3MTIwNzksLTEzNTI0NTE4NzQsLT
-EzODE4NjIwNjIsMjA0MzkxOTU1OSwxNzEwOTQ4MzkzLDY3MjAw
-MTY3MSwtNDgzNzY2NDYyLDE4MzMyMjk2OTQsLTg4MzQ0NjA4Ni
-wtMTc4MTAzMjM5NCwxMjY4MjIwMDU5LC0zODU0NjA1MTYsLTE1
-NDg5NjA4MjQsLTUxNjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNj
-Y2MTM1LC0xNTcyODM1MzAxLDE5NDU1ODAzOTcsLTE4NjEyMzM5
-NzksMTc3MTYxNjU3NF19
+eyJoaXN0b3J5IjpbMTgwNTg4NjI4MywtMjA4NDcxMjA3OSwtMT
+M1MjQ1MTg3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3MTA5
+NDgzOTMsNjcyMDAxNjcxLC00ODM3NjY0NjIsMTgzMzIyOTY5NC
+wtODgzNDQ2MDg2LC0xNzgxMDMyMzk0LDEyNjgyMjAwNTksLTM4
+NTQ2MDUxNiwtMTU0ODk2MDgyNCwtNTE2NjE0ODEzLC0xMzczMj
+cyMDQ3LDIwODA2NjYxMzUsLTE1NzI4MzUzMDEsMTk0NTU4MDM5
+NywtMTg2MTIzMzk3OV19
 -->
