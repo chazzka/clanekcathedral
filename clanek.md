@@ -321,7 +321,7 @@ This can be easily fixed by remapping the Time axes to be relative to the chosen
 #### Setting the right parameters
 The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
 The *n_neighbors* parameter of the Local Outlier Factor algorithm is useful to control the number of neighbors to be taken in the query.
-Considering our example 5, the algorithm clearly lacks sufficient number of neighbors, since it marked the whole neighborhood as a novelty area.
+Considering the example 5, the algorithm clearly lacks sufficient number of neighbors, since it marked the whole neighborhood as a novelty area.
 
 When experimentally optimizing the number of neighbors, the false positive marked novelty area can be fixed completely.
 
@@ -393,11 +393,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMj
-U0OTMyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkz
-NTU4LC0xNDUwNDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIyNjM1NS
-wtMjA4NDcxMjA3OSwtMTM1MjQ1MTg3NCwtMTM4MTg2MjA2Miwy
-MDQzOTE5NTU5LDE3MTA5NDgzOTMsNjcyMDAxNjcxLC00ODM3Nj
-Y0NjIsMTgzMzIyOTY5NCwtODgzNDQ2MDg2LC0xNzgxMDMyMzk0
-LDEyNjgyMjAwNTldfQ==
+eyJoaXN0b3J5IjpbMTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5ND
+k3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMz
+NzcwLDExNzA3OTM1NTgsLTE0NTA0NTA3OTgsLTEyMTMwOTg2OS
+wxNDcxMjI2MzU1LC0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0x
+MzgxODYyMDYyLDIwNDM5MTk1NTksMTcxMDk0ODM5Myw2NzIwMD
+E2NzEsLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04ODM0NDYwODYs
+LTE3ODEwMzIzOTRdfQ==
 -->
