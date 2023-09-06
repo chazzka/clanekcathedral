@@ -311,6 +311,9 @@ Figure x shows the algorithm when performed on a mesh of datapoints.
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example6.svg)
 > Figure example 6
 
+
+Figure X shows one more crucial obser
+ 
 #### Setting the right parameters
 The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
 The *n_neighbors* parameter of the Local Outlier Factor algorithm is useful to control the number of neighbors to be taken in the query.
@@ -386,11 +389,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjU0OTMyOSwtMTQ4MDg5MDg5MywtMT
-c4ODYzMzc3MCwxMTcwNzkzNTU4LC0xNDUwNDUwNzk4LC0xMjEz
-MDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OSwtMTM1MjQ1MT
-g3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3MTA5NDgzOTMs
-NjcyMDAxNjcxLC00ODM3NjY0NjIsMTgzMzIyOTY5NCwtODgzND
-Q2MDg2LC0xNzgxMDMyMzk0LDEyNjgyMjAwNTksLTM4NTQ2MDUx
-NiwtMTU0ODk2MDgyNF19
+eyJoaXN0b3J5IjpbMTU1NzM3NjY3MiwtNzEyNTQ5MzI5LC0xND
+gwODkwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1NTgsLTE0NTA0
+NTA3OTgsLTEyMTMwOTg2OSwxNDcxMjI2MzU1LC0yMDg0NzEyMD
+c5LC0xMzUyNDUxODc0LC0xMzgxODYyMDYyLDIwNDM5MTk1NTks
+MTcxMDk0ODM5Myw2NzIwMDE2NzEsLTQ4Mzc2NjQ2MiwxODMzMj
+I5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIyMDA1
+OSwtMzg1NDYwNTE2XX0=
 -->
