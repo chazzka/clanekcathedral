@@ -312,7 +312,9 @@ Figure x shows the algorithm when performed on a mesh of datapoints.
 > Figure example 6
 
 
-Figure X shows one more crucial obser
+Figure X shows one more crucial observation.
+The area marked by LOF algorithm is cut in the right side.
+This is indisputably caused by the 
  
 #### Setting the right parameters
 The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
@@ -389,11 +391,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzM3NjY3MiwtNzEyNTQ5MzI5LC0xND
-gwODkwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1NTgsLTE0NTA0
-NTA3OTgsLTEyMTMwOTg2OSwxNDcxMjI2MzU1LC0yMDg0NzEyMD
-c5LC0xMzUyNDUxODc0LC0xMzgxODYyMDYyLDIwNDM5MTk1NTks
-MTcxMDk0ODM5Myw2NzIwMDE2NzEsLTQ4Mzc2NjQ2MiwxODMzMj
-I5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIyMDA1
-OSwtMzg1NDYwNTE2XX0=
+eyJoaXN0b3J5IjpbLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMT
+Q4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xNDUw
+NDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcxMj
+A3OSwtMTM1MjQ1MTg3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5
+LDE3MTA5NDgzOTMsNjcyMDAxNjcxLC00ODM3NjY0NjIsMTgzMz
+IyOTY5NCwtODgzNDQ2MDg2LC0xNzgxMDMyMzk0LDEyNjgyMjAw
+NTksLTM4NTQ2MDUxNl19
 -->
