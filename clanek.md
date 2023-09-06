@@ -307,7 +307,8 @@ As we can see, the algorithm was successful in isolating all of the novelty data
 
 Because the Local Outlier Factor algorithm calculates the distance metric, with our model trained, we can elaborate on that and provide more novel datapoints to observe the distances calculated.
 This reveals the last problem with using this method.
-Since we fit the data on both x and y values, the algorithm 
+Since we fit the data on both Time and Observed values, the algorithm treats all the Time values as part of the neighborhood.
+This is an undesired behavior in the sense of time series datamining, since the Time variable continu
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example6.svg)
 > Figure example 6
 
@@ -386,11 +387,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDIyODQ4MywtMTc4ODYzMzc3MCwxMT
-cwNzkzNTU4LC0xNDUwNDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIy
-NjM1NSwtMjA4NDcxMjA3OSwtMTM1MjQ1MTg3NCwtMTM4MTg2Mj
-A2MiwyMDQzOTE5NTU5LDE3MTA5NDgzOTMsNjcyMDAxNjcxLC00
-ODM3NjY0NjIsMTgzMzIyOTY5NCwtODgzNDQ2MDg2LC0xNzgxMD
-MyMzk0LDEyNjgyMjAwNTksLTM4NTQ2MDUxNiwtMTU0ODk2MDgy
-NCwtNTE2NjE0ODEzXX0=
+eyJoaXN0b3J5IjpbLTE0ODIwMTAzMzUsLTE3ODg2MzM3NzAsMT
+E3MDc5MzU1OCwtMTQ1MDQ1MDc5OCwtMTIxMzA5ODY5LDE0NzEy
+MjYzNTUsLTIwODQ3MTIwNzksLTEzNTI0NTE4NzQsLTEzODE4Nj
+IwNjIsMjA0MzkxOTU1OSwxNzEwOTQ4MzkzLDY3MjAwMTY3MSwt
+NDgzNzY2NDYyLDE4MzMyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4MT
+AzMjM5NCwxMjY4MjIwMDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4
+MjQsLTUxNjYxNDgxM119
 -->
