@@ -282,8 +282,6 @@ This phenomenon is called the false positive findings and will be examined later
 > Figure x (Example 4)
 
 
-
-
 #### Local outlier factor
 Local Outlier Factor is a neighborhood-based algorithm.
 It first calculates the reachability matrix by calculating the reachability distances as in the k-nearest neighborhood. 
@@ -316,6 +314,7 @@ The area marked by LOF algorithm is cut in the right side.
 Since we fit the data on both Time and Observed values, the algorithm treats all the Time values as part of the neighborhood.
 This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
 
+### Time
 
 TODO: VIDIME TEDY ZE V DATECH JSOU MEZERY A ALGORITMUS MA TENDENCI JE OZNACOVAT JAKO OUTLIERY, KDYZ ALE ROZDELIME TRENOVACI DATASET NA JASNÉ LOGICKÉ ČASOVÉ INTERVALY, NEJEN ŽE ODSTRANÍME PROBLÉM S NARŮSTAJÍCÍM ČASEM, ALE ZAHUSTÍ SE NÁM TÉŽ DATOVÝ PROSTOR
 
@@ -386,11 +385,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzgzMjkzMjgsODQ2NTc4MjcsMTkyOD
-g5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTAs
-MTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MD
-g5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xNDUwNDUw
-Nzk4LC0xMjEzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OS
-wtMTM1MjQ1MTg3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3
-MTA5NDgzOTNdfQ==
+eyJoaXN0b3J5IjpbMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4OD
+k1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwx
+MDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwOD
+kwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1NTgsLTE0NTA0NTA3
+OTgsLTEyMTMwOTg2OSwxNDcxMjI2MzU1LC0yMDg0NzEyMDc5LC
+0xMzUyNDUxODc0LC0xMzgxODYyMDYyLDIwNDM5MTk1NTksMTcx
+MDk0ODM5M119
 -->
