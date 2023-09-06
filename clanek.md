@@ -282,7 +282,6 @@ This phenomenon is called the false positive findings and will be examined later
 > Figure x (Example 4)
 
 
-- [ ] TODO: s linearnim to vubec nefungovalo, mozona obrazek a rict proc?
 
 
 #### Local outlier factor
@@ -387,11 +386,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2NTc4MjcsMTkyODg5NTU2NSw5NzE3OD
-Y1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MTc1ODUsLTEy
-OTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5MywtMTc4OD
-YzMzc3MCwxMTcwNzkzNTU4LC0xNDUwNDUwNzk4LC0xMjEzMDk4
-NjksMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OSwtMTM1MjQ1MTg3NC
-wtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3MTA5NDgzOTMsNjcy
-MDAxNjcxXX0=
+eyJoaXN0b3J5IjpbLTIwMzgzMjkzMjgsODQ2NTc4MjcsMTkyOD
+g5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTAs
+MTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MD
+g5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xNDUwNDUw
+Nzk4LC0xMjEzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OS
+wtMTM1MjQ1MTg3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3
+MTA5NDgzOTNdfQ==
 -->
