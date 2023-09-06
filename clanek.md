@@ -312,7 +312,7 @@ Figure x shows the algorithm when performed on a mesh of datapoints.
 > Figure example 6
 
 
-Figure X shows one more crucial observation.
+Figure X shows one more crucial observation. 
 The area marked by LOF algorithm is cut in the right side.
 Since we fit the data on both Time and Observed values, the algorithm treats all the Time values as part of the neighborhood.
 This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
@@ -381,11 +381,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MT
-c1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5
-MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xNDUwNDUwNzk4LC
-0xMjEzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OSwtMTM1
-MjQ1MTg3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3MTA5ND
-gzOTMsNjcyMDAxNjcxLC00ODM3NjY0NjIsMTgzMzIyOTY5NCwt
-ODgzNDQ2MDg2XX0=
+eyJoaXN0b3J5IjpbOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3Nz
+E4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjks
+LTE0ODA4OTA4OTMsLTE3ODg2MzM3NzAsMTE3MDc5MzU1OCwtMT
+Q1MDQ1MDc5OCwtMTIxMzA5ODY5LDE0NzEyMjYzNTUsLTIwODQ3
+MTIwNzksLTEzNTI0NTE4NzQsLTEzODE4NjIwNjIsMjA0MzkxOT
+U1OSwxNzEwOTQ4MzkzLDY3MjAwMTY3MSwtNDgzNzY2NDYyLDE4
+MzMyMjk2OTRdfQ==
 -->
