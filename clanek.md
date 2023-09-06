@@ -319,18 +319,6 @@ This is an undesired behavior in the sense of time series datamining, since the 
 This can be easily fixed by remapping the Time axes to be relative to the chosen time span.
  
 #### Setting the right parameters
-The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
-The *n_neighbors* parameter of the Local Outlier Factor algorithm is useful to control the number of neighbors to be taken in the query.
-Considering the example 5, the algorithm clearly lacks sufficient number of neighbors, since it marked the whole neighborhood as a novelty area.
-
-When experimentally optimizing the number of neighbors, the false positive marked novelty area can be fixed completely.
-
-Figure X shows the result of the experiment when setting the number of neighbors to be taken to 50.
-
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example7.svg)
-> Figure example 7
-
-This shows the importance of the proper hyperparameter settings.
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
 This optimization can be a tedious process, due to not only the number of hyperparameters, but also their interconnectivity.
 This kind of issue is widely known amongst AutoML community.
@@ -393,11 +381,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5ND
-k3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMz
-NzcwLDExNzA3OTM1NTgsLTE0NTA0NTA3OTgsLTEyMTMwOTg2OS
-wxNDcxMjI2MzU1LC0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0x
-MzgxODYyMDYyLDIwNDM5MTk1NTksMTcxMDk0ODM5Myw2NzIwMD
-E2NzEsLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04ODM0NDYwODYs
-LTE3ODEwMzIzOTRdfQ==
+eyJoaXN0b3J5IjpbMzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MT
+c1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5
+MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xNDUwNDUwNzk4LC
+0xMjEzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OSwtMTM1
+MjQ1MTg3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3MTA5ND
+gzOTMsNjcyMDAxNjcxLC00ODM3NjY0NjIsMTgzMzIyOTY5NCwt
+ODgzNDQ2MDg2XX0=
 -->
