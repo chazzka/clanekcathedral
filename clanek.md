@@ -326,7 +326,7 @@ Figure X shows the experiment containing novelty datapoints and also some other 
 
 > example 7
 
-As we can see, the new regular measurements get recognized 
+As we can see, the new regular measurements get assigned the right REGULAR label.
  
 #### Setting the right parameters
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
@@ -391,11 +391,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2Mz
-Q4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OTU1NjUs
-OTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEwLDEwNTE3NT
-g1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjksLTE0ODA4OTA4OTMs
-LTE3ODg2MzM3NzAsMTE3MDc5MzU1OCwtMTQ1MDQ1MDc5OCwtMT
-IxMzA5ODY5LDE0NzEyMjYzNTUsLTIwODQ3MTIwNzksLTEzNTI0
-NTE4NzRdfQ==
+eyJoaXN0b3J5IjpbLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
+YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjcs
+MTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MT
+g3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwt
+MTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xND
+UwNDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcx
+MjA3OV19
 -->
