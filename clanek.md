@@ -316,7 +316,8 @@ This is an undesired behavior in the sense of time series datamining, since the 
 
 #### Time variable preprocessing
 In the above sections we described a problem with rising time variable.
-This problem is usually fixed by splitting the dataset into 
+This problem is usually fixed by dividing the dataset into equal intervals.
+Since the measurements in our environment are done several times throughout the day, we 
 TODO: VIDIME TEDY ZE V DATECH JSOU MEZERY A ALGORITMUS MA TENDENCI JE OZNACOVAT JAKO OUTLIERY, KDYZ ALE ROZDELIME TRENOVACI DATASET NA JASNÉ LOGICKÉ ČASOVÉ INTERVALY, NEJEN ŽE ODSTRANÍME PROBLÉM S NARŮSTAJÍCÍM ČASEM, ALE ZAHUSTÍ SE NÁM TÉŽ DATOVÝ PROSTOR
 
 
@@ -386,11 +387,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzAyMzYzNCwyMDk5MDg4Mjk2LDg0Nj
-U3ODI3LDE5Mjg4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwx
-Mjk3NzE4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1ND
-kzMjksLTE0ODA4OTA4OTMsLTE3ODg2MzM3NzAsMTE3MDc5MzU1
-OCwtMTQ1MDQ1MDc5OCwtMTIxMzA5ODY5LDE0NzEyMjYzNTUsLT
-IwODQ3MTIwNzksLTEzNTI0NTE4NzQsLTEzODE4NjIwNjIsMjA0
-MzkxOTU1OV19
+eyJoaXN0b3J5IjpbLTExMDY4NTc0NTIsMjA5OTA4ODI5Niw4ND
+Y1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIs
+MTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNT
+Q5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1
+NTgsLTE0NTA0NTA3OTgsLTEyMTMwOTg2OSwxNDcxMjI2MzU1LC
+0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgxODYyMDYyLDIw
+NDM5MTk1NTldfQ==
 -->
