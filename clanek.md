@@ -323,10 +323,10 @@ First, the varying time is no more relevant, since the intervals have the same t
 Second, the training area gets more condensed, hence more accurate fitting is possible.
 Figure X shows the experiment containing novelty datapoints and also some other datapoints from measurement with a later time, both normalized in the 24 hours interval.
 
-
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example7.svg)
 > example 7
 
-As we can see, the new regular measurements get assigned the right REGULAR label.
+As figure shows, the new regular measurements get assigned the correct REGULAR label.
  
 #### Setting the right parameters
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
@@ -391,11 +391,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
-YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjcs
-MTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MT
-g3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwt
-MTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xND
-UwNDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcx
-MjA3OV19
+eyJoaXN0b3J5IjpbNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1Mz
+Q4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2
+LDg0NjU3ODI3LDE5Mjg4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNj
+kzMiwxMjk3NzE4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03
+MTI1NDkzMjksLTE0ODA4OTA4OTMsLTE3ODg2MzM3NzAsMTE3MD
+c5MzU1OCwtMTQ1MDQ1MDc5OCwtMTIxMzA5ODY5LDE0NzEyMjYz
+NTVdfQ==
 -->
