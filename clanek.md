@@ -314,7 +314,7 @@ The area marked by LOF algorithm is cut in the right side.
 Since we fit the data on both Time and Observed values, the algorithm treats all the Time values as part of the neighborhood.
 This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
 
-### Time
+### Time variable preprocessing
 
 TODO: VIDIME TEDY ZE V DATECH JSOU MEZERY A ALGORITMUS MA TENDENCI JE OZNACOVAT JAKO OUTLIERY, KDYZ ALE ROZDELIME TRENOVACI DATASET NA JASNÉ LOGICKÉ ČASOVÉ INTERVALY, NEJEN ŽE ODSTRANÍME PROBLÉM S NARŮSTAJÍCÍM ČASEM, ALE ZAHUSTÍ SE NÁM TÉŽ DATOVÝ PROSTOR
 
@@ -385,11 +385,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4OD
-k1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwx
-MDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwOD
-kwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1NTgsLTE0NTA0NTA3
-OTgsLTEyMTMwOTg2OSwxNDcxMjI2MzU1LC0yMDg0NzEyMDc5LC
-0xMzUyNDUxODc0LC0xMzgxODYyMDYyLDIwNDM5MTk1NTksMTcx
-MDk0ODM5M119
+eyJoaXN0b3J5IjpbLTEwMzA0NjU0NzAsMjA5OTA4ODI5Niw4ND
+Y1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIs
+MTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNT
+Q5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1
+NTgsLTE0NTA0NTA3OTgsLTEyMTMwOTg2OSwxNDcxMjI2MzU1LC
+0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgxODYyMDYyLDIw
+NDM5MTk1NTldfQ==
 -->
