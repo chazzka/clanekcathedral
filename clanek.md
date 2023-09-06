@@ -321,8 +321,7 @@ Since the measurements in our environment are done several times throughout the 
 This has several positive outcomes.
 First, the varying time is no more relevant, since the intervals have the same time span.
 Second, the training area gets more condensed, hence more accurate fitting is possible.
-TODO: VIDIME TEDY ZE V DATECH JSOU MEZERY A ALGORITMUS MA TENDENCI JE OZNACOVAT JAKO OUTLIERY, KDYZ ALE ROZDELIME TRENOVACI DATASET NA JASNÉ LOGICKÉ ČASOVÉ INTERVALY, NEJEN ŽE ODSTRANÍME PROBLÉM S NARŮSTAJÍCÍM ČASEM, ALE ZAHUSTÍ SE NÁM TÉŽ DATOVÝ PROSTOR
-
+Figre 
  
 #### Setting the right parameters
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
@@ -387,11 +386,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OT
-A4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwz
-NjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3OD
-MwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMzNzcw
-LDExNzA3OTM1NTgsLTE0NTA0NTA3OTgsLTEyMTMwOTg2OSwxND
-cxMjI2MzU1LC0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgx
-ODYyMDYyXX0=
+eyJoaXN0b3J5IjpbNTQzNTkzNTgxLDkwODYzMzc0NiwtODYzND
+g4MjE1LDIwOTkwODgyOTYsODQ2NTc4MjcsMTkyODg5NTU2NSw5
+NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MTc1OD
+UsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5Mywt
+MTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xNDUwNDUwNzk4LC0xMj
+EzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OSwtMTM1MjQ1
+MTg3NF19
 -->
