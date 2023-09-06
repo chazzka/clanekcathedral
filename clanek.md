@@ -282,9 +282,6 @@ This phenomenon is called the false positive findings and will be examined later
 > Figure x (Example 4)
 
 
-- [ ] TODO: s linearnim to vubec nefungovalo, mozona obrazek a rict proc?
-
-
 #### Local outlier factor
 Local Outlier Factor is a neighborhood-based algorithm.
 It first calculates the reachability matrix by calculating the reachability distances as in the k-nearest neighborhood. 
@@ -306,22 +303,32 @@ Figure x shows the results of the above defined dataset with novelty data added.
 As we can see, the algorithm was successful in isolating all of the novelty datapoints.
 
 Because the Local Outlier Factor algorithm calculates the distance metric, with our model trained, we can elaborate on that and provide more novel datapoints to observe the distances calculated.
+Figure x shows the algorithm when performed on a mesh of datapoints.
+
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example6.svg)
 > Figure example 6
 
+
+Figure X shows one more crucial observation. 
+The area marked by LOF algorithm is cut in the right side.
+Since we fit the data on both Time and Observed values, the algorithm treats all the Time values as part of the neighborhood.
+This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
+
+#### Time variable preprocessing
+In the above sections we described a problem with rising time variable.
+This problem is usually fixed by dividing the dataset into equal intervals.
+Since the measurements in our environment are done several times throughout the day, we chose to divide the dataset into 24-hour intervals and remap the time according to this new interval.
+This has several positive outcomes.
+First, the varying time is no more relevant, since the intervals have the same time span.
+Second, the training area gets more condensed, hence more accurate fitting is possible.
+Figure X shows the experiment containing novelty datapoints and also some other datapoints from measurement with a later time, both normalized in the 24 hours interval.
+
+
+> example 7
+
+As we can see, the new regular measurements get assigned the right REGULAR label.
+ 
 #### Setting the right parameters
-The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
-The *n_neighbors* parameter of the Local Outlier Factor algorithm is useful to control the number of neighbors to be taken in the query.
-Considering our example 5, the algorithm clearly lacks sufficient number of neighbors, since it marked the whole neighborhood as a novelty area.
-
-When experimentally optimizing the number of neighbors, the false positive marked novelty area can be fixed completely.
-
-Figure X shows the result of the experiment when setting the number of neighbors to be taken to 50.
-
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example7.svg)
-> Figure example 7
-
-This shows the importance of the proper hyperparameter settings.
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
 This optimization can be a tedious process, due to not only the number of hyperparameters, but also their interconnectivity.
 This kind of issue is widely known amongst AutoML community.
@@ -384,11 +391,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODg2MzM3NzAsMTE3MDc5MzU1OCwtMT
-Q1MDQ1MDc5OCwtMTIxMzA5ODY5LDE0NzEyMjYzNTUsLTIwODQ3
-MTIwNzksLTEzNTI0NTE4NzQsLTEzODE4NjIwNjIsMjA0MzkxOT
-U1OSwxNzEwOTQ4MzkzLDY3MjAwMTY3MSwtNDgzNzY2NDYyLDE4
-MzMyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NCwxMjY4Mj
-IwMDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgx
-MywtMTM3MzI3MjA0N119
+eyJoaXN0b3J5IjpbLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
+YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjcs
+MTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MT
+g3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwt
+MTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4LC0xND
+UwNDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcx
+MjA3OV19
 -->
