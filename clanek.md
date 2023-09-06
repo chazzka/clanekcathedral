@@ -321,7 +321,12 @@ Since the measurements in our environment are done several times throughout the 
 This has several positive outcomes.
 First, the varying time is no more relevant, since the intervals have the same time span.
 Second, the training area gets more condensed, hence more accurate fitting is possible.
-Figure X shows the experiment containing novelty datapoints and also some other datapoints from measurement with a later time, both 
+Figure X shows the experiment containing novelty datapoints and also some other datapoints from measurement with a later time, both normalized in the 24 hours interval.
+
+
+> example 7
+
+As we can see, the new regular measurements get recognized 
  
 #### Setting the right parameters
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
@@ -386,11 +391,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTIzNTIyMDgsOTA4NjMzNzQ2LC04Nj
-M0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1
-LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNz
-U4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkz
-LC0xNzg4NjMzNzcwLDExNzA3OTM1NTgsLTE0NTA0NTA3OTgsLT
-EyMTMwOTg2OSwxNDcxMjI2MzU1LC0yMDg0NzEyMDc5LC0xMzUy
-NDUxODc0XX0=
+eyJoaXN0b3J5IjpbLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2Mz
+Q4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OTU1NjUs
+OTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEwLDEwNTE3NT
+g1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjksLTE0ODA4OTA4OTMs
+LTE3ODg2MzM3NzAsMTE3MDc5MzU1OCwtMTQ1MDQ1MDc5OCwtMT
+IxMzA5ODY5LDE0NzEyMjYzNTUsLTIwODQ3MTIwNzksLTEzNTI0
+NTE4NzRdfQ==
 -->
