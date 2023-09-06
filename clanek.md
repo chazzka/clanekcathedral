@@ -342,6 +342,8 @@ The proportion of false positive novelties
  
 For the experiments, data from smart home sensors were used.
 Each of the experiments contains the same number of datapoints from a random time interval so that the intervals do not overlap.
+
+Since we use the semi-supervised lear
  
 Note that each of the datasets is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
@@ -378,11 +380,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA0NTA3OTgsLTEyMTMwOTg2OSwxND
-cxMjI2MzU1LC0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgx
-ODYyMDYyLDIwNDM5MTk1NTksMTcxMDk0ODM5Myw2NzIwMDE2Nz
-EsLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04ODM0NDYwODYsLTE3
-ODEwMzIzOTQsMTI2ODIyMDA1OSwtMzg1NDYwNTE2LC0xNTQ4OT
-YwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4MDY2NjEz
-NSwtMTU3MjgzNTMwMV19
+eyJoaXN0b3J5IjpbLTE4NTM4OTUwMTcsLTE0NTA0NTA3OTgsLT
+EyMTMwOTg2OSwxNDcxMjI2MzU1LC0yMDg0NzEyMDc5LC0xMzUy
+NDUxODc0LC0xMzgxODYyMDYyLDIwNDM5MTk1NTksMTcxMDk0OD
+M5Myw2NzIwMDE2NzEsLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04
+ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2ODIyMDA1OSwtMzg1ND
+YwNTE2LC0xNTQ4OTYwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIw
+NDcsMjA4MDY2NjEzNV19
 -->
