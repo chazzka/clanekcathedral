@@ -327,7 +327,7 @@ This optimization can be a tedious process, due to not only the number of hyperp
 This kind of issue is widely known amongst AutoML community.
 Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
 
-#### Experiments
+## Experiments
 For the following experiments, the data described in the introductory section were used.
 In the experiment, we observe following properties:
 
@@ -375,11 +375,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OSwtMT
-M1MjQ1MTg3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3MTA5
-NDgzOTMsNjcyMDAxNjcxLC00ODM3NjY0NjIsMTgzMzIyOTY5NC
-wtODgzNDQ2MDg2LC0xNzgxMDMyMzk0LDEyNjgyMjAwNTksLTM4
-NTQ2MDUxNiwtMTU0ODk2MDgyNCwtNTE2NjE0ODEzLC0xMzczMj
-cyMDQ3LDIwODA2NjYxMzUsLTE1NzI4MzUzMDEsMTk0NTU4MDM5
-NywtMTg2MTIzMzk3OV19
+eyJoaXN0b3J5IjpbLTEyMTMwOTg2OSwxNDcxMjI2MzU1LC0yMD
+g0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgxODYyMDYyLDIwNDM5
+MTk1NTksMTcxMDk0ODM5Myw2NzIwMDE2NzEsLTQ4Mzc2NjQ2Mi
+wxODMzMjI5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2
+ODIyMDA1OSwtMzg1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MT
+Q4MTMsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMw
+MSwxOTQ1NTgwMzk3XX0=
 -->
