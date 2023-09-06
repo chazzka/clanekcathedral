@@ -317,7 +317,9 @@ This is an undesired behavior in the sense of time series datamining, since the 
 #### Time variable preprocessing
 In the above sections we described a problem with rising time variable.
 This problem is usually fixed by dividing the dataset into equal intervals.
-Since the measurements in our environment are done several times throughout the day, we chose to divide the dataset into 24-hours 
+Since the measurements in our environment are done several times throughout the day, we chose to divide the dataset into 24-hour intervals and remap the time accr
+This has several positive outcomes.
+First, the varying time is no more relevant, since 
 TODO: VIDIME TEDY ZE V DATECH JSOU MEZERY A ALGORITMUS MA TENDENCI JE OZNACOVAT JAKO OUTLIERY, KDYZ ALE ROZDELIME TRENOVACI DATASET NA JASNÉ LOGICKÉ ČASOVÉ INTERVALY, NEJEN ŽE ODSTRANÍME PROBLÉM S NARŮSTAJÍCÍM ČASEM, ALE ZAHUSTÍ SE NÁM TÉŽ DATOVÝ PROSTOR
 
  
@@ -384,7 +386,7 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjQ1Mzc5NiwtODYzNDg4MjE1LDIwOT
+eyJoaXN0b3J5IjpbLTgxNTY4ODIwNywtODYzNDg4MjE1LDIwOT
 kwODgyOTYsODQ2NTc4MjcsMTkyODg5NTU2NSw5NzE3ODY1OTAs
 MzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MTc1ODUsLTEyOTQ5Nz
 gzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3
