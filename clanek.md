@@ -131,7 +131,7 @@ Its implementation of Isolation Forest has, in time of writing this text, 5 hype
 Consider a dataset containing no anomalies at all, which we want to use to for the learning.
 Figure x shows example dataset with two features, none of the datapoint being an anomaly.
 
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination0.svg)
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example1.svg)
 > Figure X dataset with no anomalies (example 1)
 
 
@@ -145,7 +145,7 @@ That can easily happen especially during the testing phasis of the development.
 Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies) using the Scikit's Isolation Forest *fit_predict* method.
 
 
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination001.svg)
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example2.svg)
 > Figure X dataset with contamination = 0.01 (example 2)
 
 
@@ -154,7 +154,7 @@ First, we use Scikit Isolation Forest *fit* method, to fit the regular data.
 With the data fit, we add a bunch of new, unseen, novelty datapoints.
 Figure X shows the result of *predict* method with the new data added.
 
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/figures/contamination001_novelty.svg)
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example3.svg)
 > Figure X. example 3
 
 As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
@@ -384,11 +384,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDc5MzU1OCwtMTQ1MDQ1MDc5OCwtMT
-IxMzA5ODY5LDE0NzEyMjYzNTUsLTIwODQ3MTIwNzksLTEzNTI0
-NTE4NzQsLTEzODE4NjIwNjIsMjA0MzkxOTU1OSwxNzEwOTQ4Mz
-kzLDY3MjAwMTY3MSwtNDgzNzY2NDYyLDE4MzMyMjk2OTQsLTg4
-MzQ0NjA4NiwtMTc4MTAzMjM5NCwxMjY4MjIwMDU5LC0zODU0Nj
-A1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgxMywtMTM3MzI3MjA0
-NywyMDgwNjY2MTM1XX0=
+eyJoaXN0b3J5IjpbLTE3ODg2MzM3NzAsMTE3MDc5MzU1OCwtMT
+Q1MDQ1MDc5OCwtMTIxMzA5ODY5LDE0NzEyMjYzNTUsLTIwODQ3
+MTIwNzksLTEzNTI0NTE4NzQsLTEzODE4NjIwNjIsMjA0MzkxOT
+U1OSwxNzEwOTQ4MzkzLDY3MjAwMTY3MSwtNDgzNzY2NDYyLDE4
+MzMyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4MTAzMjM5NCwxMjY4Mj
+IwMDU5LC0zODU0NjA1MTYsLTE1NDg5NjA4MjQsLTUxNjYxNDgx
+MywtMTM3MzI3MjA0N119
 -->
