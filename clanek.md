@@ -340,7 +340,10 @@ The proportion of detected regulars
 The proportion of false positive novelties
 : This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
  
-Note that the dataset is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
+For the experiments, data from smart home sensors were used.
+
+ 
+Note that each of the datasets is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
 Each of the values in the table is an average of 50 runs to obtain statistically significant results.
 
@@ -375,11 +378,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMwOTg2OSwxNDcxMjI2MzU1LC0yMD
-g0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgxODYyMDYyLDIwNDM5
-MTk1NTksMTcxMDk0ODM5Myw2NzIwMDE2NzEsLTQ4Mzc2NjQ2Mi
-wxODMzMjI5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIzOTQsMTI2
-ODIyMDA1OSwtMzg1NDYwNTE2LC0xNTQ4OTYwODI0LC01MTY2MT
-Q4MTMsLTEzNzMyNzIwNDcsMjA4MDY2NjEzNSwtMTU3MjgzNTMw
-MSwxOTQ1NTgwMzk3XX0=
+eyJoaXN0b3J5IjpbLTEzMTUwNTQ3MTcsLTEyMTMwOTg2OSwxND
+cxMjI2MzU1LC0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgx
+ODYyMDYyLDIwNDM5MTk1NTksMTcxMDk0ODM5Myw2NzIwMDE2Nz
+EsLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04ODM0NDYwODYsLTE3
+ODEwMzIzOTQsMTI2ODIyMDA1OSwtMzg1NDYwNTE2LC0xNTQ4OT
+YwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4MDY2NjEz
+NSwtMTU3MjgzNTMwMV19
 -->
