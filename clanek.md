@@ -318,6 +318,7 @@ Since we fit the data on both Time and Observed values, the algorithm treats all
 This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
 This can be easily fixed by remapping the Time axes to be relative to the chosen time span - in our case 24 hours.
 
+###
  
 #### Setting the right parameters
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
@@ -382,11 +383,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMD
-I2OTMyLDEyOTc3MTg3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYs
-LTcxMjU0OTMyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMT
-cwNzkzNTU4LC0xNDUwNDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIy
-NjM1NSwtMjA4NDcxMjA3OSwtMTM1MjQ1MTg3NCwtMTM4MTg2Mj
-A2MiwyMDQzOTE5NTU5LDE3MTA5NDgzOTMsNjcyMDAxNjcxLC00
-ODM3NjY0NjJdfQ==
+eyJoaXN0b3J5IjpbLTExMzMyMzY4OTAsMTkyODg5NTU2NSw5Nz
+E3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MTc1ODUs
+LTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5MywtMT
+c4ODYzMzc3MCwxMTcwNzkzNTU4LC0xNDUwNDUwNzk4LC0xMjEz
+MDk4NjksMTQ3MTIyNjM1NSwtMjA4NDcxMjA3OSwtMTM1MjQ1MT
+g3NCwtMTM4MTg2MjA2MiwyMDQzOTE5NTU5LDE3MTA5NDgzOTMs
+NjcyMDAxNjcxXX0=
 -->
