@@ -341,7 +341,7 @@ The proportion of false positive novelties
 : This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
  
 For the experiments, data from smart home sensors were used.
-Each of the experiments contains data from a random interval 
+Each of the experiments contains the same amount of data from a random time interval so that the intervals do not overlap.
  
 Note that each of the datasets is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
@@ -378,11 +378,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTk0MjQxMCwtMTIxMzA5ODY5LDE0Nz
-EyMjYzNTUsLTIwODQ3MTIwNzksLTEzNTI0NTE4NzQsLTEzODE4
-NjIwNjIsMjA0MzkxOTU1OSwxNzEwOTQ4MzkzLDY3MjAwMTY3MS
-wtNDgzNzY2NDYyLDE4MzMyMjk2OTQsLTg4MzQ0NjA4NiwtMTc4
-MTAzMjM5NCwxMjY4MjIwMDU5LC0zODU0NjA1MTYsLTE1NDg5Nj
-A4MjQsLTUxNjYxNDgxMywtMTM3MzI3MjA0NywyMDgwNjY2MTM1
-LC0xNTcyODM1MzAxXX0=
+eyJoaXN0b3J5IjpbLTE5NDYxNTUwMTAsLTEyMTMwOTg2OSwxND
+cxMjI2MzU1LC0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgx
+ODYyMDYyLDIwNDM5MTk1NTksMTcxMDk0ODM5Myw2NzIwMDE2Nz
+EsLTQ4Mzc2NjQ2MiwxODMzMjI5Njk0LC04ODM0NDYwODYsLTE3
+ODEwMzIzOTQsMTI2ODIyMDA1OSwtMzg1NDYwNTE2LC0xNTQ4OT
+YwODI0LC01MTY2MTQ4MTMsLTEzNzMyNzIwNDcsMjA4MDY2NjEz
+NSwtMTU3MjgzNTMwMV19
 -->
