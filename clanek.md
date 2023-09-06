@@ -316,7 +316,8 @@ Figure X shows one more crucial observation.
 The area marked by LOF algorithm is cut in the right side.
 Since we fit the data on both Time and Observed values, the algorithm treats all the Time values as part of the neighborhood.
 This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
-This can be easily fixed by remapping the Time axes to be relative to the chosen time span.
+This can be easily fixed by remapping the Time axes to be relative to the chosen time span - in our case 24 hours.
+
  
 #### Setting the right parameters
 All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
@@ -381,11 +382,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3Nz
-E4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjks
-LTE0ODA4OTA4OTMsLTE3ODg2MzM3NzAsMTE3MDc5MzU1OCwtMT
-Q1MDQ1MDc5OCwtMTIxMzA5ODY5LDE0NzEyMjYzNTUsLTIwODQ3
-MTIwNzksLTEzNTI0NTE4NzQsLTEzODE4NjIwNjIsMjA0MzkxOT
-U1OSwxNzEwOTQ4MzkzLDY3MjAwMTY3MSwtNDgzNzY2NDYyLDE4
-MzMyMjk2OTRdfQ==
+eyJoaXN0b3J5IjpbMTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMD
+I2OTMyLDEyOTc3MTg3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYs
+LTcxMjU0OTMyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMT
+cwNzkzNTU4LC0xNDUwNDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIy
+NjM1NSwtMjA4NDcxMjA3OSwtMTM1MjQ1MTg3NCwtMTM4MTg2Mj
+A2MiwyMDQzOTE5NTU5LDE3MTA5NDgzOTMsNjcyMDAxNjcxLC00
+ODM3NjY0NjJdfQ==
 -->
