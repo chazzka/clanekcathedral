@@ -316,7 +316,7 @@ Figure X shows one more crucial observation.
 The area marked by LOF algorithm is cut in the right side.
 Since we fit the data on both Time and Observed values, the algorithm treats all the Time values as part of the neighborhood.
 This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
-This can be easily fixed by remapping the Time axes to be relative to one tim
+This can be easily fixed by remapping the Time axes to be relative to the chosen time span.
  
 #### Setting the right parameters
 The last example of above section shows the Local Outlier Factor algorithm to be somewhat useful, however it showed a lot of errors especially considering the false positive finding.
@@ -393,11 +393,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzMzNjgyOSwtMTI5NDk3ODMwNiwtNz
-EyNTQ5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMzNzcwLDExNzA3
-OTM1NTgsLTE0NTA0NTA3OTgsLTEyMTMwOTg2OSwxNDcxMjI2Mz
-U1LC0yMDg0NzEyMDc5LC0xMzUyNDUxODc0LC0xMzgxODYyMDYy
-LDIwNDM5MTk1NTksMTcxMDk0ODM5Myw2NzIwMDE2NzEsLTQ4Mz
-c2NjQ2MiwxODMzMjI5Njk0LC04ODM0NDYwODYsLTE3ODEwMzIz
-OTQsMTI2ODIyMDA1OV19
+eyJoaXN0b3J5IjpbMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMj
+U0OTMyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkz
+NTU4LC0xNDUwNDUwNzk4LC0xMjEzMDk4NjksMTQ3MTIyNjM1NS
+wtMjA4NDcxMjA3OSwtMTM1MjQ1MTg3NCwtMTM4MTg2MjA2Miwy
+MDQzOTE5NTU5LDE3MTA5NDgzOTMsNjcyMDAxNjcxLC00ODM3Nj
+Y0NjIsMTgzMzIyOTY5NCwtODgzNDQ2MDg2LC0xNzgxMDMyMzk0
+LDEyNjgyMjAwNTldfQ==
 -->
