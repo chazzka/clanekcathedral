@@ -431,16 +431,7 @@ if __name__ == "__main__":
     all_data = np.asarray(trainData + testData)
     testData = np.asarray(noveltyData + testData)
 
-
-    # novelty data + mesh
-    # get minimum x
-    min_x = min(list(map(lambda x: x[0], all_data)))
-    max_x = max(list(map(lambda x: x[0], all_data)))
-    
-    min_y = min(list(map(lambda x: x[1], all_data)))
-    max_y = max(list(map(lambda x: x[1], all_data)))
-    
-    
+        
     clf = LocalOutlierFactor(novelty=True).fit(trainData)
     predictedList = clf.predict(testData)
 

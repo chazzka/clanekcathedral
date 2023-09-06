@@ -421,29 +421,54 @@ if __name__ == "__main__":
         (11.410957263578176, 105.3522121536282),
     ]
 
+    # we need to split the training dataset in (24 hours?) interval
+    # kvuli nedostatku dat a pripadne relevantni porovnaltelnosti potrebujeme logicky (DÁVÁ TO SMYSL TÉ FIRMĚ) stejné časové intervaly
+    # zvolili jsme 24 hodin
+    
+    trainData = list(map(lambda x: (x[0] % 24, x[1]), trainData))
+
+    # test data jsme taky rozděleli protože potrebujeme stjene jednotky
+    # TESTOVACIM DATUM JE TEDY POTREBA PRIRADIT CAS V RAMCI INTERVALU NE REALNY CAS
+    testDataNorm = list(map(lambda x: (x[0] % 24, x[1]), testData))
+
     # noveltyData = list(generateRandomData([
     #     generateRandomClusters(centers=[(25, 200)], n_samples=10),
     # ]))
 
-    noveltyData = [(32.0630583248332, 196.83988576208887), (25.15775197038327, 195.10816453666652), (16.906427209624237, 203.36496484615387), (21.621597400126774, 210.1909854328056), (11.108400557740834, 204.333802886511),
-                   (34.64459548648327, 200.16016201558395), (22.335462294927705, 199.44216570895924), (41.12128162152527, 198.8342416843297), (25.13306934482792, 198.40395359908186), (29.626659574159234, 201.58826312961284)]
+    noveltyData = [(32.0630583248332, 196.83988576208887),
+                   (25.15775197038327, 195.10816453666652),
+                   (16.906427209624237, 203.36496484615387),
+                   (21.621597400126774, 210.1909854328056),
+                   (11.108400557740834, 204.333802886511),
+                   (34.64459548648327, 200.16016201558395),
+                   (22.335462294927705, 199.44216570895924),
+                   (41.12128162152527, 198.8342416843297),
+                   (25.13306934482792, 198.40395359908186),
+                   (29.626659574159234, 201.58826312961284),
 
-    all_data = np.asarray(trainData + testData)
+                   # POSSIBLE ADD DATA ON X AXES
+                      (300.05419491643804, 89.91148343538444),
+                      (159.48248275891228, 109.97046948747158),
+                      (158.86887033962708, 103.57415497384716),
+                      (205.80580341510776, 97.95225289939329),
+                      (153.65614322995657, 99.82911043838284),
+                      (83.70928858710899, 82.96123945060532),
+                      (270.12237123839586, 104.7427080513091),
+                      (154.7510181743543, 101.33923076624961),
+                      (350.29798878492062, 99.03708591654502),
+                      (210.75491854637833, 101.32097466053382),
+                      (75.35082291816147, 102.48679942192068),
+                      (141.0284217748827, 107.49550769404989),
+                      (71.39484320367505, 99.00766742395803),
+                   ]
+
+    noveltyDataNorm = list(map(lambda x: (x[0] % 24, x[1]), noveltyData))
+
     testData = np.asarray(noveltyData + testData)
+    testDataNorm = np.asarray(noveltyDataNorm + testDataNorm)
 
-    
-
-    # novelty data + mesh
-    # get minimum x
-    min_x = min(list(map(lambda x: x[0], all_data)))
-    max_x = max(list(map(lambda x: x[0], all_data)))
-    
-    min_y = min(list(map(lambda x: x[1], all_data)))
-    max_y = max(list(map(lambda x: x[1], all_data)))
-    
-
-    clf = LocalOutlierFactor(novelty=True, n_neighbors=50).fit(trainData)
-    predictedList = clf.predict(testData)
+    clf = LocalOutlierFactor(novelty=True, n_neighbors=100).fit(trainData)
+    predictedList = clf.predict(testDataNorm)
 
     regular = testData[predictedList == 1]
 

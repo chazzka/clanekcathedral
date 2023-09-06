@@ -1,4 +1,5 @@
 from mock.randomdatagenerator import *
+from sklearn.preprocessing import MinMaxScaler
 import sys
 import numpy as np
 import random
@@ -421,6 +422,7 @@ if __name__ == "__main__":
         (11.410957263578176, 105.3522121536282),
     ]
 
+    
     # noveltyData = list(generateRandomData([
     #     generateRandomClusters(centers=[(25, 200)], n_samples=10),
     # ]))
@@ -433,12 +435,12 @@ if __name__ == "__main__":
 
 
     # novelty data + mesh
-    # get minimum x
-    min_x = min(list(map(lambda x: x[0], all_data)))
-    max_x = max(list(map(lambda x: x[0], all_data)))
+    # get minimum 
+    min_x = min(map(lambda x: x[0], all_data))
+    max_x = max(map(lambda x: x[0], all_data))
     
-    min_y = min(list(map(lambda x: x[1], all_data)))
-    max_y = max(list(map(lambda x: x[1], all_data)))
+    min_y = min(map(lambda x: x[1], all_data))
+    max_y = max(map(lambda x: x[1], all_data))
     
     testData = np.asarray(list(map(lambda x: (random.uniform(min_x, 175), random.uniform(min_y, 100) ),range(0,10000))))
     clf = LocalOutlierFactor(novelty=True).fit(trainData)
