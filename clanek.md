@@ -401,7 +401,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 | Novelty |19|11|
 
 ### Experiment 2
-Experiment labeled 2 contains visually distinctive novelty datapoints stretched in Y interval of aprox. <160,220>.
+Experiment labeled 2 contains visually distinctive novelty datapoints stretched in Y interval of aprox. $[160,220]$.
 |  | One-class SVM | LOF |
 |---|---|---|
 | Regular |188|200|
@@ -485,11 +485,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzM0Njc5OCwxMzU4NDc3ODMxLC0xMD
-YwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAy
-MTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MD
-g2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3
-LDE5Mjg4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3Nz
-E4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjld
-fQ==
+eyJoaXN0b3J5IjpbMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNj
+A2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIx
+OSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
+YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjcs
+MTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MT
+g3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOV19
+
 -->
