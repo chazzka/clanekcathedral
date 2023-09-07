@@ -455,6 +455,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 
 
 ## Results and discussion
+We examined six different experiments analyzed by two of the most famous algorithms capable of novelty detection.
 
 ## Conclusion
 
@@ -462,11 +463,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwND
-c4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OTg5MTAs
-LTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNj
-A2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIx
-OSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
-YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjdd
-fQ==
+eyJoaXN0b3J5IjpbLTEwNzE4NzAzMDQsMjc0Mzc4ODY2LDcxNT
+gxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcw
+LC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNT
+g0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAw
+Njc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMT
+UzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgy
+OTZdfQ==
 -->
