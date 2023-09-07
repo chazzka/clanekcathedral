@@ -360,8 +360,8 @@ For the experiments, following settings were chosen after fine tuning:
 | Hyperparameter | value |
 |---|---|---|
 | kernel |rbf|
-| gamma |scale = $1/n_features \cdot $|
-| Novelty |19|
+| gamma |$\frac{1}{\|features\| \cdot variance(x)}$|
+| tol |$1\codt$|
 
 #### Local Outlier Factor settings
 
@@ -467,11 +467,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDczNTQ3NywxMzU4NDc3ODMxLC0xMD
-YwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAy
-MTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MD
-g2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3
-LDE5Mjg4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3Nz
-E4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjld
-fQ==
+eyJoaXN0b3J5IjpbLTE0MTI5OTY2NjUsMTM1ODQ3NzgzMSwtMT
+A2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYw
+MjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOT
+A4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5Niw4NDY1Nzgy
+NywxOTI4ODk1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5Nz
+cxODcxMCwxMDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5
+XX0=
 -->
