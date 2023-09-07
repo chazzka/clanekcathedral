@@ -405,7 +405,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 | Novelty |23|14|
 
 ### Experiment 4
-Experiment with code number 4 contains one condensed cluster with many overlapping datapoints around X=200 and Y=200;
+Experiment with code number 4 contains one condensed cluster with many overlapping datapoints around X=200 and Y=200.
 
 Figure x shows the side-by-side visual representation of one of the 30 runs.
 
@@ -415,8 +415,22 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 
 |  | One-class SVM | LOF |
 |---|---|---|
-| Regular |189|198|
-| Novelty |23|14|
+| Regular |189|200|
+| Novelty |23|25|
+
+### Experiment 5
+Experiment with code number 5 contains one condensed cluster with many overlapping datapoints around X=200 and Y=200.
+
+Figure x shows the side-by-side visual representation of one of the 30 runs.
+
+TODO FIGURE
+
+Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
+
+|  | One-class SVM | LOF |
+|---|---|---|
+| Regular |189|200|
+| Novelty |23|25|
 
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
@@ -432,11 +446,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MT
-k2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2
-MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04Nj
-M0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1
-LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNz
-U4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkz
-XX0=
+eyJoaXN0b3J5IjpbMTQ3NDkzOTQ5OCwxMzU4NDc3ODMxLC0xMD
+YwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAy
+MTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MD
+g2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3
+LDE5Mjg4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3Nz
+E4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjld
+fQ==
 -->
