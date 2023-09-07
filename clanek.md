@@ -320,19 +320,6 @@ Some tools have already been implemented that try to deal with the issue of auto
 
 ## Experiments
 For the following experiments, the data described in the introductory section were used.
-In the experiment, we observe following properties:
-
-The proportion of true positive novelties
-: This is the proportion of the data labeled "novelty" compared to the actual novelty filtered dataset.
-
-The proportion of detected regulars
-: This is the proportion of the data labeled "regular" compared to the actual regular filtered dataset.
-
-The proportion of false positive novelties
-: This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
- 
-
-
 Since we use the semi-supervised learning paradigm, we extracted several time intervals with zero to no anomalies to perform fitting on.
 Different time intervals were then used to perform evaluation on.
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
@@ -480,11 +467,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OT
-U2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4
-MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LD
-E0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1
-ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsOD
-Q2NTc4MjcsMTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMy
+eyJoaXN0b3J5IjpbMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MD
+cwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4
+MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMT
+E2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3
+NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIxNSwyMD
+k5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OTU1NjUsOTcxNzg2NTkw
 XX0=
 -->
