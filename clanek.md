@@ -459,8 +459,9 @@ We examined six different experiments analyzed by two of the most famous algorit
 Both algorithms performed reasonably well in our scenarios and can be used in production environment.
 Several takeouts can be extracted from the experiments.
 Both algorithms have to be trained on the regular dataset containing zero to no anomalies.
-This cou
-Without tedious hyperparameters tweaking, the One-class SVM algorithm showed more false positive findings as opposed to the Local Outlier Factor.
+This could be a problem in a production environment where anomalies are usual.
+Furthermore, without tedious hyperparameters tweaking, the One-class SVM algorithm showed more false positive findings as opposed to the Local Outlier Factor.
+Hovewer,
 
 ## Conclusion
 
@@ -468,11 +469,11 @@ Without tedious hyperparameters tweaking, the One-class SVM algorithm showed mor
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQxNzg5MzgsMjc0Mzc4ODY2LDcxNT
-gxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcw
-LC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNT
-g0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAw
-Njc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMT
-UzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgy
-OTZdfQ==
+eyJoaXN0b3J5IjpbMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1OD
+E1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAs
+LTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1OD
+Q3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2
+NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNT
+M0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5
+Nl19
 -->
