@@ -432,6 +432,20 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 | Regular |197|199|
 | Novelty |7|5|
 
+### Experiment 6
+The last experiment numbered 6 contains large number ofwith many overlapping datapoints around X=200 and Y=200.
+
+Figure x shows the side-by-side visual representation of one of the 30 runs.
+
+TODO FIGURE
+
+Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
+
+|  | One-class SVM | LOF |
+|---|---|---|
+| Regular |197|199|
+| Novelty |7|5|
+
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
 
@@ -446,7 +460,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY3ODY0NTUsMTM1ODQ3NzgzMSwtMT
+eyJoaXN0b3J5IjpbLTIwMDg5NDM5MzgsMTM1ODQ3NzgzMSwtMT
 A2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYw
 MjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOT
 A4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5Niw4NDY1Nzgy
