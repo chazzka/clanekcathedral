@@ -359,8 +359,9 @@ For the experiments, following settings were chosen after fine tuning:
 #### One-class SVM settings
 | Hyperparameter | value |
 |---|---|---|
-| Regular |191|199|
-| Novelty |19|11|
+| kernel |rbf|
+| gamma |scale = $1/n_features \cdot $|
+| Novelty |19|
 
 #### Local Outlier Factor settings
 
@@ -466,7 +467,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODU1NjY3OCwxMzU4NDc3ODMxLC0xMD
+eyJoaXN0b3J5IjpbLTY0NDczNTQ3NywxMzU4NDc3ODMxLC0xMD
 YwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAy
 MTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MD
 g2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3
