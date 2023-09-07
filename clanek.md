@@ -21,7 +21,9 @@ The datamining field here has been branching out lately, to address the specific
 The IoT datamining can be used to ..
 
 - [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
+- [ ] pak pokračuj až k našemu tématu -  our main goal was to novelty detection kde popíšeš naši diménu, co ty data jsou jak se k nim dostaneme, technické detaily těch sensorů  a přínos toho článku
 
+---
 
 - start with lots of refs
 - describe the problem
@@ -500,11 +502,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTE1NDA5NCwtMTE3MzUzMjg5NywxMD
-U1NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2
-Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MD
-cwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4
-MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMT
-E2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3
-NTZdfQ==
+eyJoaXN0b3J5IjpbMjc1MjcxMDA0LC0xMTczNTMyODk3LDEwNT
+U3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyODgsMjc0Mzc4ODY2
+LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNz
+AyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgy
+LDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMT
+YyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1
+Nl19
 -->
