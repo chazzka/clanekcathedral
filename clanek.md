@@ -45,7 +45,7 @@ This article is also an overview of the methods commonly used for novelty detect
 ### Overview
 The analyzed data in this article is the time-series data obtained from IoT sensors. 
 These sensors are implemented in the smart home environment and produce continuous data which are reported to the server once every $x$ seconds.
-In normal circumstances, the data obtained follow a specific distribution with 
+
 
 
 - [ ] Todo: tady bych chtěl obrázky a nějaký přehled těch time series dat, co jsou ještě anomalie, co je na vstupu a tak
@@ -483,11 +483,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTA0MzU4LDE2MDMxOTMyODgsMjc0Mz
-c4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwt
-OTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mz
-c3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0
-LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2Mj
-U3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1
+eyJoaXN0b3J5IjpbLTkyNzY2MzY5NSwxNzExMDQzNTgsMTYwMz
+E5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwx
+NDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMT
+U3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0
+Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5ND
+E4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2
 XX0=
 -->
