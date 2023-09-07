@@ -390,8 +390,9 @@ Experiment with code number 1 contains 10 visually distinctive novelty datapoint
 
 Figure x shows the side-by-side visual representation of one of the 30 runs.
 
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment1.svg) ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment1.svg) 
-
+One-class SVM            |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/svm_experiment1.svg)  |  ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment1.svg)
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
@@ -485,11 +486,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjYyNTA0LDI0OTM3Nzk4MiwxMzU4ND
-c3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3
-OSwxNDM0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1Mz
-Q4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2
-LDg0NjU3ODI3LDE5Mjg4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNj
-kzMiwxMjk3NzE4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2XX0=
+eyJoaXN0b3J5IjpbMTA0NTE3MDY2OSwyNDkzNzc5ODIsMTM1OD
+Q3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2
+NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNT
+M0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5
+Niw4NDY1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwzNjEwMj
+Y5MzIsMTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3ODMwNl19
 
 -->
