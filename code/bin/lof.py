@@ -37,8 +37,6 @@ if __name__ == "__main__":
 
     trained_model = localOutlierTrain(trainData)
 
-
-
     predictedList = predict(
         testData,
         trained_model
