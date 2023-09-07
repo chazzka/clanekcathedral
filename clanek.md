@@ -16,7 +16,8 @@ Recent advance in automatization brought a lot of interest in deployment of vari
 With the sensors producing large data, there is a huge concern for algorithms analyzing them.
 Applications ranging from medical data (https://www.sciencedirect.com/science/article/pii/S016926072300411X),
 aeronautics (https://www.sciencedirect.com/science/article/pii/S1877050922007207),
-to 
+to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S2199853122010253).
+The datamining field here gets 
 
 - start with lots of refs
 - describe the problem
@@ -496,11 +497,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA2NjUxMzksLTExNzM1MzI4OTcsMT
-A1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4
-NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05OD
-A3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5
-ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5MTQsLT
-ExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1
-NzU2XX0=
+eyJoaXN0b3J5IjpbNjM4NjA2NDc2LC0xMTczNTMyODk3LDEwNT
+U3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyODgsMjc0Mzc4ODY2
+LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNz
+AyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgy
+LDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMT
+YyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1
+Nl19
 -->
