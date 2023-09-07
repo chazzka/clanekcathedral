@@ -4,7 +4,10 @@
 Detection of anomalies is an area of datamining which showed a lot of interest recently namely amongst companies working with IoT.
 These companies tend to implement a lot of IoT sensors with the primary purpose to control some other mechanical or electromechanical devices such as fridges, microwaves and lights but also security devices such as gates, doors, electrical fences and cameras.
 The secondary effect of such devices is the production of large data.
-Such data can be analyzed and mined for interesting patterns or - in the case of this article - anoma 
+Such data can be analyzed and mined for interesting patterns or - in the case of this article - anomalous behavior.
+We first investigate the problem 
+We first examine the difference between two types of anomalies - outlying anomalies and novelty anomalies.
+Then we  
 
 
 - téma
@@ -492,7 +495,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTcwMzgzMywxMDU1NzU3NDY3LDE3MT
+eyJoaXN0b3J5IjpbLTE5MjIzMzIxMiwxMDU1NzU3NDY3LDE3MT
 EwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzks
 Mzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Nj
 k4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMx
