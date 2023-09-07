@@ -357,6 +357,10 @@ Each of the values in the table is an average of 30 runs to obtain statistically
 ### Hyperparameter settings
 For the experiments, following settings were chosen after fine tuning:
 #### One-class SVM settings
+
+For the experiments, the following hyperparameters were used for One-class SVM algorithm. 
+For additional information, refer to Scikit's documentation: https://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html
+
 | Hyperparameter | value |
 |---|---|---|
 | kernel |rbf|
@@ -368,7 +372,8 @@ For the experiments, following settings were chosen after fine tuning:
 |max_iter| -1|
 
 #### Local Outlier Factor settings
-
+For the experiments, the following hyperparameters were used for Local Outlier Factor algorithm. 
+For additional information, refer to Scikit's documentation: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html
 
 | Hyperparameter | value |
 |---|---|---|
@@ -480,11 +485,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDIyOTg4LDEzNTg0Nzc4MzEsLTEwNj
-A2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIx
-OSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
-YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjcs
-MTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MT
-g3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOV19
-
+eyJoaXN0b3J5IjpbLTU0MzM0Njc5OCwxMzU4NDc3ODMxLC0xMD
+YwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAy
+MTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MD
+g2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3
+LDE5Mjg4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3Nz
+E4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjld
+fQ==
 -->
