@@ -3,7 +3,9 @@
 ## Abstract
 Detection of anomalies is an area of datamining which showed a lot of interest recently namely amongst companies working with IoT.
 These companies tend to implement a lot of IoT sensors with the primary purpose to control some other mechanical or electromechanical devices such as fridges, microwaves and lights but also security devices such as gates, doors, electrical fences and cameras.
-The secondary effect of such devices are  
+The secondary effect of such devices is the production of large data.
+Such data can be analyzed and mined for interesting patterns or - in the case of this article - anoma 
+
 
 - téma
 - toto jsme udělali
@@ -490,11 +492,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MDQ0NDg3LDEwNTU3NTc0NjcsMTcxMT
-A0MzU4LDE2MDMxOTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwz
-NzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OT
-g5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEs
-LTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0Mz
-Q2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkz
-XX0=
+eyJoaXN0b3J5IjpbMTY1MTcwMzgzMywxMDU1NzU3NDY3LDE3MT
+EwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzks
+Mzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Nj
+k4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMx
+LC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxND
+M0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5
+M119
 -->
