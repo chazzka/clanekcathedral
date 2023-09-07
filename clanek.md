@@ -12,7 +12,8 @@ We test these algorithms on the real-world scenarios of datasets obtained from t
 Lastly, we compare these algorithms and provide examples and possible usages by companies working with time series data.
 
 ## Introduction
-Recent 
+Recent advance in automatization brought a lot of interest in deployment of various IoT sensors.
+With the sensors producing large data, 
 - start with lots of refs
 - describe the problem
 - our main goal was to
@@ -491,11 +492,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI3NTQwMzQsMTA1NTc1NzQ2NywxNz
-ExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5
-LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NT
-Y5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3Nzgz
-MSwtMTA2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMT
-QzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4
-OTNdfQ==
+eyJoaXN0b3J5IjpbMTU2NjA1NjEyMywxMDU1NzU3NDY3LDE3MT
+EwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzks
+Mzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Nj
+k4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMx
+LC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxND
+M0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5
+M119
 -->
