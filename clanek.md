@@ -355,8 +355,8 @@ The hyperparameters for each algorithm were set experimentally using autoconfigu
 Each of the values in the table is an average of 30 runs to obtain statistically significant results.
 
 ### Experiment 1
-Experiment with code number 1 contains visually distinctive novelty a
-
+Experiment with code number 1 contains 10 visually distinctive novelty datapoints at Y axis values around 185.
+Table X shows the average of regular/novelty 
 
 obrázky, tabulka, výhody, nevýhody
 
@@ -375,11 +375,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQwMjI4ODYsLTEwNjA2ODkyNDMsNj
-E5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4
-NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtOD
-YzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4MjcsMTkyODg5NTU2
-NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MT
-c1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5
-M119
+eyJoaXN0b3J5IjpbLTEwODQ3MDk0MiwtMTA2MDY4OTI0Myw2MT
+k2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2
+MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04Nj
+M0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1
+LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNz
+U4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkz
+XX0=
 -->
