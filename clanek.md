@@ -466,8 +466,10 @@ Both algorithms performed reasonably well in our scenarios and can be used in pr
 Several takeouts can be extracted from the experiments.
 Both algorithms have to be trained on the regular dataset containing zero to no anomalies.
 This could be a problem in a production environment where anomalies are usual.
-Furthermore, without tedious hyperparameters tweaking, the One-class SVM algorithm showed more false positive findings as opposed to the Local Outlier Factor.
 However, as shown in the article, such training is the only option when trying to label the previously unseen - novelty - datapoints.
+Furthermore, without tedious hyperparameters tweaking, the One-class SVM algorithm showed more false positive findings as opposed to the Local Outlier Factor.
+Both algorithms are available in the Scikit's python environment and are open-source and ready to use by anyone.
+
 
 
 ## Conclusion
@@ -476,11 +478,11 @@ However, as shown in the article, such training is the only option when trying t
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY2MjA3MTAsMTYwMzE5MzI4OCwyNz
-QzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5
-LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyND
-kzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5
-MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOT
-YyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgy
-MTVdfQ==
+eyJoaXN0b3J5IjpbOTAxNTQ1MjI2LDE2MDMxOTMyODgsMjc0Mz
+c4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwt
+OTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mz
+c3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0
+LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2Mj
+U3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1
+XX0=
 -->
