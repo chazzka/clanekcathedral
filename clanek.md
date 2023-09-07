@@ -453,13 +453,9 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 | Regular |191|199|
 | Novelty |59|51|
 
-### Finding clusters amongst novelties ??
-- tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
-
 
 ## Results and discussion
-- tady už bude celková tabulka a obrázky i s DB scanem
-- tady můžeme zkusit tabulku kde budeme ukazovat kolik procent novelty to našlo apt možná porovnání s nějakým buď expertem nebo nějakými referenčními olabelovanými daty
+
 - zde napíšeme co se povedlo, jak to neni vubec lehke najit dva či více algoritmů které spolu dobře fungují a velký problem je jejich validace a verifikace, zkus navhrnout nějaké řešení verifikace
 ## Conclusion
 
@@ -467,11 +463,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MD
-cwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4
-MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMT
-E2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3
-NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIxNSwyMD
-k5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OTU1NjUsOTcxNzg2NTkw
+eyJoaXN0b3J5IjpbNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0Nz
+MyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3
+MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MT
+k2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2
+MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04Nj
+M0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1
 XX0=
 -->
