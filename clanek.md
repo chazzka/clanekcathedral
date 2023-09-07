@@ -1,9 +1,10 @@
 # Finding novelties in time series data - work title
 
 ## Abstract
+
 - téma
 - toto jsme udělali
-- co řešíme (řešíme problem hledání clusterů dat, ne problem nějakeho algoritmu)
+- co řešíme (řešíme problem hledání novelty dat, ne problem nějakeho algoritmu)
 - takto
 - takto jsme to otestovali
 - toto je výsledek
@@ -14,7 +15,7 @@
 - general -> specific (describe problem as a whole, then why the problems occurs, then why is it a problem for us, technical details, env. variables)
 - constribution
 - **toto až nakonec až budeme vědět co vlastně fungovalo**
-- **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme cluster anomalii ne jen anomalie**
+- **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme novelty**
 
 ## Theory
 
@@ -45,7 +46,7 @@ This article is also an overview of the methods commonly used for novelty detect
 ### Overview
 The analyzed data in this article is the 2D time-series data obtained from IoT sensors. 
 These sensors are implemented in the smart home environment and produce continuous data which are reported to the server once every $x$ seconds.
-
+Figure X shows the example of 
 
 
 - [ ] Todo: tady bych chtěl obrázky a nějaký přehled těch time series dat, co jsou ještě anomalie, co je na vstupu a tak
@@ -483,11 +484,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAwOTUzNjEsMTcxMTA0MzU4LDE2MD
-MxOTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEs
-MTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMj
-E1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODky
-NDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OT
-QxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0
-Nl19
+eyJoaXN0b3J5IjpbMzAwMzM2NDcyLDE3MTEwNDM1OCwxNjAzMT
+kzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0
+NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNT
+cxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQz
+LDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAyMTksNTk0MT
+g4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDZd
+fQ==
 -->
