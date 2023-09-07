@@ -364,9 +364,20 @@ For the experiments, following settings were chosen after fine tuning:
 | tol |$1\cdot10^{-3}$|
 | nu |0.02|
 | shrinking|True|
-|ca
+|cache_size|200|
+|max_iter| -1|
 
 #### Local Outlier Factor settings
+
+| Hyperparameter | value |
+|---|---|---|
+| n_neighbors |20|
+| algorithm |$\frac{1}{\|features\| \cdot variance(x)}$|
+| tol |$1\cdot10^{-3}$|
+| nu |0.02|
+| shrinking|True|
+|cache_size|200|
+|max_iter| -1|
 
 ### Experiment 1
 
@@ -470,11 +481,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2Nzc0MTk0LDEzNTg0Nzc4MzEsLTEwNj
-A2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIx
-OSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
-YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjcs
-MTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MT
-g3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOV19
-
+eyJoaXN0b3J5IjpbLTE5MzU5Njk5NDMsMTM1ODQ3NzgzMSwtMT
+A2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYw
+MjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOT
+A4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5Niw4NDY1Nzgy
+NywxOTI4ODk1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5Nz
+cxODcxMCwxMDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5
+XX0=
 -->
