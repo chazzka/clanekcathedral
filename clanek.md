@@ -355,7 +355,7 @@ The hyperparameters for each algorithm were set experimentally using autoconfigu
 Each of the values in the table is an average of 30 runs to obtain statistically significant results.
 
 ### Experiment 1
-
+Experiment with code number 1 contains 
 
 
 obrázky, tabulka, výhody, nevýhody
@@ -375,11 +375,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTExODY2NCw2MTk2NDE5MTQsLTExNj
-IzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2
-LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OT
-A4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwz
-NjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3OD
-MwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMzNzcw
-XX0=
+eyJoaXN0b3J5IjpbLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMT
+YyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1
+NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOT
+kwODgyOTYsODQ2NTc4MjcsMTkyODg5NTU2NSw5NzE3ODY1OTAs
+MzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MTc1ODUsLTEyOTQ5Nz
+gzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3
+MF19
 -->
