@@ -54,7 +54,9 @@ As figure X shows, the data are following a regular pattern around $Y = 100$,
 however, around $X= 55$ the sensors started producing anomalous behavior.
 Since the sensors can be from a security field, such blackout can lead to detrimental outcomes.
 This has to be marked and reported so company can react immediately.
-Note that the posi
+Note that the values of these anomalous datapoints are completely random, since it is the abnormal erroneous behavior.
+This also makes 
+
 ### Preprocessing
 - [ ] TODO: TOTO ASI NE, MOZNA JEN JEDNA VETA
 - [ ] novelty se těžko normalizuje protože nevíš kde jsou novelty body, ještě je nemáš
@@ -489,7 +491,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc0MTU4MjYsMTA1NTc1NzQ2NywxNz
+eyJoaXN0b3J5IjpbLTE5MTE5NjM3NDAsMTA1NTc1NzQ2NywxNz
 ExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5
 LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NT
 Y5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3Nzgz
