@@ -1,5 +1,5 @@
 from ai.trainer import trainAndPredict
-from mock.randomdatagenerator import createRandomData
+from mock.randomdatagenerator import *
 import sys
 import tomli
 from itertools import product
@@ -27,15 +27,17 @@ if __name__ == "__main__":
     config = getConfigFile(configFile)
 
     # training data
-    trainXyValues = list(createRandomData())
-    # with fill
-    #trainXyValues = list(product(range(100), range(250)))
+    trainXyValues = list(generateRandomData([
+        generateRandomClusters(centers=[(25, 200),], n_samples=10),
+        generateLinearSpace(leftBoundary=60,rightBoundary=110),
+        generateLinearSpace(leftBoundary=0,rightBoundary=50),
+        #generateLinearSpace(20, s),
+        #generateLinearSpace(20, r),
+    ]))
 
-    plotXYWithMean(trainXyValues, "figures/figureMean.svg")
+
+    plotXYWithMean(trainXyValues, "figures/mean2.svg")
         
-    res = trainAndPredict(trainXyValues, forest, args=config["anomaly"])
-
-    fi, ax = plotXYData(*zip(*trainXyValues), plt.subplots(), c=list(res), savepath="figures/anomaly.svg")
     
     plt.show()
 

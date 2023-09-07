@@ -76,9 +76,12 @@ def plotYData(yvalue, fig_ax_tuple):
 def plotXYWithMean(trainXyValues, savepath = 0):
     mean = np.mean(list(map(lambda x: x[1] ,trainXyValues)))
 
-    firstFig, firstAx = plotXYData(*zip(*groupby(lambda x: x[1] > mean, trainXyValues)[True]), plt.subplots())
-    kombajn, kombajnax = plotXYData(*zip(*groupby(lambda x: x[1] > mean, trainXyValues)[False]), (firstFig, firstAx))
-    finalfig, finalax = plotYData(mean, (kombajn, kombajnax))
+    group = dict(groupby(lambda x: x[1] > mean, trainXyValues))
+
+    fi, ax = plotXYDataTwoClasses(group[False], group[True], plt.subplots(), c=['black', 'white'], labels=[
+                                  "Regular", "Outlier"], savepath=savepath)    
+
+    finalfig, finalax = plotYData(mean, (fi, ax))
     if savepath:
         plt.savefig(savepath, format="svg")
     else:
