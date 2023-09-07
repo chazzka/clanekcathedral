@@ -90,20 +90,6 @@ Obviously, if the dataset contained no anomalies at all, the result would become
 > Figure X - Mean of the given dataset with little to zero anomalies.
 
 
-- [ ] - TODO TOTO ASI NE, PRESUNOUT MOZNA PAK AZ DO CLUSTERINGU NIZE
-
-One could easily argue that there is an option of using pure clustering algorithms (e.g. ([DBScan](doi/10.5555/3001460.3001507)).
-This, however, leads to unpleasant outcome.
-Such algorithms tend to view the data as a cluster-only data, despite it being irrelevant in cluster regards.
-Figure X shows the performance of the DBScan algorithm on previously non-processed data, where different colors represent different clusters.
-Even though the algorithm did find some clusters, it would be demanding to differentiate and find the one with anomalies.
-Moreover, due to the gap in the measurement, the DBScan incorrectly split the regular observations into two clusters.
-This brings up the idea of algorithm cross-cooperation.
-Therefore, our proposed solution separates the anomalies first and then tries to find a cluster amongst them.
-
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/DBScanGap.svg) 
-> Figure X - DBScan performance
-
 Traditional approaches for anomaly separation consist of either novelty detection or outlier detection.
 Novelty detection is an anomaly detection mechanism, where we search for unusual observations, which are discovered due to their differences from the training data.
 Novelty detection is a semi-supervised anomaly-detection technique, whereas outlier detection uses unsupervised methods.
@@ -496,11 +482,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3ODQyODk3LC05OTU2OTg5MTAsLTEwMj
-E1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODky
-NDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OT
-QxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0
-NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4MjcsMTkyOD
-g5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTBd
-fQ==
+eyJoaXN0b3J5IjpbLTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMD
+IxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMxLC0xMDYwNjg5
+MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAyMTksNT
+k0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3
+NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mj
+g4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEw
+XX0=
 -->
