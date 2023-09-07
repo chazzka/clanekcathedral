@@ -52,7 +52,8 @@ Figure X shows the example of the sensors reporting the data for 24 hours.
 
 As figure X shows, the data are following a regular pattern around $Y = 100$,
 however, around $X= 55$ the sensors started producing anomalous behavior.
-This has to be marked and reported so the technician can
+Since the sensors can be from a security field, such blackout can lead to a very 
+This has to be marked and reported so company can react immediately.
 
 - [ ] Todo: tady bych chtěl obrázky a nějaký přehled těch time series dat, co jsou ještě anomalie, co je na vstupu a tak
 ### Preprocessing
@@ -489,11 +490,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzU2Nzc4NSwxMDU1NzU3NDY3LDE3MT
-EwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzks
-Mzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Nj
-k4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMx
-LC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxND
-M0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5
-M119
+eyJoaXN0b3J5IjpbLTEyOTAzMDYxNDYsMTA1NTc1NzQ2NywxNz
+ExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5
+LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NT
+Y5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3Nzgz
+MSwtMTA2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMT
+QzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4
+OTNdfQ==
 -->
