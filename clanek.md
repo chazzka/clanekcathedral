@@ -374,7 +374,12 @@ Figure x shows the side-by-side visual representation of one of the 30 runs.
 
 
 ### Experiment 2
-Experiment labeled 2 contains 
+Experiment labeled 2 contains visually distinctive novelty datapoints stretched in Y interval of aprox. <160,220>.
+|         | One-class SVM | LOF |
+|---------|---------------|-----|
+| Regular |     191          |  19   |
+| Novelty |     199          | 11    |
+
 
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
@@ -390,11 +395,11 @@ Experiment labeled 2 contains
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjEwODk1OCwtMTA2MDY4OTI0Myw2MT
-k2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2
-MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04Nj
-M0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1
-LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNz
-U4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkz
-XX0=
+eyJoaXN0b3J5IjpbNjkzMzE5NjM0LC0xMDYwNjg5MjQzLDYxOT
+Y0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYx
+LC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2Mz
+Q4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OTU1NjUs
+OTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEwLDEwNTE3NT
+g1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjksLTE0ODA4OTA4OTNd
+fQ==
 -->
