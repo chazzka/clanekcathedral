@@ -475,12 +475,13 @@ In the article, the algorithms for labeling previously unseen, novelty datapoint
 We discussed the difference between outlier and novelty detection, leaning towards the latter.
 We analyzed two algorithms for novelty detection, the OneClass SVM and the Local Outlier Factor. 
 From the production environment, several experiments were designed and performed analysis on.
-Both algorithms can compete in such environments.
+Both algorithms showed satisfactory results and thus can compete in such environments.
+
 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTI1NzM0OSwxNjAzMTkzMjg4LDI3ND
+eyJoaXN0b3J5IjpbMTY4NTg1NjY3MiwxNjAzMTkzMjg4LDI3ND
 M3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1Mzks
 LTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OT
 M3Nzk4MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkx
