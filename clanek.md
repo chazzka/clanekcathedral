@@ -315,7 +315,7 @@ Since we fit the data on both Time and Observed values, the algorithm treats all
 This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
 
 #### Time variable preprocessing
-In the above sections we described a problem with rising time variable.
+In the above sections we described a problem with rising time variable v.
 This problem is usually fixed by dividing the dataset into equal intervals.
 Since the measurements in our environment are done several times throughout the day, we chose to divide the dataset into 24-hour intervals and remap the time according to this new interval.
 This has several positive outcomes.
@@ -391,11 +391,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1Mz
-Q4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2
-LDg0NjU3ODI3LDE5Mjg4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNj
-kzMiwxMjk3NzE4NzEwLDEwNTE3NTg1LC0xMjk0OTc4MzA2LC03
-MTI1NDkzMjksLTE0ODA4OTA4OTMsLTE3ODg2MzM3NzAsMTE3MD
-c5MzU1OCwtMTQ1MDQ1MDc5OCwtMTIxMzA5ODY5LDE0NzEyMjYz
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTE2NTgxMjI3MTMsNTk0MTg4ODYxLC05Nj
+I1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIx
+NSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OTU1NjUsOTcxNz
+g2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEwLDEwNTE3NTg1LC0x
+Mjk0OTc4MzA2LC03MTI1NDkzMjksLTE0ODA4OTA4OTMsLTE3OD
+g2MzM3NzAsMTE3MDc5MzU1OCwtMTQ1MDQ1MDc5OCwtMTIxMzA5
+ODY5XX0=
 -->
