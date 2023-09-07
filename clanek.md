@@ -383,6 +383,9 @@ Experiment labeled 2 contains visually distinctive novelty datapoints stretched 
 
 Figure x shows the side-by-side visual representation of one of the 30 runs.
 
+### Experiment 3
+Experiment with code number 3 contains two visually distinc
+
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
 
@@ -397,7 +400,7 @@ Figure x shows the side-by-side visual representation of one of the 30 runs.
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDI3MTM5NSwtMTA2MDY4OTI0Myw2MT
+eyJoaXN0b3J5IjpbMTg0NzUzMzI0NCwtMTA2MDY4OTI0Myw2MT
 k2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2
 MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04Nj
 M0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1
