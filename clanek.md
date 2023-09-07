@@ -364,6 +364,7 @@ Figure x shows the side-by-side visual representation of one of the 30 runs.
 One-class SVM            |  LOF
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/svm_experiment1.svg)  |  ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment1.svg)
+>Figure x. Experiment 1 side by side comparison. One representative run.
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
@@ -466,7 +467,7 @@ Several takeouts can be extracted from the experiments.
 Both algorithms have to be trained on the regular dataset containing zero to no anomalies.
 This could be a problem in a production environment where anomalies are usual.
 Furthermore, without tedious hyperparameters tweaking, the One-class SVM algorithm showed more false positive findings as opposed to the Local Outlier Factor.
-Hovewer,
+However, such training is the only option when 
 
 ## Conclusion
 
@@ -474,11 +475,11 @@ Hovewer,
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3NzI5NjU5LDE2MDMxOTMyODgsMjc0Mz
-c4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwt
-OTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mz
-c3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0
-LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2Mj
-U3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1
-XX0=
+eyJoaXN0b3J5IjpbLTMyNTM4NTEzOCwxNjAzMTkzMjg4LDI3ND
+M3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1Mzks
+LTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OT
+M3Nzk4MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkx
+NCwtMTE2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYxLC05Nj
+I1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIx
+NV19
 -->
