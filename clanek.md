@@ -2,7 +2,8 @@
 
 ## Abstract
 Detection of anomalies is an area of datamining which showed a lot of interest recently namely amongst companies working with IoT.
-These companies tend to implement a lot of IoT sensors with the primary purpose to control some other mechanical or electromechanical 
+These companies tend to implement a lot of IoT sensors with the primary purpose to control some other mechanical or electromechanical devices such as fridges, microwaves and lights but also security devices such as gates, doors, electrical fences and cameras.
+The secondary effect of such devices are  
 
 - téma
 - toto jsme udělali
@@ -489,7 +490,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NjM5ODc2LDEwNTU3NTc0NjcsMTcxMT
+eyJoaXN0b3J5IjpbOTA0MDQ0NDg3LDEwNTU3NTc0NjcsMTcxMT
 A0MzU4LDE2MDMxOTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwz
 NzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OT
 g5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEs
