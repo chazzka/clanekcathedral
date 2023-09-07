@@ -14,7 +14,9 @@ Lastly, we compare these algorithms and provide examples and possible usages by 
 ## Introduction
 Recent advance in automatization brought a lot of interest in deployment of various IoT sensors.
 With the sensors producing large data, there is a huge concern for algorithms analyzing them.
-Applications ranging from medical data (https://www.sciencedirect.com/science/article/pii/S016926072300411X)
+Applications ranging from medical data (https://www.sciencedirect.com/science/article/pii/S016926072300411X),
+aeronautics (https://www.sciencedirect.com/science/article/pii/S1877050922007207),
+to 
 
 - start with lots of refs
 - describe the problem
@@ -494,7 +496,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTAzMzc4MjUsLTExNzM1MzI4OTcsMT
+eyJoaXN0b3J5IjpbLTE2NzA2NjUxMzksLTExNzM1MzI4OTcsMT
 A1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4
 NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05OD
 A3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5
