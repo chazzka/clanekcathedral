@@ -13,7 +13,8 @@ Lastly, we compare these algorithms and provide examples and possible usages by 
 
 ## Introduction
 Recent advance in automatization brought a lot of interest in deployment of various IoT sensors.
-With the sensors producing large data, there is a huge concern for algorithms analyzing 
+With the sensors producing large data, there is a huge concern for algorithms analyzing them.
+
 - start with lots of refs
 - describe the problem
 - our main goal was to
@@ -492,11 +493,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyOTk1NTEzLDEwNTU3NTc0NjcsMTcxMT
-A0MzU4LDE2MDMxOTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwz
-NzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OT
-g5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEs
-LTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0Mz
-Q2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkz
-XX0=
+eyJoaXN0b3J5IjpbLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNz
+ExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5
+LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NT
+Y5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3Nzgz
+MSwtMTA2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMT
+QzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4
+OTNdfQ==
 -->
