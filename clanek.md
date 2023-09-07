@@ -46,7 +46,7 @@ This article is also an overview of the methods commonly used for novelty detect
 ### Overview
 The analyzed data in this article is the 2D time-series data obtained from IoT sensors. 
 These sensors are implemented in the smart home environment and produce continuous data which are reported to the server once every $x$ seconds.
-Figure X shows the example of the sensors reporting the data during 24 hours.
+Figure X shows the example of the sensors reporting the data for 24 hours.
 
 
 
@@ -486,11 +486,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMz
-E5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwx
-NDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMT
-U3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0
-Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5ND
-E4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2
-XX0=
+eyJoaXN0b3J5IjpbMTk2OTYyODc4MSwxMDU1NzU3NDY3LDE3MT
+EwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzks
+Mzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Nj
+k4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMx
+LC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxND
+M0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5
+M119
 -->
