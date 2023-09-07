@@ -321,7 +321,7 @@ Since the measurements in our environment are done several times throughout the 
 This has several positive outcomes.
 First, the varying time is no more relevant, since the intervals have the same time span.
 Second, the training area gets more condensed, hence more accurate fitting is possible.
-Figure X shows the experiment containing novelty datapoints and also some other datapoints from measurement with a later time, both normalized in the 24 hours interval.
+Figure X shows the experiment containing novelty datapoints and also some other datapoints from measurement with later time values, both normalized in the 24 hours interval.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example7.svg)
 > example 7
@@ -391,11 +391,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNT
-c1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUs
-MjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1LDk3MTc4Nj
-U5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5
-NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkzLC0xNzg4Nj
-MzNzcwLDExNzA3OTM1NTgsLTE0NTA0NTA3OTgsLTEyMTMwOTg2
-OV19
+eyJoaXN0b3J5IjpbLTE2OTk1MzkxMiwxNDM0NjAyMTksNTk0MT
+g4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYs
+LTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OT
+U1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEwLDEw
+NTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjksLTE0ODA4OT
+A4OTMsLTE3ODg2MzM3NzAsMTE3MDc5MzU1OCwtMTQ1MDQ1MDc5
+OF19
 -->
