@@ -384,6 +384,7 @@ Figure x shows the side-by-side visual representation of one of the 30 runs.
 One-class SVM            |  LOF
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/svm_experiment2.svg)  |  ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment2.svg)
+>Figure x. Experiment 2 side by side comparison. One representative run.
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
@@ -395,6 +396,7 @@ Figure x shows the side-by-side visual representation of one of the 30 runs.
 One-class SVM            |  LOF
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/svm_experiment3.svg)  |  ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment3.svg)
+>Figure x. Experiment 3 side by side comparison. One representative run.
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
@@ -411,6 +413,7 @@ Figure x shows the side-by-side visual representation of one of the 30 runs.
 One-class SVM            |  LOF
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/svm_experiment4.svg)  |  ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment4.svg)
+>Figure x. Experiment 4 side by side comparison. One representative run.
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
@@ -427,6 +430,7 @@ Figure x shows the side-by-side visual representation of one of the 30 runs.
 One-class SVM            |  LOF
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/svm_experiment5.svg)  |  ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment5.svg)
+>Figure x. Experiment 5 side by side comparison. One representative run.
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
@@ -445,6 +449,7 @@ Figure x shows the side-by-side visual representation of one of the 30 runs.
 One-class SVM            |  LOF
 :-------------------------:|:-------------------------:
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/svm_experiment6.svg)  |  ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment6.svg)
+>Figure x. Experiment 6 side by side comparison. One representative run.
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
@@ -469,11 +474,11 @@ Hovewer,
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1OD
-E1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAs
-LTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1OD
-Q3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2
-NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNT
-M0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5
-Nl19
+eyJoaXN0b3J5IjpbNTk3NzI5NjU5LDE2MDMxOTMyODgsMjc0Mz
+c4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwt
+OTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mz
+c3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0
+LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2Mj
+U3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1
+XX0=
 -->
