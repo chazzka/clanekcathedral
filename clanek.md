@@ -72,9 +72,7 @@ Doing so, the data that is left are anomalies-only where the task of finding ano
 The most straightforward solution when trying to find anomalies in above-shown data would be to use some kind of statistical method that would split the data in a certain ratio.
 Figure X shows the mean (straight line) of the given data. 
 
- - [ ] - TODO: PŘEGENERAOVAT DO B/W
-
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean_great_colored.svg) 
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean1.svg) 
 > Figure X - Mean of the given dataset with anomalies.
 
 Although this may look positive on the first glance, several problems arise.
@@ -86,7 +84,7 @@ Obviously, if the dataset contained no anomalies at all, the result would become
 
  - [ ] - TODO: PŘEGENERAOVAT DO B/W
 
-![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean_wrong_colored.svg) 
+![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean2.svg) 
 > Figure X - Mean of the given dataset with little to zero anomalies.
 
 
@@ -482,11 +480,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMD
-IxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMxLC0xMDYwNjg5
-MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAyMTksNT
-k0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3
-NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mj
-g4OTU1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEw
+eyJoaXN0b3J5IjpbMTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OT
+U2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4
+MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LD
+E0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1
+ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsOD
+Q2NTc4MjcsMTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMy
 XX0=
 -->
