@@ -354,9 +354,17 @@ Different time intervals were then used to perform evaluation on.
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
 Each of the values in the table is an average of 30 runs to obtain statistically significant results.
 
+For the experiments, following settings were chosen after fine tuning:
+### One-class SVM settings
+
+### Local Outlier Factor settings
+
+SVM
+
 ### Experiment 1
+
 Experiment with code number 1 contains 10 visually distinctive novelty datapoints at Y axis values around 185.
-Table X shows the average of regular/novelty 
+Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor with the following
 
 obrázky, tabulka, výhody, nevýhody
 
@@ -375,11 +383,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ3MDk0MiwtMTA2MDY4OTI0Myw2MT
-k2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2
-MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04Nj
-M0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1
-LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNz
-U4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkz
-XX0=
+eyJoaXN0b3J5IjpbNzY3NjgxMzE5LC0xMDYwNjg5MjQzLDYxOT
+Y0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYx
+LC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2Mz
+Q4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OTU1NjUs
+OTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEwLDEwNTE3NT
+g1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjksLTE0ODA4OTA4OTNd
+fQ==
 -->
