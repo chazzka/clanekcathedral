@@ -350,19 +350,13 @@ The proportion of false positive novelties
 
 
 Since we use the semi-supervised learning paradigm, we extracted several time intervals with zero to no anomalies to perform fitting on.
-Figure X shows the fitting dataset.
-
->Figure x
-
- 
-Note that each of the datasets is split in 70:30 ratio for training and testing dataset, to avoid the algorithm to be evaluated on the same datapoints it was learned on.
+Different time intervals were then used to perform evaluation on.
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
 Each of the values in the table is an average of 50 runs to obtain statistically significant results.
 
 ### Experiment 1: One-class SVM 
 
 - [ ] TODO: Experimenty pouze random aspon 6 různych random instancí
-
 
 ||  Positive | Negative |  
 |-|-|-
@@ -390,11 +384,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU5Mzc4NTcsLTExNjIzMDA2NzksMT
-QzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4
-OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5Niw4ND
-Y1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIs
-MTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNT
-Q5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1
-NThdfQ==
+eyJoaXN0b3J5IjpbNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0Mz
+Q2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkz
+LDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NT
+c4MjcsMTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEy
+OTc3MTg3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OT
+MyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4
+XX0=
 -->
