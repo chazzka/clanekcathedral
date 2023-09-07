@@ -390,7 +390,7 @@ Experiment with code number 1 contains 10 visually distinctive novelty datapoint
 
 Figure x shows the side-by-side visual representation of one of the 30 runs.
 
-TODO FIGURE
+
 
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
@@ -485,11 +485,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNj
-A2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIx
-OSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
-YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjcs
-MTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MT
-g3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOV19
+eyJoaXN0b3J5IjpbLTM2MDUwNjY5NiwyNDkzNzc5ODIsMTM1OD
+Q3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2
+NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNT
+M0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5
+Niw4NDY1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwzNjEwMj
+Y5MzIsMTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3ODMwNl19
 
 -->
