@@ -473,7 +473,7 @@ Both algorithms are available in the Scikit's python environment and are open-so
 ## Conclusion
 In the article, the algorithms for labeling previously unseen, novelty datapoints in time series data were examined.
 We discussed the important difference between outlier and novelty detection, leaning towards the latter.
-The novelty detection paradigm was explained and algorithms for 
+We explained the novelty detection paradigm, and introduced the algorithms used in this area.
 We analyzed two algorithms for novelty detection, the OneClass SVM and the Local Outlier Factor. 
 From the production environment, several experiments were designed and performed analysis on.
 Both algorithms showed satisfactory results and thus can compete in such environments.
@@ -482,7 +482,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODYyNDQzNjksMTYwMzE5MzI4OCwyNz
+eyJoaXN0b3J5IjpbLTEzNDU1MDgxNTAsMTYwMzE5MzI4OCwyNz
 QzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5
 LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyND
 kzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5
