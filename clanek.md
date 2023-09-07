@@ -50,7 +50,9 @@ Figure X shows the example of the sensors reporting the data for 24 hours.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/data_overview.svg)
 
-As figure X shows, th
+As figure X shows, the data are following a regular pattern around $Y = 100$,
+however, around $X= 55$ the sensors started producing anomalous behavior.
+This has to be marked and reported so the technician can
 
 - [ ] Todo: tady bych chtěl obrázky a nějaký přehled těch time series dat, co jsou ještě anomalie, co je na vstupu a tak
 ### Preprocessing
@@ -487,11 +489,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDcyODc0LDEwNTU3NTc0NjcsMTcxMT
-A0MzU4LDE2MDMxOTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwz
-NzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OT
-g5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEs
-LTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0Mz
-Q2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkz
-XX0=
+eyJoaXN0b3J5IjpbMTUyNzU2Nzc4NSwxMDU1NzU3NDY3LDE3MT
+EwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzks
+Mzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Nj
+k4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMx
+LC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxND
+M0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5
+M119
 -->
