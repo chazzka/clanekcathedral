@@ -349,7 +349,7 @@ The proportion of false positive novelties
  
 
 
-Since we use the semi-supervised learning paradigm, we extracted one time interval with zero to no anomalies to perform fitting on.
+Since we use the semi-supervised learning paradigm, we extracted several time intervals with zero to no anomalies to perform fitting on.
 Figure X shows the fitting dataset.
 
 >Figure x
@@ -390,11 +390,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1OTAzMDEyLC0xMTYyMzAwNjc5LDE0Mz
-Q2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkz
-LDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NT
-c4MjcsMTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEy
-OTc3MTg3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OT
-MyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4
-XX0=
+eyJoaXN0b3J5IjpbLTIwNzU5Mzc4NTcsLTExNjIzMDA2NzksMT
+QzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4
+OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OTA4ODI5Niw4ND
+Y1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIs
+MTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNT
+Q5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1
+NThdfQ==
 -->
