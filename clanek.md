@@ -8,8 +8,8 @@ Such data can be analyzed and mined for interesting patterns or - in the case of
 We first investigate the problem of the given time series data.
 Then we examine the difference between two types of anomalies - outlying anomalies and novelty anomalies.
 We highlight the importance of such distinction and leverage on this knowledge to find the algorithms that can be used purely for novelty detection.
-We compare these algorithms and provide examples and 
-
+We test these algorithm on t
+We compare these algorithms and provide examples and possible usages by companies working with time series data.
 
 - téma
 - toto jsme udělali
@@ -496,7 +496,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTgwMzE4MzUsMTA1NTc1NzQ2NywxNz
+eyJoaXN0b3J5IjpbLTE1MDM0MDYzNzgsMTA1NTc1NzQ2NywxNz
 ExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5
 LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NT
 Y5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3Nzgz
