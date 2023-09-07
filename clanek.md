@@ -1,4 +1,4 @@
-# Novelty Clusterification in time series data - work title
+# Finding novelties in time series data - work title
 
 ## Abstract
 - téma
@@ -496,11 +496,11 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyND
-kzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5
-MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOT
-YyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgy
-MTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1LDk3MT
-c4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNzU4NV19
-
+eyJoaXN0b3J5IjpbOTA3ODQyODk3LC05OTU2OTg5MTAsLTEwMj
+E1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODky
+NDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OT
+QxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0
+NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4MjcsMTkyOD
+g5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTBd
+fQ==
 -->
