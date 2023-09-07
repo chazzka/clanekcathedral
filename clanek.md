@@ -329,7 +329,7 @@ Figure X shows the experiment containing novelty datapoints and also some other 
 As figure shows, the new regular measurements get assigned the correct REGULAR label.
  
 #### Setting the right parameters
-All of the algorithms introduced in this article suffers from the need to optimize the hyperparameters.
+All of the algorithms introduced in this article suffer from the need to optimize the hyperparameters.
 This optimization can be a tedious process, due to not only the number of hyperparameters, but also their interconnectivity.
 This kind of issue is widely known amongst AutoML community.
 Some tools have already been implemented that try to deal with the issue of automatic hyperparameter tuning, namely H20 (h2o.ai) or AutoGluon (auto.gluon.ai). 
@@ -391,11 +391,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk1MzkxMiwxNDM0NjAyMTksNTk0MT
-g4ODYxLC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYs
-LTg2MzQ4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OT
-U1NjUsOTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEwLDEw
-NTE3NTg1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjksLTE0ODA4OT
-A4OTMsLTE3ODg2MzM3NzAsMTE3MDc5MzU1OCwtMTQ1MDQ1MDc5
-OF19
+eyJoaXN0b3J5IjpbLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5ND
+E4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2
+LC04NjM0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4OD
+k1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwx
+MDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwOD
+kwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1NTgsLTE0NTA0NTA3
+OThdfQ==
 -->
