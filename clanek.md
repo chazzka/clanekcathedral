@@ -367,11 +367,13 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 
 |         | One-class SVM | LOF |
 |---------|---------------|-----|
-| Regular |               |     |
+| Regular |     191          |     |
 | Novelty |               |     |
 
-obrázky, tabulka, výhody, nevýhody
+Figure x shows the side-by-side visual representation of one of the 30 runs.
 
+
+### Experiment 2
 
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
@@ -387,11 +389,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxMTA3MzI1LC0xMDYwNjg5MjQzLDYxOT
-Y0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYx
-LC05NjI1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2Mz
-Q4ODIxNSwyMDk5MDg4Mjk2LDg0NjU3ODI3LDE5Mjg4OTU1NjUs
-OTcxNzg2NTkwLDM2MTAyNjkzMiwxMjk3NzE4NzEwLDEwNTE3NT
-g1LC0xMjk0OTc4MzA2LC03MTI1NDkzMjksLTE0ODA4OTA4OTNd
-fQ==
+eyJoaXN0b3J5IjpbLTIwMjY0Mjg1MTgsLTEwNjA2ODkyNDMsNj
+E5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4
+NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtOD
+YzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4MjcsMTkyODg5NTU2
+NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEyOTc3MTg3MTAsMTA1MT
+c1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OTMyOSwtMTQ4MDg5MDg5
+M119
 -->
