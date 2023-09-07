@@ -352,20 +352,11 @@ The proportion of false positive novelties
 Since we use the semi-supervised learning paradigm, we extracted several time intervals with zero to no anomalies to perform fitting on.
 Different time intervals were then used to perform evaluation on.
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
-Each of the values in the table is an average of 50 runs to obtain statistically significant results.
+Each of the values in the table is an average of 30 runs to obtain statistically significant results.
 
-### Experiment 1: One-class SVM 
+### Experiment 1
 
-- [ ] TODO: Experimenty pouze random aspon 6 různych random instancí
 
-||  Positive | Negative |  
-|-|-|-
-| Positive |  0.96727484 | 0.03272516 | 
-| Negative |0.02006547| 0.97993453 | 
-
-https://www.researchgate.net/figure/Contingency-table-True-Positive-False-Positive-False-Negative-and-True-Negatives-are_fig5_280535795
-
-tabulka pro kazdy algoritmus zvlast
 
 obrázky, tabulka, výhody, nevýhody
 
@@ -384,11 +375,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0Mz
-Q2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkz
-LDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NT
-c4MjcsMTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEy
-OTc3MTg3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OT
-MyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4
+eyJoaXN0b3J5IjpbMTc0NTExODY2NCw2MTk2NDE5MTQsLTExNj
+IzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2MSwtOTYyNTc1NzU2
+LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04NjM0ODgyMTUsMjA5OT
+A4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1LDk3MTc4NjU5MCwz
+NjEwMjY5MzIsMTI5NzcxODcxMCwxMDUxNzU4NSwtMTI5NDk3OD
+MwNiwtNzEyNTQ5MzI5LC0xNDgwODkwODkzLC0xNzg4NjMzNzcw
 XX0=
 -->
