@@ -458,7 +458,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 We examined six different experiments analyzed by two of the most famous algorithms capable of novelty detection.
 Both algorithms performed reasonably well in our scenarios and can be used in production environment.
 Several takeouts can be extracted from the experiments.
- 
+Without ted 
 
 ## Conclusion
 
@@ -466,11 +466,11 @@ Several takeouts can be extracted from the experiments.
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY3NDczNzUsMjc0Mzc4ODY2LDcxNT
-gxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcw
-LC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNT
-g0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAw
-Njc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMT
-UzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgy
-OTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzI4NDc0LDI3NDM3ODg2Niw3MTU4MT
+UxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwt
+OTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4ND
+c3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3
+OSwxNDM0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3NTYsLTE1Mz
+Q4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIxNSwyMDk5MDg4Mjk2
+XX0=
 -->
