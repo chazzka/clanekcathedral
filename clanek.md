@@ -456,18 +456,17 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 
 ## Results and discussion
 
-- zde napíšeme co se povedlo, jak to neni vubec lehke najit dva či více algoritmů které spolu dobře fungují a velký problem je jejich validace a verifikace, zkus navhrnout nějaké řešení verifikace
 ## Conclusion
 
 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0Nz
-MyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3
-MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MT
-k2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2
-MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2LC04Nj
-M0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4ODk1NTY1
-XX0=
+eyJoaXN0b3J5IjpbMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwND
+c4NTEsMTQ0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OTg5MTAs
+LTEwMjE1NzE4NzEsMjQ5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNj
+A2ODkyNDMsNjE5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIx
+OSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwOD
+YzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4Mjdd
+fQ==
 -->
