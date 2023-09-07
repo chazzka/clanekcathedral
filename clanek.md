@@ -18,7 +18,10 @@ Applications ranging from medical data (https://www.sciencedirect.com/science/ar
 aeronautics (https://www.sciencedirect.com/science/article/pii/S1877050922007207),
 to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S2199853122010253).
 The datamining field here has been branching out lately, to address the specific needs.
-The IoT datamining can 
+The IoT datamining can be used to ..
+
+- [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
+
 
 - start with lots of refs
 - describe the problem
@@ -49,8 +52,7 @@ Novelty
 ## SOTA
 
 The originality of this article can be defined as follows. 
-There are many successful algorithms used to analyze times series data, however the selling point here is the characterization of the problem not being simple outlier detection problem, rather a cluster-novelty detection (as defined later). 
-The successful cross-cooperation of algorithms is what makes this solution feasible and interesting. 
+There are many successful algorithms used to analyze times series data, however the point here is the characterization of the problem not being simple outlier detection problem, rather a novelty detection (as defined later). 
 This article is also an overview of the methods commonly used for novelty detection versus the outlier detection.
 
 ## Data
@@ -498,7 +500,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg5NDcwOCwtMTE3MzUzMjg5NywxMD
+eyJoaXN0b3J5IjpbMjA3MTE1NDA5NCwtMTE3MzUzMjg5NywxMD
 U1NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2
 Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MD
 cwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4
