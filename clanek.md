@@ -17,7 +17,8 @@ With the sensors producing large data, there is a huge concern for algorithms an
 Applications ranging from medical data (https://www.sciencedirect.com/science/article/pii/S016926072300411X),
 aeronautics (https://www.sciencedirect.com/science/article/pii/S1877050922007207),
 to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S2199853122010253).
-The datamining field here gets 
+The datamining field here has been branching out lately, to address the specific needs.
+The IoT datamining can 
 
 - start with lots of refs
 - describe the problem
@@ -497,11 +498,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4NjA2NDc2LC0xMTczNTMyODk3LDEwNT
-U3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyODgsMjc0Mzc4ODY2
-LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNz
-AyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgy
-LDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMT
-YyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1
-Nl19
+eyJoaXN0b3J5IjpbLTExMDg5NDcwOCwtMTE3MzUzMjg5NywxMD
+U1NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2
+Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MD
+cwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4
+MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMT
+E2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYxLC05NjI1NzU3
+NTZdfQ==
 -->
