@@ -470,19 +470,18 @@ However, as shown in the article, such training is the only option when trying t
 Furthermore, without tedious hyperparameters tweaking, the One-class SVM algorithm showed more false positive findings as opposed to the Local Outlier Factor.
 Both algorithms are available in the Scikit's python environment and are open-source and ready to use by anyone.
 
-
-
 ## Conclusion
-
+In the article we discussed the difference between outlier and novelty detection, with the 
+We analyzed two algorithms for novelty detection, OneLocal Outlier Factor
 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxNTQ1MjI2LDE2MDMxOTMyODgsMjc0Mz
-c4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwt
-OTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mz
-c3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0
-LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2Mj
-U3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtODYzNDg4MjE1
-XX0=
+eyJoaXN0b3J5IjpbLTEwOTQwMjg3NiwxNjAzMTkzMjg4LDI3ND
+M3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1Mzks
+LTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OT
+M3Nzk4MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkx
+NCwtMTE2MjMwMDY3OSwxNDM0NjAyMTksNTk0MTg4ODYxLC05Nj
+I1NzU3NTYsLTE1MzQ4NTg5Myw5MDg2MzM3NDYsLTg2MzQ4ODIx
+NV19
 -->
