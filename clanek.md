@@ -1,8 +1,7 @@
 # Finding novelties in time series data - work title
 
 ## Abstract
-
-
+Detection of anomalies is an area of datamining which showed a lot of interest recently namely amongst i 
 - téma
 - toto jsme udělali
 - co řešíme (řešíme problem hledání novelty dat, ne problem nějakeho algoritmu)
@@ -488,7 +487,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTk3NjA4MCwxMDU1NzU3NDY3LDE3MT
+eyJoaXN0b3J5IjpbLTc4ODMxNjM3OCwxMDU1NzU3NDY3LDE3MT
 EwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzks
 Mzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Nj
 k4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMx
