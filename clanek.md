@@ -347,11 +347,10 @@ The proportion of detected regulars
 The proportion of false positive novelties
 : This is the proportion of the data labeled "novelty" compared to the regular filtered dataset.
  
-For the experiments, data from smart home sensors were used.
-Each of the experiments contains the same number of datapoints from a random time interval so that the intervals do not overlap.
+
 
 Since we use the semi-supervised learning paradigm, we extracted one time interval with zero to no anomalies to perform fitting on.
-Figure X shows the fitting dataset timespan.
+Figure X shows the fitting dataset.
 
 >Figure x
 
@@ -391,11 +390,11 @@ obrázky, tabulka, výhody, nevýhody
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5ND
-E4ODg2MSwtOTYyNTc1NzU2LC0xNTM0ODU4OTMsOTA4NjMzNzQ2
-LC04NjM0ODgyMTUsMjA5OTA4ODI5Niw4NDY1NzgyNywxOTI4OD
-k1NTY1LDk3MTc4NjU5MCwzNjEwMjY5MzIsMTI5NzcxODcxMCwx
-MDUxNzU4NSwtMTI5NDk3ODMwNiwtNzEyNTQ5MzI5LC0xNDgwOD
-kwODkzLC0xNzg4NjMzNzcwLDExNzA3OTM1NTgsLTE0NTA0NTA3
-OThdfQ==
+eyJoaXN0b3J5IjpbMjI1OTAzMDEyLC0xMTYyMzAwNjc5LDE0Mz
+Q2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkz
+LDkwODYzMzc0NiwtODYzNDg4MjE1LDIwOTkwODgyOTYsODQ2NT
+c4MjcsMTkyODg5NTU2NSw5NzE3ODY1OTAsMzYxMDI2OTMyLDEy
+OTc3MTg3MTAsMTA1MTc1ODUsLTEyOTQ5NzgzMDYsLTcxMjU0OT
+MyOSwtMTQ4MDg5MDg5MywtMTc4ODYzMzc3MCwxMTcwNzkzNTU4
+XX0=
 -->
