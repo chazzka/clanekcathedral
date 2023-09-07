@@ -395,21 +395,28 @@ Experiment with code number 3 contains two visually distinctive novelty clusters
 
 Figure x shows the side-by-side visual representation of one of the 30 runs.
 
-
+TODO FIGURE
 
 Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
 |  | One-class SVM | LOF |
 |---|---|---|
-| Regular |191|199|
-| Novelty |19|11|
+| Regular |189|198|
+| Novelty |23|14|
+
+### Experiment 4
+Experiment with code number 4 contains one condensed cluster with many overlapping dapoints  
+
+Figure x shows the side-by-side visual representation of one of the 30 runs.
+
+TODO FIGURE
+
+Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
 
 |  | One-class SVM | LOF |
 |---|---|---|
-| Regular |188|200|
-| Novelty |24|12|
-
-
+| Regular |189|198|
+| Novelty |23|14|
 
 ### Finding clusters amongst novelties ??
 - tady už stačí asi že prostě to není těžký ukol, vezmeme jen obyčejný DB scan NEBO KNN a bác. oba algoritmy jsou jednoduché ale síla je v jejich kooperaci idk
@@ -425,7 +432,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 ## References
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU2MjI5NDQsLTEwNjA2ODkyNDMsNj
+eyJoaXN0b3J5IjpbLTE0MjU3MDgwMzQsLTEwNjA2ODkyNDMsNj
 E5NjQxOTE0LC0xMTYyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4
 NjEsLTk2MjU3NTc1NiwtMTUzNDg1ODkzLDkwODYzMzc0NiwtOD
 YzNDg4MjE1LDIwOTkwODgyOTYsODQ2NTc4MjcsMTkyODg5NTU2
