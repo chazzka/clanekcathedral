@@ -461,7 +461,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 
 ### Experiment 6
 The last experiment numbered 6 contains large number of visually anomalous datapoints. 
-This is perfect for observing behavior for datasets with regular and novelty datapoints in close to 1:1 ratio.
+This is ideal for observing behavior for datasets with regular and novelty datapoints in close to 1:1 ratio.
 
 
 Figure x shows the side-by-side visual representation of one of the 30 runs.
@@ -502,11 +502,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MjcxMDA0LC0xMTczNTMyODk3LDEwNT
-U3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyODgsMjc0Mzc4ODY2
-LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUzOSwtOTgwNz
-AyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMjQ5Mzc3OTgy
-LDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQxOTE0LC0xMT
-YyMzAwNjc5LDE0MzQ2MDIxOSw1OTQxODg4NjEsLTk2MjU3NTc1
-Nl19
+eyJoaXN0b3J5IjpbMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNz
+M1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4
+OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0Nz
+MyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3
+MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MT
+k2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYwMjE5LDU5NDE4ODg2
+MV19
 -->
