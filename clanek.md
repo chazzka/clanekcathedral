@@ -151,10 +151,10 @@ Figure X shows the example of running an Isolation Forest on the same dataset as
 > Figure X dataset with contamination = 0.01 (example 2)
 
 
-We can leverage on this knowledge and try to provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
-First, we use Scikit Isolation Forest *fit* method, to fit the regular data.
+We can leverage this knowledge and provide new, previously unseen novel datapoints to the algorithm to make it predict its label.
+First, we use the Scikit Isolation Forest *fit* method to fit the regular data.
 With the data fit, we add a bunch of new, unseen, novelty datapoints.
-Figure X shows the result of *predict* method with the new data added.
+Figure X shows the result of the *predict* method with the new data added.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example3.svg)
 > Figure X. example 3
@@ -501,11 +501,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Mjg4NjgwNCwtNzk2MDk2Mjg0LDE5Nz
-c5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNjQyOTkx
-NzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC
-0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTcz
-NTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyOD
-gsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDcz
-MjUzOV19
+eyJoaXN0b3J5IjpbOTcxMDEyMTI1LC03OTYwOTYyODQsMTk3Nz
+k5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUsLTE2NDI5OTE3
+MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLT
+E1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1
+MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OC
+wyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMy
+NTM5XX0=
 -->
