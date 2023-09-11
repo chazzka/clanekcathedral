@@ -18,7 +18,7 @@ Applications ranging from medical data (https://www.sciencedirect.com/science/ar
 aeronautics (https://www.sciencedirect.com/science/article/pii/S1877050922007207),
 to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S2199853122010253) are to be seen evaluating such data.
 The datamining field here has been branching out lately, to address the specific needs.
-The IoT datamining can be used to 
+The IoT datamining can be used to find common patterns in data thg
 
 - [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
 - [ ] pak pokračuj až k našemu tématu -  our main goal was to novelty detection kde popíšeš naši diménu, co ty data jsou jak se k nim dostaneme, technické detaily těch sensorů  a přínos toho článku
@@ -502,11 +502,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNz
-UyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQz
-NTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OT
-A0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkx
-MCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMT
-A2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYw
-MjE5XX0=
+eyJoaXN0b3J5IjpbMTQwMjA5NTU1NiwtMTU3NTk4NTk4OSwxOT
+QwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUzMjg5NywxMDU1NzU3
+NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MT
+U4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3
+MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMz
+U4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMw
+MDY3OV19
 -->
