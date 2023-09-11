@@ -21,7 +21,8 @@ The datamining field here has been branching out lately, to address the specific
 The IoT datamining can be used to find common patterns in data through method called pattern-mining (https://www.sciencedirect.com/science/article/pii/S0952197622004705).
 This branch is focused to analyze the previously non-labeled data and to mine an interesting pattern such as variables which tend to report symbiotic behavior.
 This can play a big role in the topic of automated understanding the human interactions to i.e., provide recommendations.
-Another topic is the clustering, where the applications are set to find cl
+Another topic is the clustering, where the applications are set to find clusters with similar characteristics in data.
+
 
 
 - [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
@@ -506,7 +507,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwOTI2NTYzNSwtMTU3NTk4NTk4OSwxOT
+eyJoaXN0b3J5IjpbLTg0NDQ2MzczOSwtMTU3NTk4NTk4OSwxOT
 QwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUzMjg5NywxMDU1NzU3
 NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MT
 U4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3
