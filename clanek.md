@@ -12,25 +12,25 @@ We test these algorithms on the real-world scenarios of datasets obtained from t
 Lastly, we compare these algorithms and provide examples and possible usages by companies working with time series data.
 
 ## Introduction
-Recent advance in automatization brought an intensified deployment of various IoT sensors.
-With the sensors producing large data, there is a huge concern for algorithms analyzing them.
+Recent advances in automatization brought an intensified deployment of various IoT sensors.
+With the sensors producing big data, there is a massive concern for algorithms that analyze them.
 Applications ranging from medical data (https://www.sciencedirect.com/science/article/pii/S016926072300411X),
 aeronautics (https://www.sciencedirect.com/science/article/pii/S1877050922007207),
 to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S2199853122010253) are to be seen evaluating such data.
-The datamining field here has been branching out lately, to address the specific needs.
-The IoT datamining can be used to find common patterns in data through method called pattern-mining (https://www.sciencedirect.com/science/article/pii/S0952197622004705).
-This branch is focused to analyze the previously non-labeled data and to mine an interesting pattern such as variables which tend to report symbiotic behavior.
-This can play a big role in the topic of automated understanding the human interactions to i.e., provide recommendations.
-Another topic is the clustering, where the applications are set to find clusters with similar characteristics in data.
-Clustering is a famous technique even in time series data, for the reason that observed data usually form clusters in a particular time.
-An example of this can be Haskey's et. al. Clustering of periodic multichannel timeseries data. (https://www.sciencedirect.com/science/article/pii/S0010465514000885)
-Lastly, one of the most famous technique regarding time-series datamining is finding anomalies.
-Wang et. al. focused on active probing for IoT anomaly detection in (https://www.sciencedirect.com/science/article/pii/S235286482300113X).
+The data mining field has been branching out lately to address specific needs.
+IoT data mining can be used to find common patterns in data through pattern mining (https://www.sciencedirect.com/science/article/pii/S0952197622004705).
+This branch focuses on analyzing previously non-labeled data and mining an interesting pattern, such as variables that tend to report symbiotic behavior.
+Pattern mining plays a significant role in the automated understanding of human interactions to provide recommendations.
+Another topic is clustering, where the applications are set to find clusters with similar characteristics in data.
+Clustering is a famous technique even in time series data because observed data usually form clusters in a particular time.
+An example of this can be Haskey's et al. Clustering of periodic multichannel timeseries data.(https://www.sciencedirect.com/science/article/pii/S0010465514000885)
+Lastly, one of the most famous techniques regarding time-series data mining is finding anomalies.
+Wang et al. focused on active probing for IoT anomaly detection in (https://www.sciencedirect.com/science/article/pii/S235286482300113X).
 Gao et al. identify malicious traffic in IoT security applications.
-Although the anomaly and outlier detection are common terms, the novelty detection as proposed in this article is not well-known keyword and we believe that this should change.
-Thats why we propose this comparative study of outlier and novelty detection, where we focus on introducing the concept of novelty detection terminology in particular.
-Our main goal was to make a comparative study of already known novelty detection algorithms to make these terms notable in the community and to help the engineering applications make the right choice when performing anomaly detection tasks.
-The comparative study is done on a real-world scenario of IoT time-series data taken from smart home environment sensors.
+Although anomaly and outlier detection are common terms, novelty detection as proposed in this article, is not a well-known keyword, and we believe this should change.
+That is why we propose this comparative study of outlier and novelty detection, where we focus on introducing the concept of novelty detection terminology in particular.
+Our main goal was to make a comparative study of already known novelty detection algorithms to make these terms notable in the community and to help engineering applications make the right choice when performing anomaly detection tasks.
+The comparative study is done on a real-world scenario of IoT time-series data from smart home environment sensors.
 
 ## Theory
 
@@ -499,11 +499,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTgyNjc2NTUsLTE2NDI5OTE3MjcsMT
-AyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLTE1NzU5
-ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1MzI4OT
-csMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OCwyNzQz
-Nzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC
-05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyNDkz
-Nzc5ODJdfQ==
+eyJoaXN0b3J5IjpbMTYwNjc2NTI3NiwtMTY5ODI2NzY1NSwtMT
+Y0Mjk5MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLTg0NDQ2
+MzczOSwtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3MTAwNC
+wtMTE3MzUzMjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OCwxNjAz
+MTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLD
+E0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMDIx
+NTcxODcxXX0=
 -->
