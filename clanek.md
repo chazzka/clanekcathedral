@@ -340,10 +340,10 @@ Some tools have already been implemented that try to deal with the issue of auto
 
 ## Experiments
 For the following experiments, the data described in the introductory section were used.
-Since we use the semi-supervised learning paradigm, we extracted several time intervals with zero to no anomalies to perform fitting on.
-Different time intervals were then used to perform evaluation on.
+Since we use the semi-supervised learning paradigm, we extracted several time intervals with zero to no anomalies to perform fitting.
+Different time intervals were then used to perform the evaluation.
 The hyperparameters for each algorithm were set experimentally using autoconfiguration mechanisms.
-Each of the values in the table is an average of 30 runs to obtain statistically significant results.
+Each value in the table is an average of 30 runs to obtain statistically significant results.
 
 ### Hyperparameter settings
 For the experiments, following settings were chosen after fine tuning:
@@ -376,7 +376,7 @@ For additional information, refer to Scikit's documentation: https://scikit-lear
 
 ### Experiment 1
 
-Experiment with code number 1 contains 10 visually distinctive novelty datapoints at Y axis values around 185.
+Experiment with code number 1 contains ten visually distinctive novelty datapoints at Y-axis values around 185.
 
 
 Figure x shows the side-by-side visual representation of one of the 30 runs.
@@ -503,11 +503,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDQyODkyMiw3MDE0MTI2MTAsLTc5Nj
-A5NjI4NCwxOTc3OTk1Mzk3LDkyODQ4MzAzMiwtMTY5ODI2NzY1
-NSwtMTY0Mjk5MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLT
-g0NDQ2MzczOSwtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3
-MTAwNCwtMTE3MzUzMjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OC
-wxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3
-ODUxXX0=
+eyJoaXN0b3J5IjpbLTE1OTg3OTUxOTUsNzAxNDEyNjEwLC03OT
+YwOTYyODQsMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2
+NTUsLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC
+04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUy
+NzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNT
+gsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0
+Nzg1MV19
 -->
