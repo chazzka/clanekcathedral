@@ -279,8 +279,8 @@ Figure X shows the result of an above-defined experiment with the following sett
 - kernel = rbf
 
 The figure shows that the algorithm successfully marked the novelty data.
-Notice that it also shows some of the *regular* data marked as novelty (note, that the testing dataset provided for evaluation phase is different than the training one). 
-This phenomenon is called the false positive findings and will be examined later during evaluation of experiments.
+Notice that it also shows some of the *regular* data marked as a novelty (note that the testing dataset provided for the evaluation phase differs from the training one). 
+This phenomenon is called the false positive findings and will be examined later during the evaluation of experiments.
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example4.svg)
 > Figure x (Example 4)
 
@@ -502,11 +502,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDExNDQ1MjAsNzAxNDEyNjEwLC03OT
-YwOTYyODQsMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2
-NTUsLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC
-04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUy
-NzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNT
-gsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0
-Nzg1MV19
+eyJoaXN0b3J5IjpbMTIwMzA3NDYsNzAxNDEyNjEwLC03OTYwOT
+YyODQsMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUs
+LTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04ND
+Q0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEw
+MDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMT
+YwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1
+MV19
 -->
