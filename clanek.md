@@ -228,9 +228,9 @@ the average probability of 0.97993453 for the class labeled **REGULAR** and the 
 This means that, for the above reasons, the ANN algorithm could not detect the class it had not seen before.
 
 ### Semi-supervised learning
-These findings lead us to the area of datamining, that is in the middle of supervised and unsupervised learning, the semi-supervised learning.
+These findings lead us to the area of datamining, which is in the middle of supervised and unsupervised learning the semi-supervised learning.
 Let us define the semi-supervised learning as follows.
-The semi-supervised learning in this context is a type of learning where we only have a part of the data labeled, and are interested in detecting, whether the data observed later fits in our label or not.
+Semi-supervised learning in this context is a type of learning where we only have a part of the data labeled and are interested in detecting whether the data observed later fits in our label or not.
 
 #### Novelty detection
 Novelty detection is a semi-supervised learning paradigm, where training data is not polluted by outliers, and we are interested in detecting whether a new observation is an outlier. 
@@ -501,7 +501,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Mzc5NDc0NSwtNzk2MDk2Mjg0LDE5Nz
+eyJoaXN0b3J5IjpbMTI4MjA1NjQwMCwtNzk2MDk2Mjg0LDE5Nz
 c5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNjQyOTkx
 NzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC
 0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTcz
