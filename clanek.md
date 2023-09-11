@@ -64,12 +64,12 @@ Figure X shows an example of the sensors reporting the data for 24 hours.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/data_overview.svg)
 
-As figure X shows, the data are following a regular pattern around $Y = 100$,
-however, around $X= 55$ the sensors started producing anomalous behavior.
-Since the sensors can be from a security field, such blackout can lead to detrimental outcomes.
-This has to be marked and reported so company can react immediately.
-Note that the values of these anomalous datapoints are completely random, since it is the abnormal erroneous behavior.
-This also makes any normalizing impossible, since we do not know the location of these points beforehand.
+As Figure X shows, the data follow a regular pattern around $Y = 100$,
+however, around $X= 55$, the sensors started producing anomalous behavior.
+Since the sensors can be from a security field, such a blackout can lead to detrimental outcomes.
+This event must be marked and reported so a company can react immediately.
+Note that the values of these anomalous datapoints are utterly random since it is the abnormal erroneous behavior.
+This also makes any normalizing impossible since we do not know the location of these points beforehand.
 
 ## Methods
 
@@ -499,11 +499,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNj
-QyOTkxNzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYz
-NzM5LC0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC
-0xMTczNTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMx
-OTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMT
-Q0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1
-NzE4NzFdfQ==
+eyJoaXN0b3J5IjpbMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OT
+gyNjc2NTUsLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkw
+MTAwLC04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1Mi
+wyNzUyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzEx
+MDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LD
+M3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NTY5
+ODkxMF19
 -->
