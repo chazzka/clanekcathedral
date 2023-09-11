@@ -1,13 +1,13 @@
 # Finding novelty datapoints in time series data - work title
 
 ## Abstract
-Detection of anomalies is an area of datamining which showed a lot of interest recently namely amongst companies working with IoT.
-These companies tend to implement a lot of IoT sensors with the primary purpose to control some other mechanical or electromechanical devices such as fridges, microwaves and lights but also security devices such as gates, doors, electrical fences and cameras.
-The secondary effect of such devices is the production of large data.
+Detection of anomalies is an area of data mining that has shown much interest recently amongst companies working with IoT.
+These companies implement many IoT sensors to control some other mechanical or electromechanical devices such as fridges, microwaves, and lights and security devices such as gates, doors, electrical fences, and cameras.
+The secondary effect of such devices is the production of large amounts of data.
 Such data can be analyzed and mined for interesting patterns or - in the case of this article - anomalous behavior.
 We first investigate the problem of the given time series data.
-Then we examine the difference between two types of anomalies - outlying anomalies and novelty anomalies.
-We highlight the importance of such distinction and leverage on this knowledge to find the algorithms that can be used purely for novelty detection.
+Then, we examine the difference between two types of anomalies - outlying anomalies and novelty anomalies.
+We highlight the importance of such distinction and leverage this knowledge to find the algorithms that can be used purely for novelty detection.
 We test these algorithms on the real-world scenarios of datasets obtained from the IoT sensors.
 Lastly, we compare these algorithms and provide examples and possible usages by companies working with time series data.
 
@@ -499,11 +499,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtND
-YyNTkwMTAwLC04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5
-NTY1MiwyNzUyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2Ny
-wxNzExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1
-MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLT
-k5NTY5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3
-NzgzMV19
+eyJoaXN0b3J5IjpbLTE2OTgyNjc2NTUsLTE2NDI5OTE3MjcsMT
+AyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLTE1NzU5
+ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1MzI4OT
+csMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OCwyNzQz
+Nzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC
+05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyNDkz
+Nzc5ODJdfQ==
 -->
