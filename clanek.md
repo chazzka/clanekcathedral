@@ -269,8 +269,9 @@ Then we get different, similar dataset composed of regular datapoints and novelt
 Note that Scikit's OneClass SVM implementation - as opposed to Isolation Forest - requires data to be normalized between 0 and 1.
 For this, we use Scikit's StandardScaler which can perform data-relative scaling.
 However useful this feature is, it also has its downsides.
-- [ ] TODO: downsides of scaling
 
+One of the downsides it when two datapoints were far away from each other, after scaling they appear closer.
+Moreover, when dealing with novelty data the 
 
 Figure X shows the result of an above-defined experiment with the following settings:
 - nu = 0.02
@@ -500,11 +501,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjcwMzQ0LC03OTYwOTYyODQsMTk3Nz
-k5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUsLTE2NDI5OTE3
-MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLT
-E1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1
-MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OC
-wyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMy
-NTM5XX0=
+eyJoaXN0b3J5IjpbMTE3MTYxNjg3OSwtNzk2MDk2Mjg0LDE5Nz
+c5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNjQyOTkx
+NzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC
+0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTcz
+NTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyOD
+gsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDcz
+MjUzOV19
 -->
