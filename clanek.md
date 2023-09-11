@@ -73,21 +73,22 @@ This also makes any normalizing impossible since we do not know the location of 
 
 ## Methods
 
-The very first task is to thoroughly analyze the domain of the given problem.
+
+The first task is to analyze the domain of the given problem thoroughly.
 The inappropriate choice of the selected solution could lead to undesirable results.
 Having the problem already described, we are now able to analyze and establish a learning process. 
 
-Using the data domain knowledge, some constraints usually arise.
-As described in the introductory section, we expect the sensors to produce linear-like data, with minor deviations within the *y* axis.
-These deviations do not follow any specific pattern and are completely random.
+With the data domain knowledge, some constraints usually arise.
+As the introductory section describes, we expect the sensors to produce linear-like data, with minor deviations within the *y* axis.
+These deviations do not follow any specific pattern and are entirely random.
 However, the errors report some kind of observable behavior.
 This is usually the case when performing cluster analysis.
-The main constraint that is crucial for this task is the cluster forming pattern.
+The primary constraint that is crucial for this task is the cluster-forming pattern.
 The task could become straightforward if we divide it into subordinate tasks.
-First of them is to use the knowledge to separate non-anomalies (not yet clusters).
-Doing so, the data that is left are anomalies-only where the task of finding anomaly clusters only becomes less challenging. 
+The first is to use the knowledge to separate non-anomalies (not yet clusters).
+Doing so, the data left are anomalies-only, where finding anomaly clusters becomes less challenging. 
 
-The most straightforward solution when trying to find anomalies in above-shown data would be to use some kind of statistical method that would split the data in a certain ratio.
+The most straightforward solution when finding anomalies in the above-shown data would be to use a statistical method to split the data in a specific ratio.
 Figure X shows the mean (straight line) of the given data. 
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean1.svg) 
@@ -499,11 +500,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OT
-gyNjc2NTUsLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkw
-MTAwLC04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1Mi
-wyNzUyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzEx
-MDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LD
-M3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NTY5
-ODkxMF19
+eyJoaXN0b3J5IjpbMjEwNjkzNjIwNywxOTc3OTk1Mzk3LDkyOD
+Q4MzAzMiwtMTY5ODI2NzY1NSwtMTY0Mjk5MTcyNywxMDIwMDE2
+ODk2LC00NjI1OTAxMDAsLTg0NDQ2MzczOSwtMTU3NTk4NTk4OS
+wxOTQwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUzMjg5NywxMDU1
+NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Ni
+w3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcw
+MjA3MF19
 -->
