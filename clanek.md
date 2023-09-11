@@ -53,14 +53,14 @@ Novelty
 ## SOTA
 
 The originality of this article can be defined as follows. 
-There are many successful algorithms used to analyze times series data, however the point here is the characterization of the problem not being simple outlier detection problem, rather a novelty detection (as defined later). 
-This article is also an overview of the methods commonly used for novelty detection versus the outlier detection.
+Many successful algorithms are used to analyze time series data; however, the point here is to characterize the problem not as a simple outlier detection problem but as a novelty detection (as defined later). 
+This article is also an overview of the methods commonly used for novelty detection versus outlier detection.
 
 ## Data
 ### Overview
 The analyzed data in this article is the 2D time-series data obtained from IoT sensors. 
-These sensors are implemented in the smart home environment and produce continuous data which are reported to the server once every $x$ seconds.
-Figure X shows the example of the sensors reporting the data for 24 hours.
+These sensors are implemented in the smart home environment and produce continuous data, reported to the server once every $x$ seconds.
+Figure X shows an example of the sensors reporting the data for 24 hours.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/data_overview.svg)
 
@@ -499,11 +499,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjc2NTI3NiwtMTY5ODI2NzY1NSwtMT
-Y0Mjk5MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLTg0NDQ2
-MzczOSwtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3MTAwNC
-wtMTE3MzUzMjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OCwxNjAz
-MTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLD
-E0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMDIx
-NTcxODcxXX0=
+eyJoaXN0b3J5IjpbOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNj
+QyOTkxNzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYz
+NzM5LC0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC
+0xMTczNTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMx
+OTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMT
+Q0NDczMjUzOSwtOTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1
+NzE4NzFdfQ==
 -->
