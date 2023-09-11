@@ -353,7 +353,7 @@ For the experiments, the following hyperparameters were used for One-class SVM a
 For additional information, refer to Scikit's documentation: https://scikit-learn.org/stable/modules/generated/sklearn.svm.OneClassSVM.html
 
 | Hyperparameter | value |
-|---|---|---|
+|---|---|
 | kernel |rbf|
 | gamma |$\frac{1}{\|features\| \cdot variance(x)}$|
 | tol |$1\cdot10^{-3}$|
@@ -367,7 +367,7 @@ For the experiments, the following hyperparameters were used for Local Outlier F
 For additional information, refer to Scikit's documentation: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html
 
 | Hyperparameter | value |
-|---|---|---|
+|---|---|
 | n_neighbors |20|
 | algorithm |auto|
 | leaf_size |30|
@@ -503,11 +503,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzgxNTk1LDcwMTQxMjYxMCwtNzk2MD
-k2Mjg0LDE5Nzc5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1
-LC0xNjQyOTkxNzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtOD
-Q0NDYzNzM5LC0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1Mjcx
-MDA0LC0xMTczNTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LD
-E2MDMxOTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4
-NTFdfQ==
+eyJoaXN0b3J5IjpbMzcwNjA5MTU5LC00MjM4MTU5NSw3MDE0MT
+I2MTAsLTc5NjA5NjI4NCwxOTc3OTk1Mzk3LDkyODQ4MzAzMiwt
+MTY5ODI2NzY1NSwtMTY0Mjk5MTcyNywxMDIwMDE2ODk2LC00Nj
+I1OTAxMDAsLTg0NDQ2MzczOSwtMTU3NTk4NTk4OSwxOTQwNjk1
+NjUyLDI3NTI3MTAwNCwtMTE3MzUzMjg5NywxMDU1NzU3NDY3LD
+E3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUx
+MzldfQ==
 -->
