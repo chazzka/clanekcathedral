@@ -106,10 +106,10 @@ The result would become even more deficient if the dataset contained no anomalie
 
 
 Traditional approaches for anomaly separation consist of either novelty detection or outlier detection.
-Novelty detection is an anomaly detection mechanism, where we search for unusual observations, which are discovered due to their differences from the training data.
+Novelty detection is an anomaly detection mechanism where we search for unusual observations, which are discovered due to their differences from the training data.
 Novelty detection is a semi-supervised anomaly-detection technique, whereas outlier detection uses unsupervised methods.
-This a crucial distinction, due to a fact that whereas the outlier detection is usually presented with data containing both anomalies and regular observation, it then uses mathematical models that try to make distinction between them, novelty detection on the other hand is usually presented data with little to zero anomalies (the proportion of anomalies in the dataset is called a contamination) and later, when conferred with an anomalous observation, it makes a decision.
-This means, that if the dataset contains observations which look like anomalies but are still valid, the performance of unsupervised outlier detection in such case is usually unsatisfactory. 
+This is a crucial distinction due to the fact that whereas outlier detection is usually presented with data containing both anomalies and regular observation, it then uses mathematical models that try to make a distinction between them. On the other hand, novelty detection is usually presented with little to zero anomalies (the proportion of anomalies in the dataset is called contamination), and later, when conferred with an anomalous observation, it makes a decision.
+This means that if the dataset contains observations that look like anomalies but are still valid, the performance of unsupervised outlier detection in such case is usually unsatisfactory. 
 
 ### Unsupervised methods
 The above leads us to consider anomaly detection algorithms.
@@ -500,11 +500,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjA5NjI4NCwxOTc3OTk1Mzk3LDkyOD
-Q4MzAzMiwtMTY5ODI2NzY1NSwtMTY0Mjk5MTcyNywxMDIwMDE2
-ODk2LC00NjI1OTAxMDAsLTg0NDQ2MzczOSwtMTU3NTk4NTk4OS
-wxOTQwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUzMjg5NywxMDU1
-NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Ni
-w3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcw
-MjA3MF19
+eyJoaXN0b3J5IjpbLTMwNjc5NDk4MSwtNzk2MDk2Mjg0LDE5Nz
+c5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNjQyOTkx
+NzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC
+0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTcz
+NTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyOD
+gsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDcz
+MjUzOV19
 -->
