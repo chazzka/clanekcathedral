@@ -28,7 +28,8 @@ Lastly, one of the most famous technique regarding time-series datamining is fin
 Wang et. al. focused on active probing for IoT anomaly detection in (https://www.sciencedirect.com/science/article/pii/S235286482300113X).
 Gao et al. identify malicious traffic in IoT security applications.
 Although the anomaly and outlier detection are common terms, the novelty detection as proposed in this article is not well-known keyword and we believe that this should change.
-Thats why we propose this comparative study of outlier and novelty detection,  where we focus on introducing the concept of novelty detection terminology in particular.
+Thats why we propose this comparative study of outlier and novelty detection, where we focus on introducing the concept of novelty detection terminology in particular.
+Our main goal was to make a comparative study of already known novelty detection algorithms to make these terms 
 
 
 
@@ -514,11 +515,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc4NDIyNDEsLTg0NDQ2MzczOSwtMT
-U3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUz
-Mjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LD
-I3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1
-MzksLTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLD
-I0OTM3Nzk4MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0
-MTkxNF19
+eyJoaXN0b3J5IjpbMzk5NTMyNTYxLC04NDQ0NjM3MzksLTE1Nz
+U5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1MzI4
+OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OCwyNz
+QzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5
+LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMTAyMTU3MTg3MSwyND
+kzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4OTI0Myw2MTk2NDE5
+MTRdfQ==
 -->
