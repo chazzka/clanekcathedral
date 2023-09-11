@@ -23,7 +23,8 @@ This branch is focused to analyze the previously non-labeled data and to mine an
 This can play a big role in the topic of automated understanding the human interactions to i.e., provide recommendations.
 Another topic is the clustering, where the applications are set to find clusters with similar characteristics in data.
 Clustering is a famous technique even in time series data, for the reason that observed data usually form clusters in a particular time.
-An example of this can be 
+An example of this can be Haskey's et. al. Clustering of periodic multichannel timeseries data. (https://www.sciencedirect.com/science/article/pii/S0010465514000885)
+Lastly, one of the most famous technique regarding 
 
 
 - [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
@@ -508,11 +509,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQ2Njg3NDgsLTg0NDQ2MzczOSwtMT
-U3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUz
-Mjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LD
-I3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1
-MzksLTk4MDcwMjA3MCwtOTk1Njk4OTEwLC0xMDIxNTcxODcxLD
-I0OTM3Nzk4MiwxMzU4NDc3ODMxLC0xMDYwNjg5MjQzLDYxOTY0
-MTkxNF19
+eyJoaXN0b3J5IjpbMTY1NjcwOTgxOCwtODQ0NDYzNzM5LC0xNT
+c1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTczNTMy
+ODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyODgsMj
+c0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUz
+OSwtOTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMj
+Q5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQx
+OTE0XX0=
 -->
