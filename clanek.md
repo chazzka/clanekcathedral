@@ -314,9 +314,9 @@ Figure x shows the algorithm when performed on a mesh of datapoints.
 
 
 Figure X shows one more crucial observation. 
-The area marked by LOF algorithm is cut in the right side.
+The area marked by the LOF algorithm is cut on the right side.
 Since we fit the data on both Time and Observed values, the algorithm treats all the Time values as part of the neighborhood.
-This is an undesired behavior in the sense of time series datamining, since the Time variable value is constantly rising. 
+This is an undesired behavior in the sense of time series datamining, since the Time variable value constantly rises. 
 
 #### Time variable preprocessing
 In the above sections we described a problem with constantly rising time variable value.
@@ -503,7 +503,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjQ0ODg5Nyw3MDE0MTI2MTAsLTc5Nj
+eyJoaXN0b3J5IjpbLTcwODQ5ODU0NCw3MDE0MTI2MTAsLTc5Nj
 A5NjI4NCwxOTc3OTk1Mzk3LDkyODQ4MzAzMiwtMTY5ODI2NzY1
 NSwtMTY0Mjk5MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLT
 g0NDQ2MzczOSwtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3
