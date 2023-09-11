@@ -122,15 +122,16 @@ Note that some preprocessing may be needed, depending on the specific algorithm.
 With the following example we will show that outlier detection is certainly not a novelty detection.
 
 #### Example: Isolation Forest
+
 Isolation Forest ([1](https://doi.org/10.1016/j.engappai.2022.105730 "article 1"), [2](https://doi.org/10.1016/j.patcog.2023.109334 "article 2")) is an outlier detection, semi-supervised ensemble algorithm. 
-This approach is well known to successfully isolate outliers by using recursive partitioning (forming a tree-like structure) to decide whether the analyzed particle is an anomaly or not.
-The less partitions required to isolate the more probable it is for a particle to be an anomaly.
+This approach is well known to successfully isolate outliers by using recursive partitioning (forming a tree-like structure) to decide whether the analyzed particle is an anomaly.
+The fewer partitions required to isolate, the more probable it is for a particle to be an anomaly.
 
-The Scikit-Learn platform (scikit-learn.org) offers several implemented, documented and tested machine-learning open-source algorithms.
-Its implementation of Isolation Forest has, in time of writing this text, 5 hyperparameters which need to be explicitly chosen and tuned.
+The Scikit-Learn platform (scikit-learn.org) offers several implemented, documented, and tested machine-learning open-source algorithms.
+At the time of writing this text, its implementation of Isolation Forest has five hyperparameters that need to be explicitly chosen and tuned.
 
-Consider a dataset containing no anomalies at all, which we want to use to for the learning.
-Figure x shows example dataset with two features, none of the datapoint being an anomaly.
+Consider a dataset containing no anomalies, which we want to use for the learning.
+Figure x shows an example dataset with two features, none of the datapoints being an anomaly.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example1.svg)
 > Figure X dataset with no anomalies (example 1)
@@ -500,11 +501,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyODk4NjI5LC03OTYwOTYyODQsMTk3Nz
-k5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUsLTE2NDI5OTE3
-MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLT
-E1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1
-MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OC
-wyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMy
-NTM5XX0=
+eyJoaXN0b3J5IjpbLTQ4NTY3NTcxOCwtNzk2MDk2Mjg0LDE5Nz
+c5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNjQyOTkx
+NzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC
+0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTcz
+NTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyOD
+gsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDcz
+MjUzOV19
 -->
