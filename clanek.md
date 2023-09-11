@@ -481,21 +481,21 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 
 
 ## Results and discussion
-We examined six different experiments analyzed by two of the most famous algorithms capable of novelty detection.
-Both algorithms performed reasonably well in our scenarios and can be used in production environment.
+We examined six experiments analyzed by two of the most famous algorithms for novelty detection.
+Both algorithms performed reasonably well in our scenarios and can be used in a production environment.
 Several takeouts can be extracted from the experiments.
 Both algorithms have to be trained on the regular dataset containing zero to no anomalies.
 This could be a problem in a production environment where anomalies are usual.
 However, as shown in the article, such training is the only option when trying to label the previously unseen - novelty - datapoints.
-Furthermore, without tedious hyperparameters tweaking, the One-class SVM algorithm showed more false positive findings as opposed to the Local Outlier Factor.
-Both algorithms are available in the Scikit's python environment and are open-source and ready to use by anyone.
+Furthermore, without tedious hyperparameters tweaking, the One-class SVM algorithm showed more false-positive findings as opposed to the Local Outlier Factor.
+Both algorithms are available in the Scikit's Python environment and are open-source and ready to use by anyone.
 
 ## Conclusion
-In the article, the algorithms for labeling previously unseen, novelty datapoints in time series data were examined.
-We discussed the important difference between outlier and novelty detection, leaning towards the latter.
-We explained the novelty detection paradigm, and introduced the algorithms used in this area.
+The article examined the algorithms for labeling previously unseen, novelty datapoints in time series data.
+We discussed the vital difference between outlier and novelty detection, leaning towards the latter.
+We explained the novelty detection paradigm and introduced the algorithms used in this area.
 We analyzed two algorithms for novelty detection, the OneClass SVM and the Local Outlier Factor. 
-From the production environment, several experiments were designed and performed analysis on.
+From the production environment, several experiments were designed and performed analysis.
 Both algorithms showed satisfactory results and thus can compete in such environments.
 
 
@@ -503,11 +503,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg3OTUxOTUsNzAxNDEyNjEwLC03OT
-YwOTYyODQsMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2
-NTUsLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC
-04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUy
-NzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNT
-gsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0
-Nzg1MV19
+eyJoaXN0b3J5IjpbLTQyMzgxNTk1LDcwMTQxMjYxMCwtNzk2MD
+k2Mjg0LDE5Nzc5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1
+LC0xNjQyOTkxNzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtOD
+Q0NDYzNzM5LC0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1Mjcx
+MDA0LC0xMTczNTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LD
+E2MDMxOTMyODgsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4
+NTFdfQ==
 -->
