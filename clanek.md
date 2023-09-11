@@ -286,20 +286,21 @@ This phenomenon is called the false positive findings and will be examined later
 
 
 #### Local outlier factor
+
 Local Outlier Factor is a neighborhood-based algorithm.
-It first calculates the reachability matrix by calculating the reachability distances as in the k-nearest neighborhood. 
-For each new datapoint a new reachability distance is calculated. 
-If the distance is higher than some threshold, the datapoint is an outlier.
-This is perfect for novelty detection, since we can calculate the average distance on the regular datapoints and observe its value on the later provided datapoints.
+It first calculates the reachability matrix by calculating the reachability distances as defined in the k-nearest neighborhood. 
+For each new datapoint, a new reachability distance is calculated. 
+If the distance exceeds some threshold, the datapoint is an outlier.
+This is perfect for novelty detection since we can calculate the average distance on the regular datapoints and observe its value on the later provided datapoints.
 
 Again, let us put the Local Outlier Factor to the test. 
-Note, that this algorithm does not need the input to be scaled in any form. 
+Note that this algorithm does not need the input to be scaled in any form. 
 Due to the distances' calculation, it is even undesirable.
 For the following experiment, we use the Local Outlier Factor with the following settings:
 - novelty: True
-Note, that if the novelty parameter is set to True, we cannot use the *fit_predict* method, which is of online outlier detection, anymore.
-Instead, we have to first use the *fit* method to fit the matrix on the regular dataset and the use the *predict* to evaluate new datapoints.
-Figure x shows the results of the above defined dataset with novelty data added.
+Note that if the novelty parameter is set to True, we can no longer use the *fit_predict* method, which is for online outlier detection.
+Instead, we first have to use the *fit* method to fit the matrix on the regular dataset and the *predict* to evaluate new datapoints.
+Figure x shows the above-defined dataset results with novelty data added.
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example5.svg)
 > Figure example 5
 
@@ -502,11 +503,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzA3NDYsNzAxNDEyNjEwLC03OTYwOT
-YyODQsMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUs
-LTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04ND
-Q0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEw
-MDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMT
-YwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1
-MV19
+eyJoaXN0b3J5IjpbMTQyMjQ0ODg5Nyw3MDE0MTI2MTAsLTc5Nj
+A5NjI4NCwxOTc3OTk1Mzk3LDkyODQ4MzAzMiwtMTY5ODI2NzY1
+NSwtMTY0Mjk5MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLT
+g0NDQ2MzczOSwtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3
+MTAwNCwtMTE3MzUzMjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OC
+wxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3
+ODUxXX0=
 -->
