@@ -319,13 +319,13 @@ Since we fit the data on both Time and Observed values, the algorithm treats all
 This is an undesired behavior in the sense of time series datamining, since the Time variable value constantly rises. 
 
 #### Time variable preprocessing
-In the above sections we described a problem with constantly rising time variable value.
+The above sections described a problem with constantly rising time variable values.
 This problem is usually fixed by dividing the dataset into equal intervals.
-Since the measurements in our environment are done several times throughout the day, we chose to divide the dataset into 24-hour intervals and remap the time according to this new interval.
+Since the measurements in our environment are done several times throughout the day, we divided the dataset into 24-hour intervals and remapped the time according to this new interval.
 This has several positive outcomes.
-First, the varying time is no more relevant, since the intervals have the same time span.
-Second, the training area gets more condensed, hence more accurate fitting is possible.
-Figure X shows the experiment containing novelty datapoints and also some other datapoints from measurement with later time values, both normalized in the 24 hours interval.
+First, the varying time is no longer relevant since the intervals have the same period.
+Second, the training area gets more condensed, making more accurate fitting possible.
+Figure X shows the experiment containing novelty datapoints and some other datapoints from measurement with later time values; both normalized in 24 hours.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example7.svg)
 > example 7
@@ -503,7 +503,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODQ5ODU0NCw3MDE0MTI2MTAsLTc5Nj
+eyJoaXN0b3J5IjpbMTM5NDQyODkyMiw3MDE0MTI2MTAsLTc5Nj
 A5NjI4NCwxOTc3OTk1Mzk3LDkyODQ4MzAzMiwtMTY5ODI2NzY1
 NSwtMTY0Mjk5MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLT
 g0NDQ2MzczOSwtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3
