@@ -174,16 +174,17 @@ As shown in the above sections, the unsupervised learning led to undesired outco
 If we consider pure supervised learning algorithms, on the other hand, we quickly run into the opposite problem.
 Let us consider the alpha omega of supervised learning algorithms, the Artificial Neural Network.
 #### ANN
-Artificial Neural Network is the supervised learning algorithm, where we construct a n-layer network of neurons and by backpropagating we alter their weights so that the inputs lead to the desired outputs, predicting the labels.
+An Artificial Neural Network is a supervised learning algorithm where we construct a n-layer network of neurons. 
+By backpropagating, we alter their weights so that the inputs lead to the desired outputs, predicting the labels.
 This may seem like a perfect method for our problem.
-However, in our scenario, we have the regular data labeled and ready to provide for the learning but that is not the case for the anomalous data.
-This is a huge problem for the ANN algorithm, because it needs to alter its weights based on the previously seen labeled data.
+However, in our scenario, we have the regular data labeled and ready to provide for the learning, but that is not the case for the anomalous data.
+This is a huge problem for the ANN algorithm because it needs to alter its weights based on the previously seen labeled data.
 Since we can only provide one of the labels (the regular data), the ANN will fail to find the other label.
-For the following example, we use the Scikit's ANN implementation.
+For the following example, we use Scikit's ANN implementation.
 
 ##### Example ANN:
-In this example, we first get some random, classified arrays of data with respective labels (REGULAR and OUTLIER).
-Then, we filter the data so that we only have one specific label.
+In this example, we first get random, classified data arrays with respective labels (REGULAR and OUTLIER).
+Then, we filter the data only to have one specific label.
 Instead of feeding the neural network training set containing both labels, we only feed it with data labeled with **regular**.
 
 
@@ -215,8 +216,8 @@ regular_prediction = clf.predict_proba(X_test[:1]))
 outlier_prediction = clf.predict_proba(outlierX[:1])
 ```
 
-The results are shown in Table X. Note, that each prediction was run 30 times, and the average value was taken. For the *regular_prediction *, containing the prediction of the testing set with data labeled **REGULAR** are expected, the average probability of 0.96727484 for the class labeled **REGULAR** and the average probability of 0.03272516 for the class labeled **OUTLIER**.
-However, for the *outlier_prediction *, predicting the value given the outlying, never seen before value, the results are very unsatisfactory,
+The results are shown in Table X. Note that each prediction was run 30 times, and the average value was taken. For the *regular_prediction *, containing the prediction of the testing set with data labeled **REGULAR** are expected, the average probability of 0.96727484 for the class labeled **REGULAR** and the average probability of 0.03272516 for the class labeled **OUTLIER**.
+However, for the *outlier_prediction *, predicting the value given the outlying, never-seen-before value, the results are very unsatisfactory,
 the average probability of 0.97993453 for the class labeled **REGULAR** and the average probability of 0.02006547 for the class labeled **OUTLIER**.
 
 |probability of class: |  1 | 0 |  
@@ -500,11 +501,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5NTQ3OTI2LC03OTYwOTYyODQsMTk3Nz
-k5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUsLTE2NDI5OTE3
-MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLT
-E1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1
-MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OC
-wyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMy
-NTM5XX0=
+eyJoaXN0b3J5IjpbLTE5NTk3MTg1NjgsLTc5NjA5NjI4NCwxOT
+c3OTk1Mzk3LDkyODQ4MzAzMiwtMTY5ODI2NzY1NSwtMTY0Mjk5
+MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLTg0NDQ2MzczOS
+wtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3MTAwNCwtMTE3
+MzUzMjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMj
+g4LDI3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3
+MzI1MzldfQ==
 -->
