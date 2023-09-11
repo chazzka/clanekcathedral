@@ -233,10 +233,10 @@ Let us define the semi-supervised learning as follows.
 Semi-supervised learning in this context is a type of learning where we only have a part of the data labeled and are interested in detecting whether the data observed later fits in our label or not.
 
 #### Novelty detection
-Novelty detection is a semi-supervised learning paradigm, where training data is not polluted by outliers, and we are interested in detecting whether a new observation is an outlier. 
-In this context an outlier is also called a novelty.
+Novelty detection is a semi-supervised learning paradigm where training data is not polluted by outliers, and we are interested in detecting whether a new observation is an outlier. 
+In this context, an outlier is also called a novelty.
 As of P. Oliveri in (https://doi.org/10.1016/j.aca.2017.05.013), such problems can also be called One-class problems.
-One-class problems are focused on a single class of interest (the target class), which can be properly defined and sampled, while non-target samples do not constitute a meaningful class and cannot be sampled in a thorough and comprehensive way.
+One-class problems are focused on a single class of interest (the target class), which can be properly defined and sampled. In contrast, non-target samples do not constitute a meaningful class and cannot be sampled in a thorough and comprehensive way.
 
 Scikit's platform offers us two algorithms for novelty detection.
 The One-class SVM algorithm and the Local Outlier Factor algorithm.
@@ -244,15 +244,14 @@ Let us describe them and put them to the test.
 
 
 #### Support Vector Machines
-SVM is a family of algorithms where in general a position of an n-dimensional shape is optimized.
+SVM is a family of algorithms where, in general, a position of an n-dimensional shape is optimized.
 It is usually optimized by its nearest points - the support vectors.
 ##### Standard supervised SVM
 The SVM algorithm classifies the points by drawing a hyperplane in the observed space.
-The desired outcome here is to position this hyperplane such that the points of one class are on the one side and the second class on the other. 
-The best possible hyperplane position is obtained through optimizing the distances between points and the hyperplane (also called a margin).
-By providing labeled points, SVM is able to solve this optimization problem.
+The desired outcome here is to position this hyperplane such that the points of one class are on one side and the second class on the other. 
+The best possible hyperplane position is obtained by optimizing the distances between points and the hyperplane (also called a margin).
+By providing labeled points, SVM can solve this optimization problem.
 That is, SVM is a supervised learning algorithm.
-
 ##### One-class SVM
 One-class SVM described in this article is as of Tax and Duin in (https://link.springer.com/content/pdf/10.1023/B:MACH.0000008084.60811.49.pdf).
 One-class SVM is an unsupervised algorithm that learns a decision function for novelty detection: classifying new data as similar or different to the training set.
@@ -501,11 +500,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjA1NjQwMCwtNzk2MDk2Mjg0LDE5Nz
-c5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNjQyOTkx
-NzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC
-0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTcz
-NTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyOD
-gsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDcz
-MjUzOV19
+eyJoaXN0b3J5IjpbMTc1NjcwMzQ0LC03OTYwOTYyODQsMTk3Nz
+k5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUsLTE2NDI5OTE3
+MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLT
+E1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1
+MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OC
+wyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMy
+NTM5XX0=
 -->
