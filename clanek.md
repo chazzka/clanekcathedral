@@ -19,7 +19,9 @@ aeronautics (https://www.sciencedirect.com/science/article/pii/S1877050922007207
 to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S2199853122010253) are to be seen evaluating such data.
 The datamining field here has been branching out lately, to address the specific needs.
 The IoT datamining can be used to find common patterns in data through method called pattern-mining (https://www.sciencedirect.com/science/article/pii/S0952197622004705).
-This branch is focused to analyze the previously non-labeled data and to mine an interesting pattern such as 
+This branch is focused to analyze the previously non-labeled data and to mine an interesting pattern such as variables which tend to report symbiotic behavior.
+
+
 
 - [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
 - [ ] pak pokračuj až k našemu tématu -  our main goal was to novelty detection kde popíšeš naši diménu, co ty data jsou jak se k nim dostaneme, technické detaily těch sensorů  a přínos toho článku
@@ -503,7 +505,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzU1MTgxMSwtMTU3NTk4NTk4OSwxOT
+eyJoaXN0b3J5IjpbLTQ4NTkyMTU0MCwtMTU3NTk4NTk4OSwxOT
 QwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUzMjg5NywxMDU1NzU3
 NDY3LDE3MTEwNDM1OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MT
 U4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3
