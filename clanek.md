@@ -16,9 +16,9 @@ Recent advance in automatization brought an intensified deployment of various Io
 With the sensors producing large data, there is a huge concern for algorithms analyzing them.
 Applications ranging from medical data (https://www.sciencedirect.com/science/article/pii/S016926072300411X),
 aeronautics (https://www.sciencedirect.com/science/article/pii/S1877050922007207),
-to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S2199853122010253).
+to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S2199853122010253) are to be seen evaluating such data.
 The datamining field here has been branching out lately, to address the specific needs.
-The IoT datamining can be used to ..
+The IoT datamining can be used to 
 
 - [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
 - [ ] pak pokračuj až k našemu tématu -  our main goal was to novelty detection kde popíšeš naši diménu, co ty data jsou jak se k nim dostaneme, technické detaily těch sensorů  a přínos toho článku
@@ -502,11 +502,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTgxNjU0MywxOTQwNjk1NjUyLDI3NT
-I3MTAwNCwtMTE3MzUzMjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1
-OCwxNjAzMTkzMjg4LDI3NDM3ODg2Niw3MTU4MTUxMzksMzc5MD
-Q3ODUxLDE0NDQ3MzI1MzksLTk4MDcwMjA3MCwtOTk1Njk4OTEw
-LC0xMDIxNTcxODcxLDI0OTM3Nzk4MiwxMzU4NDc3ODMxLC0xMD
-YwNjg5MjQzLDYxOTY0MTkxNCwtMTE2MjMwMDY3OSwxNDM0NjAy
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNz
+UyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQz
+NTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OT
+A0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkx
+MCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMT
+A2MDY4OTI0Myw2MTk2NDE5MTQsLTExNjIzMDA2NzksMTQzNDYw
+MjE5XX0=
 -->
