@@ -137,14 +137,14 @@ Figure x shows an example dataset with two features, none of the datapoints bein
 > Figure X dataset with no anomalies (example 1)
 
 
-Note, that one of the parameters of the Isolation Forest is the contamination parameter.
+Note that one of the parameters of the Isolation Forest is the contamination parameter.
 The contamination parameter is to control the proportion of anomalies in the dataset. 
 Usually, this has to be known beforehand. 
-This parameter has a huge impact on the final result of the detection.
-This can be a problem due to a random appearance of the anomalies in our dataset and hence the proportion value varies.
+This parameter has a significant impact on the final result of the detection.
+This can be a problem due to the random appearance of the anomalies in our dataset; hence, the proportion value varies.
 Using this parameter, we can, however, deal with datasets already containing some portion of anomalies during learning.
-That can easily happen especially during the testing phasis of the development.
-Figure X shows the example of running Isolation Forest on the same dataset as above, but with the contamination parameter set to 0.01 (=1% of anomalies) using the Scikit's Isolation Forest *fit_predict* method.
+That can easily happen, especially during the testing phases of the development.
+Figure X shows the example of running an Isolation Forest on the same dataset as above but with the contamination parameter set to 0.01 (=1% of anomalies) using Scikit's Isolation Forest *fit_predict* method.
 
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example2.svg)
@@ -501,7 +501,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTY3NTcxOCwtNzk2MDk2Mjg0LDE5Nz
+eyJoaXN0b3J5IjpbLTU2Mjg4NjgwNCwtNzk2MDk2Mjg0LDE5Nz
 c5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNjQyOTkx
 NzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC
 0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTcz
