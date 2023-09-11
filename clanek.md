@@ -100,8 +100,6 @@ The second problem brings up when anomalies are not present at all, making mean 
 Figure X shows the mean method when used on the dataset polluted by very little anomalies.
 Obviously, if the dataset contained no anomalies at all, the result would become even more deficient.
 
- - [ ] - TODO: PŘEGENERAOVAT DO B/W
-
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean2.svg) 
 > Figure X - Mean of the given dataset with little to zero anomalies.
 
@@ -501,11 +499,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC0xNT
-c1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTczNTMy
-ODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyODgsMj
-c0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUz
-OSwtOTgwNzAyMDcwLC05OTU2OTg5MTAsLTEwMjE1NzE4NzEsMj
-Q5Mzc3OTgyLDEzNTg0Nzc4MzEsLTEwNjA2ODkyNDMsNjE5NjQx
-OTE0XX0=
+eyJoaXN0b3J5IjpbMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04ND
+Q0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEw
+MDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMT
+YwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1
+MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMT
+AyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4
+OTI0M119
 -->
