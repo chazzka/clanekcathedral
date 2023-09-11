@@ -24,7 +24,10 @@ This can play a big role in the topic of automated understanding the human inter
 Another topic is the clustering, where the applications are set to find clusters with similar characteristics in data.
 Clustering is a famous technique even in time series data, for the reason that observed data usually form clusters in a particular time.
 An example of this can be Haskey's et. al. Clustering of periodic multichannel timeseries data. (https://www.sciencedirect.com/science/article/pii/S0010465514000885)
-Lastly, one of the most famous technique regarding 
+Lastly, one of the most famous technique regarding time-series datamining is finding anomalies.
+Wang et. al. focused on active probing for IoT anomaly detection in (https://www.sciencedirect.com/science/article/pii/S235286482300113X).
+
+
 
 
 - [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
@@ -509,7 +512,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjcwOTgxOCwtODQ0NDYzNzM5LC0xNT
+eyJoaXN0b3J5IjpbMTQ0MTgwNDg1MywtODQ0NDYzNzM5LC0xNT
 c1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTczNTMy
 ODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyODgsMj
 c0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUz
