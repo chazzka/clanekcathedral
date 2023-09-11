@@ -94,12 +94,12 @@ Figure X shows the mean (straight line) of the given data.
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean1.svg) 
 > Figure X - Mean of the given dataset with anomalies.
 
-Although this may look positive on the first glance, several problems arise.
+Although this may look positive at first glance, several problems arise.
 The initial one is with the automated distinction.
-When the dataset is polluted with anomalies in close to 1:1 ratio, even for human it is close to impossible to differentiate anomalies and regular observation.
-The second problem brings up when anomalies are not present at all, making mean method unusable.
-Figure X shows the mean method when used on the dataset polluted by very little anomalies.
-Obviously, if the dataset contained no anomalies at all, the result would become even more deficient.
+When the dataset is polluted with anomalies in close to a 1:1 ratio, even for humans, it is nearly impossible to differentiate anomalies and regular observation.
+The second problem arises when anomalies are not present at all, making the mean method unusable.
+Figure X shows the mean method used on the dataset polluted by very few anomalies.
+The result would become even more deficient if the dataset contained no anomalies.
 
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/mean2.svg) 
 > Figure X - Mean of the given dataset with little to zero anomalies.
@@ -500,7 +500,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjkzNjIwNywxOTc3OTk1Mzk3LDkyOD
+eyJoaXN0b3J5IjpbLTc5NjA5NjI4NCwxOTc3OTk1Mzk3LDkyOD
 Q4MzAzMiwtMTY5ODI2NzY1NSwtMTY0Mjk5MTcyNywxMDIwMDE2
 ODk2LC00NjI1OTAxMDAsLTg0NDQ2MzczOSwtMTU3NTk4NTk4OS
 wxOTQwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUzMjg5NywxMDU1
