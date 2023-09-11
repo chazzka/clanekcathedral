@@ -259,19 +259,20 @@ The above-mentioned One-class SVM definition obtains a spherically shaped bounda
 The sphere is characterized by center a and radius R > 0.
 In SVM, by minimizing $R^2$, the volume of the sphere is minimized.
 ##### Novelty One-class SVM
-The demand here is that the sphere contains all training objects - in our case regular labeled.
-The One-class SVM learns a decision function so that the input unlabeled data can be classified as a similar or different in comparison with the dataset on which the model is trained.
+
+The demand here is that the sphere contains all training objects - in our case, regular-labeled.
+The One-class SVM learns a decision function so that the input unlabeled data can be classified as similar or different compared to the dataset on which the model is trained.
 This way, the One-class classification is possible, and this method is semi-supervised.
 
 Let us return to the previous experiment with new, novel, previously unseen datapoints.
 Again, we first perform the fitting operation on the regular datapoints.
-Then we get different, similar dataset composed of regular datapoints and novelty datapoints.
+Then, we get different but similar datasets composed of regular and novelty datapoints.
 Note that Scikit's OneClass SVM implementation - as opposed to Isolation Forest - requires data to be normalized between 0 and 1.
-For this, we use Scikit's StandardScaler which can perform data-relative scaling.
+For this, we use Scikit's StandardScaler, which can perform data-relative scaling.
 However useful this feature is, it also has its downsides.
 
-One of the downsides it when two datapoints were far away from each other, after scaling they appear closer.
-Moreover, when dealing with novelty data the scaling is not possible since the novelty data are not yet present.
+One of the downsides is that when two datapoints are far away, they appear closer after scaling.
+Moreover, when dealing with novelty data, scaling is not possible since the novelty data are not present yet.
 
 Figure X shows the result of an above-defined experiment with the following settings:
 - nu = 0.02
@@ -501,11 +502,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNDEyNjEwLC03OTYwOTYyODQsMTk3Nz
-k5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUsLTE2NDI5OTE3
-MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLT
-E1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1
-MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OC
-wyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMy
-NTM5XX0=
+eyJoaXN0b3J5IjpbLTE1NDExNDQ1MjAsNzAxNDEyNjEwLC03OT
+YwOTYyODQsMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2
+NTUsLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC
+04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUy
+NzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNT
+gsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0
+Nzg1MV19
 -->
