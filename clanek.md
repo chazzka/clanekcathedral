@@ -1,4 +1,4 @@
-# Finding novelties in time series data - work title
+# Finding novelty datapoints in time series data - work title
 
 ## Abstract
 Detection of anomalies is an area of datamining which showed a lot of interest recently namely amongst companies working with IoT.
@@ -499,11 +499,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04ND
-Q0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEw
-MDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQzNTgsMT
-YwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1MTM5LDM3OTA0Nzg1
-MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLTk5NTY5ODkxMCwtMT
-AyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3NzgzMSwtMTA2MDY4
-OTI0M119
+eyJoaXN0b3J5IjpbLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtND
+YyNTkwMTAwLC04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5
+NTY1MiwyNzUyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2Ny
+wxNzExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNzE1ODE1
+MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIwNzAsLT
+k5NTY5ODkxMCwtMTAyMTU3MTg3MSwyNDkzNzc5ODIsMTM1ODQ3
+NzgzMV19
 -->
