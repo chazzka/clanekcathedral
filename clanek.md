@@ -32,22 +32,6 @@ Thats why we propose this comparative study of outlier and novelty detection, wh
 Our main goal was to make a comparative study of already known novelty detection algorithms to make these terms notable in the community and to help the engineering applications make the right choice when performing anomaly detection tasks.
 The comparative study is done on a real-world scenario of IoT time-series data taken from smart home environment sensors.
 
-
-
-
-- [ ] TODO: tady pokračuj , napiš nějaké pěkné povídání s referencemi co vše se dá v datech najít
-- [ ] pak pokračuj až k našemu tématu -  our main goal was to novelty detection kde popíšeš naši diménu, co ty data jsou jak se k nim dostaneme, technické detaily těch sensorů  a přínos toho článku
-
----
-
-- start with lots of refs
-- describe the problem
-- our main goal was to
-- general -> specific (describe problem as a whole, then why the problems occurs, then why is it a problem for us, technical details, env. variables)
-- constribution
-- **toto až nakonec až budeme vědět co vlastně fungovalo**
-- **here we describe the domain!! - aneb jak ta data vypadají - co je cílem hlavně vysvětlit že chceme novelty**
-
 ## Theory
 
 Datapoint
@@ -517,7 +501,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTI1NDE5MywtODQ0NDYzNzM5LC0xNT
+eyJoaXN0b3J5IjpbLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC0xNT
 c1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTczNTMy
 ODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyODgsMj
 c0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDczMjUz
