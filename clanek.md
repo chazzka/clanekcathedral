@@ -20,7 +20,7 @@ to Industry 4.0 (https://www.sciencedirect.com/science/article/pii/S219985312201
 The datamining field here has been branching out lately, to address the specific needs.
 The IoT datamining can be used to find common patterns in data through method called pattern-mining (https://www.sciencedirect.com/science/article/pii/S0952197622004705).
 This branch is focused to analyze the previously non-labeled data and to mine an interesting pattern such as variables which tend to report symbiotic behavior.
-This ca
+This can play a big role in the topic of automated understanding the human interactions to i.e., provide recommendations.
 
 
 
@@ -506,7 +506,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI2OTcyNzYsLTE1NzU5ODU5ODksMT
+eyJoaXN0b3J5IjpbLTE0NDM4NDcyNTIsLTE1NzU5ODU5ODksMT
 k0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1
 NzQ2NywxNzExMDQzNTgsMTYwMzE5MzI4OCwyNzQzNzg4NjYsNz
 E1ODE1MTM5LDM3OTA0Nzg1MSwxNDQ0NzMyNTM5LC05ODA3MDIw
