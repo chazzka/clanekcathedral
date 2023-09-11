@@ -159,21 +159,20 @@ Figure X shows the result of the *predict* method with the new data added.
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/example3.svg)
 > Figure X. example 3
 
-As Figure X shows, the newly provided data (around X=80 and Y=160) are labeled regular.
+Figure X shows that the newly provided data (around X=80 and Y=160) are labeled regular.
 This is caused by the way the Isolation Forest splits the observation space.
 Isolation Forest algorithm does the recursive partitioning to orphan the data in separate nodes. 
-The less partitions are needed to separate the datapoint, the more anomalous it gets.
-The Isolation Forest algorithm creates a new separation space based on the previously seen datapoints, hence there is not much room for the new, possibly novel datapoint, to be marked so.
-New datapoints often fall into the same separation space with the previously seen, regular-marked datapoints, marking them regular.
+The fewer partitions needed to separate the datapoint, the more anomalous it gets.
+The Isolation Forest algorithm creates a new separation space based on the previously seen datapoints; hence, there is little room for the new, possibly novel datapoint, to be marked so.
+New datapoints often fall into the same separation space as the previously seen, regular-marked datapoints, marking them regular.
 Similar principles go with other outlier detection algorithms. 
-The example shows that we need some kind of supervised method to make the algorithm learn on the regular data.
+The example shows that we need some supervised method to make the algorithm learn on the regular data.
 This leads us to supervised learning.
 
 ### Supervised learning
 As shown in the above sections, the unsupervised learning led to undesired outcomes.
-If we consider pure supervised learning algorithms on the other hand, we quickly run into the opposite problem.
+If we consider pure supervised learning algorithms, on the other hand, we quickly run into the opposite problem.
 Let us consider the alpha omega of supervised learning algorithms, the Artificial Neural Network.
-
 #### ANN
 Artificial Neural Network is the supervised learning algorithm, where we construct a n-layer network of neurons and by backpropagating we alter their weights so that the inputs lead to the desired outputs, predicting the labels.
 This may seem like a perfect method for our problem.
@@ -501,7 +500,7 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMDEyMTI1LC03OTYwOTYyODQsMTk3Nz
+eyJoaXN0b3J5IjpbODc5NTQ3OTI2LC03OTYwOTYyODQsMTk3Nz
 k5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNjc2NTUsLTE2NDI5OTE3
 MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAwLC04NDQ0NjM3MzksLT
 E1NzU5ODU5ODksMTk0MDY5NTY1MiwyNzUyNzEwMDQsLTExNzM1
