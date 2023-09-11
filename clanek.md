@@ -225,7 +225,7 @@ the average probability of 0.97993453 for the class labeled **REGULAR** and the 
 | REGULAR |  0.96727484 | 0.03272516 | 
 | OUTLIER     |0.97993453 | 0.02006547|   
 
-This means that, for the reasons defined above, the ANN algorithm was not able to detect the class it has not seen before.
+This means that, for the above reasons, the ANN algorithm could not detect the class it had not seen before.
 
 ### Semi-supervised learning
 These findings lead us to the area of datamining, that is in the middle of supervised and unsupervised learning, the semi-supervised learning.
@@ -501,11 +501,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk3MTg1NjgsLTc5NjA5NjI4NCwxOT
-c3OTk1Mzk3LDkyODQ4MzAzMiwtMTY5ODI2NzY1NSwtMTY0Mjk5
-MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLTg0NDQ2MzczOS
-wtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3MTAwNCwtMTE3
-MzUzMjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkzMj
-g4LDI3NDM3ODg2Niw3MTU4MTUxMzksMzc5MDQ3ODUxLDE0NDQ3
-MzI1MzldfQ==
+eyJoaXN0b3J5IjpbLTc1Mzc5NDc0NSwtNzk2MDk2Mjg0LDE5Nz
+c5OTUzOTcsOTI4NDgzMDMyLC0xNjk4MjY3NjU1LC0xNjQyOTkx
+NzI3LDEwMjAwMTY4OTYsLTQ2MjU5MDEwMCwtODQ0NDYzNzM5LC
+0xNTc1OTg1OTg5LDE5NDA2OTU2NTIsMjc1MjcxMDA0LC0xMTcz
+NTMyODk3LDEwNTU3NTc0NjcsMTcxMTA0MzU4LDE2MDMxOTMyOD
+gsMjc0Mzc4ODY2LDcxNTgxNTEzOSwzNzkwNDc4NTEsMTQ0NDcz
+MjUzOV19
 -->
