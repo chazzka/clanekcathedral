@@ -410,8 +410,6 @@ One-class SVM            |  LOF
 ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/svm_experiment2.svg)  |  ![](https://raw.githubusercontent.com/chazzka/clanekcathedral/master/code/figures/lof_experiment2.svg)
 >Figure x. Experiment 2 side by side comparison. One representative run.
 
-Table X shows the average of regular/novelty datapoints marked by Local Outlier Factor compared to One-class SVM.
-
 ### Experiment 3
 Experiment with code number 3 contains two visually distinctive novelty clusters situated far away from each other.
 
@@ -506,11 +504,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjcyMzUxNiw4MTQxMTQ4NjksMzcwNj
-A5MTU5LC00MjM4MTU5NSw3MDE0MTI2MTAsLTc5NjA5NjI4NCwx
-OTc3OTk1Mzk3LDkyODQ4MzAzMiwtMTY5ODI2NzY1NSwtMTY0Mj
-k5MTcyNywxMDIwMDE2ODk2LC00NjI1OTAxMDAsLTg0NDQ2Mzcz
-OSwtMTU3NTk4NTk4OSwxOTQwNjk1NjUyLDI3NTI3MTAwNCwtMT
-E3MzUzMjg5NywxMDU1NzU3NDY3LDE3MTEwNDM1OCwxNjAzMTkz
-Mjg4XX0=
+eyJoaXN0b3J5IjpbODM3ODk0ODg4LDE4NjI3MjM1MTYsODE0MT
+E0ODY5LDM3MDYwOTE1OSwtNDIzODE1OTUsNzAxNDEyNjEwLC03
+OTYwOTYyODQsMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNj
+c2NTUsLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAw
+LC04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNz
+UyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQz
+NThdfQ==
 -->
