@@ -1,0 +1,255 @@
+%% 
+%% Copyright 2007-2020 Elsevier Ltd
+%% 
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%% 
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%% 
+
+%% Template article for Elsevier's document class `elsarticle'
+%% with numbered style bibliographic references
+%% SP 2008/03/01
+%%
+%% 
+%%
+%% $Id: elsarticle-template-num.tex 190 2020-11-23 11:12:32Z rishi $
+%%
+%%
+\documentclass[preprint,12pt]{elsarticle}
+
+%% Use the option review to obtain double line spacing
+%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,1p,times]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn]{elsarticle}
+%% \documentclass[final,3p,times]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn]{elsarticle}
+%% \documentclass[final,5p,times]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn]{elsarticle}
+
+%% For including figures, graphicx.sty has been loaded in
+%% elsarticle.cls. If you prefer to use the old commands
+%% please give \usepackage{epsfig}
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+\usepackage{svg}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers.
+%% \usepackage{lineno}
+
+\journal{Engineering Applications of Artificial Intelligence}
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Title, authors and addresses
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for theassociated footnote;
+%% use the fnref command within \author or \address for footnotes;
+%% use the fntext command for theassociated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for theassociated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \affiliation{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%% \fntext[label3]{}
+
+\title{Finding Novelty Datapoints in Time Series Data}
+
+%% use optional labels to link authors explicitly to addresses:
+%% \author[label1,label2]{}
+%% \affiliation[label1]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+%%
+%% \affiliation[label2]{organization={},
+%%             addressline={},
+%%             city={},
+%%             postcode={},
+%%             state={},
+%%             country={}}
+
+\author[inst1]{Adam Ulrich}
+
+\affiliation[inst1]{organization={Department One},%Department and Organization
+            addressline={Address One}, 
+            city={City One},
+            postcode={00000}, 
+            state={State One},
+            country={Country One}}
+
+\author[inst2]{Jan Krňávek}
+\author[inst1,inst2]{Author Three}
+
+\affiliation[inst2]{organization={Department Two},%Department and Organization
+            addressline={Address Two}, 
+            city={City Two},
+            postcode={22222}, 
+            state={State Two},
+            country={Country Two}}
+
+\begin{abstract}
+%% Text of abstract
+Detection of anomalies is an area of data mining that has shown much interest recently amongst companies working with IoT.
+These companies implement many IoT sensors to control some other mechanical or electromechanical devices such as fridges, microwaves, and lights and security devices such as gates, doors, electrical fences, and cameras.
+The secondary effect of such devices is the production of large amounts of data.
+Such data can be analyzed and mined for interesting patterns or - in the case of this article - anomalous behavior.
+We first investigate the problem of the given time series data.
+Then, we examine the difference between two types of anomalies - outlying anomalies and novelty anomalies.
+We highlight the importance of such distinction and leverage this knowledge to find the algorithms that can be used purely for novelty detection.
+We test these algorithms on the real-world scenarios of datasets obtained from the IoT sensors.
+Lastly, we compare these algorithms and provide examples and possible usages by companies working with time series data.
+\end{abstract}
+
+%%Graphical abstract
+\begin{graphicalabstract}
+\includegraphics{grabs}
+\end{graphicalabstract}
+
+%%Research highlights
+\begin{highlights}
+\item Research highlight 1
+\item Research highlight 2
+\end{highlights}
+
+\begin{keyword}
+%% keywords here, in the form: keyword \sep keyword
+Anomaly detection \sep Novelty detection \sep IoT \sep Tutorial
+%% PACS codes here, in the form: \PACS code \sep code
+\PACS 0000 \sep 1111
+%% MSC codes here, in the form: \MSC code \sep code
+%% or \MSC[2008] code \sep code (2000 is the default)
+\MSC 0000 \sep 1111
+\end{keyword}
+
+\end{frontmatter}
+
+%% \linenumbers
+
+%% main text
+\section{Introduction}
+\label{sec:sample1}
+
+Recent advances in automatization brought an intensified deployment of various IoT sensors.
+With the sensors producing big data, there is a massive concern for algorithms that analyze them.
+Applications ranging from medical data \cite{AMINIZADEH2023107745}, aeronautics \cite{eddarhri2022towards}
+to Industry 4.0 \cite{regona2022artificial} are to be seen evaluating such data.
+The data mining field has been branching out lately to address specific needs.
+IoT data mining can be used to find common patterns in data through pattern mining \cite{yasir2022performing}.
+This branch focuses on analyzing previously non-labeled data and mining an interesting pattern, such as variables that tend to report symbiotic behavior.
+Pattern mining plays a significant role in the automated understanding of human interactions to provide recommendations.
+Another topic is clustering, where the applications are set to find clusters with similar characteristics in data.
+Clustering is a famous technique even in time series data because observed data usually form clusters in a particular time.
+An example of this can be Haskey's et al. Clustering of periodic multichannel timeseries data in \cite{haskey2014clustering}.
+Lastly, one of the most famous techniques regarding time-series data mining is finding anomalies.
+Wang et al. focused on active probing for IoT anomaly detection in \cite{wang2023intelligent}.
+Gao et al. identify malicious traffic in IoT security applications \cite{gao2023anomaly}.
+Although anomaly and outlier detection are common terms, novelty detection on the other hand, is not a well-known keyword, and we believe this should change.
+That is why we propose this comparative study of outlier and novelty detection, where we focus on introducing the concept of novelty detection terminology and provide the usage tutorial.
+Our main goal was to make a comparative study of already known novelty detection algorithms to make these terms notable in the community and to help engineering applications make the right choice when performing anomaly detection tasks.
+The comparative study is done on a real-world scenario of IoT time-series data from smart home environment sensors.
+
+\section{Theory}
+Datapoint
+: Datapoint is an observed point with $n$ features.
+
+Regular
+: Regular is a datapoint included in the given dataset. Its features are expectable.
+
+Anomaly
+: Anomaly is a datapoint, that differs significantly from other observations.
+
+Outlier
+: Outlier is an anomaly included in the given dataset. 
+
+Novelty
+: Novelty is an anomaly that is not present in the given dataset during learning. Novelties are usually supplied later during evaluation.
+
+\section{SOTA}
+The originality of this article can be defined as follows. 
+Many successful algorithms are used to analyze time series data; however, the point here is to characterize the problem not as a simple outlier detection problem but as a novelty detection (as defined later). 
+This article is also an overview of the methods commonly used for novelty detection versus outlier detection.
+
+\section{Data}
+The analyzed data in this article is the 2D time-series data obtained from IoT sensors. 
+These sensors are implemented in the smart home environment and produce continuous data, reported to the server once every $x$ seconds.
+Figure X shows an example of the sensors reporting the data for 24 hours.
+
+\begin{figure}
+\caption{Example figure}
+\centering
+\includesvg[width=0.9\textwidth]{code/figures/data_overview.svg}
+\end{figure}
+
+
+As Figure X shows, the data follow a regular pattern around $Y = 100$,
+however, around $X= 55$, the sensors started producing anomalous behavior.
+Since the sensors can be from a security field, such a blackout can lead to detrimental outcomes.
+This event must be marked and reported so a company can react immediately.
+Note that the values of these anomalous datapoints are utterly random since it is the abnormal erroneous behavior.
+This also makes any normalizing impossible since we do not know the location of these points beforehand.
+
+
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+\appendix
+
+\section{Sample Appendix Section}
+\label{sec:sample:appendix}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor section \ref{sec:sample1} incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+%% If you have bibdatabase file and want bibtex to generate the
+%% bibitems, please use
+%%
+ \bibliographystyle{elsarticle-num} 
+ \bibliography{latex_src/cas-refs}
+
+%% else use the following coding to input the bibitems directly in the
+%% TeX file.
+
+% \begin{thebibliography}{00}
+
+% %% \bibitem{label}
+% %% Text of bibliographic item
+
+% \bibitem{}
+
+% \end{thebibliography}
+\end{document}
+\endinput
+%%
+%% End of file `elsarticle-template-num.tex'.
