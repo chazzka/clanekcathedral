@@ -445,7 +445,7 @@ Table X shows the average of regular/novelty datapoints marked by Local Outlier 
 | Novelty |34|25|
 
 ### Experiment 5
-Experiment with code number 5 contains one condensed cluster with many overlapping datapoints around X=200 and Y=200.
+Experiment with code number 5 small cluster with a few overlapping datapoints around X=10 and Y=200.
 
 Figure x shows the side-by-side visual representation of one of the 30 runs.
 
@@ -504,11 +504,11 @@ Both algorithms showed satisfactory results and thus can compete in such environ
 https://scikit-learn.org/stable/about.html
 https://matplotlib.org/stable/users/project/citing.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3ODk0ODg4LDE4NjI3MjM1MTYsODE0MT
-E0ODY5LDM3MDYwOTE1OSwtNDIzODE1OTUsNzAxNDEyNjEwLC03
-OTYwOTYyODQsMTk3Nzk5NTM5Nyw5Mjg0ODMwMzIsLTE2OTgyNj
-c2NTUsLTE2NDI5OTE3MjcsMTAyMDAxNjg5NiwtNDYyNTkwMTAw
-LC04NDQ0NjM3MzksLTE1NzU5ODU5ODksMTk0MDY5NTY1MiwyNz
-UyNzEwMDQsLTExNzM1MzI4OTcsMTA1NTc1NzQ2NywxNzExMDQz
-NThdfQ==
+eyJoaXN0b3J5IjpbMTg2MDk2ODI3Niw4Mzc4OTQ4ODgsMTg2Mj
+cyMzUxNiw4MTQxMTQ4NjksMzcwNjA5MTU5LC00MjM4MTU5NSw3
+MDE0MTI2MTAsLTc5NjA5NjI4NCwxOTc3OTk1Mzk3LDkyODQ4Mz
+AzMiwtMTY5ODI2NzY1NSwtMTY0Mjk5MTcyNywxMDIwMDE2ODk2
+LC00NjI1OTAxMDAsLTg0NDQ2MzczOSwtMTU3NTk4NTk4OSwxOT
+QwNjk1NjUyLDI3NTI3MTAwNCwtMTE3MzUzMjg5NywxMDU1NzU3
+NDY3XX0=
 -->
